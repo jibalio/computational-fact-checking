@@ -1,8 +1,10 @@
 import re
-import requests
+import request
 import urllib.request
 import json
 
+from lib.wikipedia import Wikipedia
+from lib.wiki2plain import Wiki2Plain
 
 
 """
@@ -21,8 +23,8 @@ Gets the numberical frequency of in-degrees to that node using WIkipedia API
 """
 wikifreq_api = r"https://en.wikipedia.org/w/api.php?action=query&list=backlinks&bltitle={}&bllimit=600&blfilterredir=nonredirects&format=json"
 def get_backlink_count(page_title):
-   r = requests.get(wikifreq_api.format(page_title))
-   return len(r.json()["query"]["backlinks"])
+    r = requests.get(wikifreq_api.format(page_title))
+    return len(r.json()["query"]["backlinks"])
 
 def get_path_degrees(a,b):
     backlinks = []
@@ -33,9 +35,25 @@ def get_path_degrees(a,b):
     return list(zip(path, backlinks))
 
 def get_link_count():
-   r = requests.get(r"https://en.wikipedia.org/w/api.php?action=query&titles=Athens&prop=links&format=json&pllimit=500")
-   return len(r.json()["query"]["pages"]["1216"]["links"])
+    r = requests.get(r"https://en.wikipedia.org/w/api.php?action=query&titles=Athens&prop=links&format=json&pllimit=500")
+    return len(r.json()["query"]["pages"]["1216"]["links"])
 
+def get_instance(article, word):
+    return article.lower().count(word)
+
+def get_article(name):
+    lang = 'simple'
+    wiki = Wikipedia(lang)
+
+    try:
+        raw = wiki.article(name)
+    except:
+        raw = None
+
+    if raw:
+        wiki2plain = Wiki2Plain(raw)
+        content = wiki2plain.text
+    return content
 
 # Test get path
 #print(get_backlink_count("French fries"))
