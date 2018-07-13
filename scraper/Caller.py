@@ -10,7 +10,3 @@ def GetPath(a,b):
         return (re.findall(regex, text)[0])
 
 print (GetPath("Ted+Cruz", "Islam"))
-
-
-
-
