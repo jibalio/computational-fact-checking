@@ -12,7 +12,7 @@ url = r"http://degreesofwikipedia.com/?a1={}&linktype=1&a2={}&skips=&allowsidebo
 regex = r"(?<==>\s)\w+"
 def get_path(a,b):
     with urllib.request.urlopen(url.format(a,b)) as html:
-        encoding=html.headers['content-type'].split('charset=')[-1]
+        encoding = html.headers['content-type'].split('charset=')[-1]
         text = str(html.read(), encoding)
         return re.findall(regex, text)
 
@@ -44,5 +44,3 @@ print(get_link_count())
 
 # Test get links
 #print (get_backlink_count("French Fries"))
-
-

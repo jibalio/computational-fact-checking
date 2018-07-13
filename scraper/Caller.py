@@ -5,7 +5,7 @@ url = r"http://degreesofwikipedia.com/?a1={}&linktype=1&a2={}&skips=&allowsidebo
 regex = r"Array\n\([\s\S]+\n\)"
 def GetPath(a,b):
     with urllib.request.urlopen(url.format(a,b)) as html:
-        encoding=html.headers['content-type'].split('charset=')[-1]
+        encoding = html.headers['content-type'].split('charset=')[-1]
         text = str(html.read(), encoding)
         return (re.findall(regex, text)[0])
 
