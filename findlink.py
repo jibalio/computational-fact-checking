@@ -10,12 +10,12 @@ DegreesOfWikipedia.com takes in parameters with "+" instead of " ". Replace all
 spaces with a PLUS sign. Make this as generic as possible.
 """
 
-x_file = 'uscongress_senate.txt'
-y_file = 'ideologies_trimmed.txt'
-output_file = 'output/t1_us_congress_ideologies.csv'
+x_file = 't2_x_presidents.txt'
+y_file = 't2_y_spouses.txt'
+output_file = 'output/t2_spouses.csv'
 
 
-o = open(output_file, 'w' , encoding="utf8")
+o = open(output_file, 'w' , encoding="utf8", newline='')
 o.write("sep=;\n")  # this will tell MS Excel that the CSV separator is ";"
 csvwriter = csv.writer(o, delimiter=';', quotechar='|', quoting=csv.QUOTE_MINIMAL)
 
@@ -27,13 +27,16 @@ csvwriter.writerow(["Politician"]+ideologies.split(";"))
 
 for x in politicians:
     
-    rows = [x] # initial row is politician only (will append paths later)
+    rows = [x.strip()] # initial row is politician only (will append paths later)
     for y in ideologies.split(";"):
         pol = x.split()
-        pol = "+".join(pol[:len(pol)-1])    # replace with + sign all spaces
+        pol = "+".join(pol[:len(pol)])    # replace with + sign all spaces
         dprint("Getting path of %s -> %s" % (pol,y))
         a = get_path(pol, "+".join(y.split()))
-        rows.extend(">".join([x for x in a]))
+        a = ">".join([x for x in a])
+        print(a)
+        rows.append(a)
+        print(rows)
     csvwriter.writerow(rows)
 o.close()
 
