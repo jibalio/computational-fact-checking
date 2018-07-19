@@ -1,0 +1,9 @@
+Orrin_Hatch;Ronald_Reagan;Falklands_War;1981_Irish_hunger_strike
+Orrin_Hatch;Utah;Colorado;Islam
+Orrin_Hatch;Utah;Spanish_language;Spanish_dialects_and_varieties;Abertzale
+Orrin_Hatch;Utah;Colorado;Islam
+Michael_Lee;Mike_Lee_;Ronald_Reagan;Falklands_War;1981_Irish_hunger_strike
+Michael_Lee;Michael_Lee_;Hong_Kong;Islam
+Michael_Lee;Michael_Lee_;The_Honourable;Catalan_language;Spanish_dialects_and_varieties;Abertzale
+Michael_Lee;Michael_Lee_;Hong_Kong;Islam
+Bernie_Sanders;University_of_Chicago;Margaret_Thatcher;1981_Irish_hunger_strike

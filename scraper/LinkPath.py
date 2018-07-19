@@ -1,11 +1,17 @@
+# TODO: try to test if wikipage.links returns more links than 500. if yes, use this to get links. use this jd para once load lng.
+
 import re
 import requests
 import urllib.request
 import json
+import wikipedia
+#documentation for wikipedia lib
+# https://wikipedia.readthedocs.io/en/latest/code.html#wikipedia.WikipediaPage.content
 
+"""
 from lib.wikipedia import Wikipedia
 from lib.wiki2plain import Wiki2Plain
-
+"""
 
 """
 Returns a list of page titles that were traversed when searching.
@@ -34,10 +40,34 @@ def get_path_degrees(a,b):
         backlinks.append(get_backlink_count(x))
     return list(zip(path, backlinks))
 
+def get_term_frequency(a1, next):
+    
 def get_link_count():
     r = requests.get(r"https://en.wikipedia.org/w/api.php?action=query&titles=Athens&prop=links&format=json&pllimit=500")
     return len(r.json()["query"]["pages"]["1216"]["links"])
 
+
+"""
+wikipedia.page(title=None, pageid=None, auto_suggest=True, redirect=True, preload=False)
+    Get a WikipediaPage object for the page with title title or the pageid pageid (mutually exclusive).
+    Keyword arguments:
+
+        title - the title of the page to load
+        pageid - the numeric pageid of the page to load
+        auto_suggest - let Wikipedia find a valid page title for the query
+        redirect - allow redirection without raising RedirectError
+        preload - load content, summary, images, references, and links during initialization
+"""
+def get_count(wikipage, text):
+    return len(re.findall(text, wikipage.content))
+"""
+wikipage = wikipedia.page(title="Jose Rizal")
+print(get_count(wikipage, r"Philippines"))
+"""
+
+
+
+"""
 def get_instance(article, word):
     return article.lower().count(word)
 
@@ -54,11 +84,16 @@ def get_article(name):
         wiki2plain = Wiki2Plain(raw)
         content = wiki2plain.text
     return content
+"""
+
+
+#print(get_article("Islam"))
+
 
 # Test get path
 #print(get_backlink_count("French fries"))
 #print(get_path("Jose_Rizal", "Liberalism"))
-print(get_link_count())
+#print(get_link_count())
 
 # Test get links
 #print (get_backlink_count("French Fries"))
