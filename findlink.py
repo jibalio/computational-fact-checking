@@ -31,7 +31,7 @@ for x in politicians:
     for y in ideologies.split(";"):
         pol = x.split()
         pol = "+".join(pol[:len(pol)-1])    # replace with + sign all spaces
-        dprint(f"Getting path of {pol} -> {y}")
+        dprint("Getting path of %s -> %s" % (pol,y))
         a = get_path(pol, "+".join(y.split()))
         rows.extend(">".join([x for x in a]))
     csvwriter.writerow(rows)

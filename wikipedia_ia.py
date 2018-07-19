@@ -25,11 +25,11 @@ class Path:
 
     def __init__(self, a1, a2, preload_degrees=False):
 
-        dprint(f"Creating Path object [ {a1.title} => {a2.title} ].")
+        dprint("Creating Path object [ %s => %s ]." % (a1.title, a2.title))
 
         # Get the list of nodes traversed by the path.
         self.nodes = [Page(x.replace("_", " ")) for x in get_path(a1.title.replace(" ", "+"), a2.title.replace(" ", "+"))][1:]
-        dprint(f"Successfully detected path {self.nodes}")
+        dprint("Successfully detected path %s" % (self.nodes))
 
         # Load the degrees. Set preload_degrees to False to avoid long waiting
         # times when instantiating a path.
@@ -53,7 +53,7 @@ class Path:
                 if cnt==0:      # ignore first node (this always defaults to 1)
                     continue
                 added_weight+=math.log(x)
-                dprint(f"itr:{cnt}; deg:{x}; log:{math.log(x)}; acc:{added_weight}")
+                dprint("itr:%s; deg:%s; log:%s; acc:%s" % (cnt,x,math.log(x), added_weight))
             self._truth_value =  (1/(1+added_weight))
         return self._truth_value
 
@@ -103,5 +103,5 @@ def get_path(a,b):
 
 def dprint(text):
     if DEBUG:
-        print(f"{DEBUG_PROMPT}{text}")
+        print("%s%s"%(DEBUG_PROMPT,text))
         
