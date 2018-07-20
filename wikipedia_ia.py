@@ -14,7 +14,7 @@ import json
 import wikipedia
 import math
 
-TOKEN = r"1532025693|20fdd78accfc72489ad261e63c2b3067"
+TOKEN = r"1532061312|20fdd78accfc72489ad261e63c2b3067"
 DEBUG = True
 DEBUG_PROMPT = ">>> DEBUG:  "
 
