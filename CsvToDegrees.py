@@ -2,13 +2,20 @@
 This script takes a CSV file of paths between node A to node B.
 And converts them to degree values.
 """
+
+import csv
+output_file = 'output/degreematrices/t2_spouses_degrees.csv'
+o = open(output_file, 'w' , encoding="utf8", newline='')
+o.write("sep=;\n")  # this will tell MS Excel that the CSV separator is ";"
+csvwriter = csv.writer(o, delimiter=';', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+
 def fake_GetPath(header=False):
     if header:
         return 2.52
     return 0.136
 
 
-import csv
+
 with open('output/pathmatrices/t2_spouses.csv', 'r') as csvfile:
 
     csvreader = csv.reader(csvfile, delimiter=';', quotechar='|')
@@ -38,9 +45,10 @@ with open('output/pathmatrices/t2_spouses.csv', 'r') as csvfile:
                 print(x[0])
         """
 
-        # SKIP FIRST ROW
+        # SKIP FIRST ROW, while writing the headers in the csv
         current_row_idx += 1
         if current_row_idx == 1:
+            csvwriter.writerow(d)
             continue
 
         degree_row_x = []
@@ -60,14 +68,14 @@ with open('output/pathmatrices/t2_spouses.csv', 'r') as csvfile:
             pathdeg = ">".join(pathdeg)
             degree_row_x.append(pathdeg)
 
-        print(degree_row_x)
+        csvwriter.writerow([path[0]]+degree_row_x)
         print("%s\n----------------------------" % entities)
 
 
 
 
 
-
+o.close()
 
 
 
