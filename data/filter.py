@@ -350,23 +350,42 @@ Caracas
 """
 
 #TODO make 6 randomizer for each continent
+#list = africa, asia , europ, na, oceana ,sa
+#   for key, value in enum(continent)
 
 def filterContinents(countries):
     contReg = r"(\(.+)"
     continents = re.findall(contReg,countries)
-    continentss = {'(Africa)':[], '(Asia)':[],'(Europe)':[], '(NA)':[], '(Oceania)':[], '(SA)':[]}
+    filteredContinents = {'(Africa)':[], '(Asia)':[],'(Europe)':[], '(NA)':[], '(Oceania)':[], '(SA)':[]}
 
     for counter, continent in enumerate(continents):
-        continentss[continent].append([counter,continent])
+        filteredContinents[continent].append([counter,continent])
 
-    return continentss#['(Asia)']
+    africa = dict(filteredContinents['(Africa)'])
+    asia = dict(filteredContinents['(Asia)'])
+    europe = dict(filteredContinents['(Europe)'])
+    na = dict(filteredContinents['(NA)'])
+    oceana = dict(filteredContinents['(Oceania)'])
+    sa = dict(filteredContinents['(SA)'])
+
+    filteredAfrica = batchContinents(africa)
+    filteredAsia = batchContinents(asia)
+    filteredEurope = batchContinents(europe)
+    filteredNa = batchContinents(na)
+    filteredOceana = batchContinents(oceana)
+    filteredSa = batchContinents(sa)
+
+    newFilteredContinents = filteredAfrica, filteredAsia, filteredEurope, filteredNa, filteredOceana, filteredSa
+
+    return newFilteredContinents
+
+    #return filteredContinents
 
 def filterCountries(countries):
     countReg = r".*(?=\ )"
 
     filteredCountries = re.findall(countReg, countries)
     filteredCountries = (list(filter(None, filteredCountries)))
-    africa = filterCapitals(unfilteredCountries)
 
     newArr = []
     for counter, country in enumerate(filteredCountries):
@@ -380,6 +399,18 @@ def filterCapitals(capitals):
         newArr.append([counter, capital])
     return dict(newArr)
 
+def batchContinents(continent):
+    filteredContinents = []
+
+    counter = 0
+
+    for number, capital in continent.items():
+        if(counter < 6):
+            filteredContinents.append([number, capital])
+        counter += 1
+
+    return dict(filteredContinents)
+
 def matchCapCount():
     filtCount = filterCountries(unfilteredCountries)
     filtCap = filterCapitals(unfilteredCapitals)
@@ -389,6 +420,7 @@ def matchCapCount():
         result.append([filtCount[item], filtCap[item]])
     return result
 
+#print(batchContinents())
 print(filterContinents(unfilteredCountries))
 #print(filterCapitals(unfilteredCapitals))
 #print(filterCountries(unfilteredCountries))
