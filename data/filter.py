@@ -349,79 +349,28 @@ Montevideo
 Caracas
 """
 
-#TODO make 6 randomizer for each continent
-#list = africa, asia , europ, na, oceana ,sa
-#   for key, value in enum(continent)
+import random
 
-def filterContinents(countries):
-    contReg = r"(\(.+)"
-    continents = re.findall(contReg,countries)
+def concoun(countries):
+    data = (list(filter(None, countries.splitlines())))
     filteredContinents = {'(Africa)':[], '(Asia)':[],'(Europe)':[], '(NA)':[], '(Oceania)':[], '(SA)':[]}
-
-    for counter, continent in enumerate(continents):
-        filteredContinents[continent].append([counter,continent])
-
-    africa = dict(filteredContinents['(Africa)'])
-    asia = dict(filteredContinents['(Asia)'])
-    europe = dict(filteredContinents['(Europe)'])
-    na = dict(filteredContinents['(NA)'])
-    oceana = dict(filteredContinents['(Oceania)'])
-    sa = dict(filteredContinents['(SA)'])
-
-    filteredAfrica = batchContinents(africa)
-    filteredAsia = batchContinents(asia)
-    filteredEurope = batchContinents(europe)
-    filteredNa = batchContinents(na)
-    filteredOceana = batchContinents(oceana)
-    filteredSa = batchContinents(sa)
-
-    newFilteredContinents = filteredAfrica, filteredAsia, filteredEurope, filteredNa, filteredOceana, filteredSa
-
-    return newFilteredContinents
-
-    #return filteredContinents
-
-def filterCountries(countries):
-    countReg = r".*(?=\ )"
-
-    filteredCountries = re.findall(countReg, countries)
-    filteredCountries = (list(filter(None, filteredCountries)))
-
-    newArr = []
-    for counter, country in enumerate(filteredCountries):
-        newArr.append([counter, country])
-    return dict(newArr)
+    for line, value in enumerate(data):
+        filteredContinents[re.findall(r"(\(.+)",value)[0]].append((re.findall(r".*(?=\ )",value)[0], line))
+    return(filteredContinents)
 
 def filterCapitals(capitals):
     filteredCapitals = capitals.splitlines()
-    newArr = []
+    newArr = {}
     for counter, capital in enumerate(filteredCapitals[1 :]):
-        newArr.append([counter, capital])
-    return dict(newArr)
+        newArr[counter] = capital
+    return newArr
 
-def batchContinents(continent):
-    filteredContinents = []
+def matcher(concount, capitals):
+    concap = {}
+    for continent in concount:
+        for country in random.choices(concount[continent], k=6):
+            concap[country[0]] = capitals[country[1]]
+    return(concap)
 
-    counter = 0
-
-    for number, capital in continent.items():
-        if(counter < 6):
-            filteredContinents.append([number, capital])
-        counter += 1
-
-    return dict(filteredContinents)
-
-def matchCapCount():
-    filtCount = filterCountries(unfilteredCountries)
-    filtCap = filterCapitals(unfilteredCapitals)
-    result = []
-
-    for item in filtCount:
-        result.append([filtCount[item], filtCap[item]])
-    return result
-
-#print(batchContinents())
-print(filterContinents(unfilteredCountries))
-#print(filterCapitals(unfilteredCapitals))
-#print(filterCountries(unfilteredCountries))
-#print(matchCapCount())
+x,y =concoun(unfilteredCountries), filterCapitals(unfilteredCapitals)
+print(matcher(x,y))
