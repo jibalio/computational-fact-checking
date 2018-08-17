@@ -1,3 +1,6 @@
+import re
+
+unfilteredCountries = """
 Angola (Africa)
 Benin (Africa)
 Botswana (Africa)
@@ -172,3 +175,202 @@ Peru (SA)
 Suriname (SA)
 Uruguay (SA)
 Venezuela (SA)
+"""
+
+unfilteredCapitals = """
+Luanda
+Porto-Novo
+Gaborone
+Ouagadougou
+Bujumbura
+Praia
+Bangui
+Moroni Comoros
+Kinshasa
+Brazzaville
+Djibouti
+Cairo
+Malabo
+Asmara
+Addis Ababa
+Libreville
+Banjul
+Accra
+Conakry
+Bissau
+Nairobi
+Maseru
+Monrovia
+Tripoli
+Antananarivo
+Lilongwe
+Bamako
+Nouakchott
+Port Louis
+Rabat
+Maputo
+Windhoek
+Niamey
+Abuja
+Kigali
+Dakar
+Victoria Seychelles
+Freetown
+Mogadishu
+Pretoria
+Juba
+Khartoum
+Mbabane
+Dodoma
+Tunis
+Kampala
+Lusaka
+Harare
+Kabul
+Yerevan
+Baku
+Manama
+Dhaka
+Thimphu
+Bandar Seri Begawan
+Naypyidaw
+Phnom Penh
+Beijing
+Nicosia
+Dili
+Tbilisi
+New Delhi
+Jakarta
+Tehran
+Baghdad
+Jerusalem
+Tokyo
+Amman
+Astana
+Pyongyang
+Seoul
+Kuwait City
+Bishkek
+Vientiane
+Beirut
+Kuala Lumpur
+Ulan Bator
+Kathmandu
+Muscat Oman
+Islamabad
+Jerusalem
+Manila
+Doha
+Riyadh
+Damascus
+Dushanbe
+Bangkok
+Ankara
+Ashgabat
+Abu Dhabi
+Tashkent
+Hanoi
+Tirana
+Andorra la Vella
+Vienna
+Minsk
+Brussels
+Sarajevo
+Sofia
+Zagreb
+Prague
+Copenhagen
+Tallinn
+Helsinki
+Paris
+Berlin
+Athens
+Budapest
+Dublin
+Rome
+Riga
+Vaduz
+Vilnius
+Skopje
+Valletta
+Monaco
+Podgorica
+Oslo
+Warsaw
+Lisbon
+Bucharest
+Moscow
+City of San Marino
+Belgrade
+Bratislava
+Ljubljana
+Madrid
+Stockholm
+Bern
+Kiev
+London
+Bridgetown
+Belmopan
+Ottawa
+Havana
+Roseau
+Guatemala City
+Port-au-Prince
+Tegucigalpa
+Kingston Jamaica
+Mexico City
+Amsterdam
+Managua
+Panama City
+Basseterre
+Castries
+Kingstown
+Port of Spain
+Washington D.C.
+Canberra
+Suva
+South Tarawa
+Majuro
+Palikir
+Wellington
+Port Moresby
+Apia
+Honiara
+Funafuti
+Port Vila
+Buenos Aires
+Sucre
+Santiago
+Quito
+Georgetown Guyana
+Lima
+Paramaribo
+Montevideo
+Caracas
+"""
+
+import random
+
+def concoun(countries):
+    data = (list(filter(None, countries.splitlines())))
+    filteredContinents = {'(Africa)':[], '(Asia)':[],'(Europe)':[], '(NA)':[], '(Oceania)':[], '(SA)':[]}
+    for line, value in enumerate(data):
+        filteredContinents[re.findall(r"(\(.+)",value)[0]].append((re.findall(r".*(?=\ )",value)[0], line))
+    return(filteredContinents)
+
+def filterCapitals(capitals):
+    filteredCapitals = capitals.splitlines()
+    newArr = {}
+    for counter, capital in enumerate(filteredCapitals[1 :]):
+        newArr[counter] = capital
+    return newArr
+
+def matcher(concount, capitals):
+    concap = {}
+    for continent in concount:
+        for country in random.choices(concount[continent], k=6):
+            concap[country[0]] = capitals[country[1]]
+    return(concap)
+
+x,y =concoun(unfilteredCountries), filterCapitals(unfilteredCapitals)
+print(matcher(x,y))

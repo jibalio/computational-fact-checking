@@ -17,7 +17,7 @@ from lib.wiki2plain import Wiki2Plain
 Returns a list of page titles that were traversed when searching.
 """
 url = r"http://degreesofwikipedia.com/?a1={}&linktype=1&a2={}&skips=&allowsideboxes=1&submit=1531322990|0807da41fa5f9d76798d50fc9b9378bc&currentlang=en"
-regex = r"(?<==>\s)\w+"
+regex = r"(?<==>\s)[\w|\-|'|(|)]+"
 def get_path(a,b):
     with urllib.request.urlopen(url.format(a,b)) as html:
         encoding = html.headers['content-type'].split('charset=')[-1]
@@ -41,7 +41,7 @@ def get_path_degrees(a,b):
     return list(zip(path, backlinks))
 
 def get_term_frequency(a1, next):
-    
+
 def get_link_count():
     r = requests.get(r"https://en.wikipedia.org/w/api.php?action=query&titles=Athens&prop=links&format=json&pllimit=500")
     return len(r.json()["query"]["pages"]["1216"]["links"])
