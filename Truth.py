@@ -105,8 +105,8 @@ class Path:
         page_db_rows = dh.get_path(source, dest)
 
         if not page_db_rows:    # query if it is not in database
-            log(f"Querying '{source.lower()}' -> '{dest.lower()}' from API.")
-            self.titles = [x.replace('_',' ') for x in get_path(source.lower().strip(),dest.lower().strip(), TOKEN)]
+            log(f"Querying '{source}' -> '{dest}' from API.")
+            self.titles = [x.replace('_',' ') for x in get_path(source.strip(),dest.strip(), TOKEN)]
 
             # Catch the possible errors
             if len(self.titles) == 1:   # Error No. 1: Page doesn't exist.
@@ -121,16 +121,8 @@ class Path:
             self.nodes = []
 
             log(f"Found nodes {self.titles}")
-
-            if not pathonly:
-                for idx, x in enumerate(self.nodes):
-                    if idx == 0 or idx==len(self.nodes)-1:
-                        self.nodes.append(Page(x, backlinksonly=False))
-                    else:
-                        self.nodes.append(Page(x, backlinksonly=True))
             self.source = self.titles[0]
             self.dest = self.titles[len(self.nodes)-1]
-            log(repr(self))
             self.remember()
         else:
             log("Truth.Path: Path Found in database. Loading from DB.")
@@ -138,11 +130,20 @@ class Path:
             self.dest = page_db_rows[0][1]
             self.pathstring = page_db_rows[0][2]
             self.cosine_similarity = page_db_rows[0][3]
+            self.titles = self.pathstring.split('>')
+        if not pathonly:
+                for idx, x in enumerate(self.titles):
+                    if idx == 0 or idx==len(self.titles)-1:
+                        self.nodes.append(Page(x, backlinksonly=False))
+                    else:
+                        self.nodes.append(Page(x, backlinksonly=True))
+        log(repr(self))
+
 
     def __repr__(self):
         a = []
-        for x in self.nodes:
-            a.append(f"[{x.title}/{x.backlinkcount}]")
+        for x in self.titles:
+            a.append(f"[{x}]")
         a  = " -> ".join(a)
         return f"<Path> {a}"
         
@@ -190,11 +191,10 @@ class Path:
 
 if __name__ == '__main__':
 
-    TOKEN = "1535113429|6b6f96c63ef7b72270cc8d66b0d6ef0a"
-    a = Path('Jo Bonner', 'Classical Liberalism', pathonly=True)
-    print(a.pathstring)
+    TOKEN = "1535217730|c9905d277d1239eebdf7555f5af79cd1"
+    a = Path('Japan', 'Tokyo', pathonly=True)
     print(a.nodes)
-
+    
     """
     log("Truth.py started.")
     fa = open('nice.txt','w')

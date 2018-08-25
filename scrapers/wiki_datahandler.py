@@ -37,7 +37,7 @@ class DataHandler:
 
     def get_page(self, title):
         c = self.conn.cursor()
-        q = "select title,content,backlinks from page where title=?"
+        q = "select title,content,backlinks from page where title=? collate nocase"
         c.execute(q, [title])
         all_rows = c.fetchall()
         return all_rows
@@ -45,7 +45,7 @@ class DataHandler:
 
     def get_path(self, source, dest):
         c = self.conn.cursor()
-        q = "select source, dest, pathstring, cosine_similarity from `Path` where source = ? and dest = ?"
+        q = "select source, dest, pathstring, cosine_similarity from `Path` where source = ? and dest = ? collate nocase"
         c.execute(q, [source, dest])
         all_rows = c.fetchall()
         return all_rows
