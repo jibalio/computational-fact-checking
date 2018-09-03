@@ -20,8 +20,8 @@ def init_logger (name, log_file, level=logging.INFO):
 
     return logger
 
-genericlogger = init_logger('genericlogger', 'wikilog.log', logging.INFO)
-errorlogger = init_logger('errorlogger', 'wikierrors.log', logging.INFO)
+genericlogger = init_logger('genericlogger', 'logs/wikilog.log', logging.INFO)
+errorlogger = init_logger('errorlogger', 'logs/wikierrors.log', logging.INFO)
 
 init()
 def log(message):

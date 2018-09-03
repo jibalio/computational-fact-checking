@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# TODO: Check load path from database if working. Catch case if already loaded but path only.
+# TODO: CHECK TRUTH VALUES NA. COMPARE REGULAR BL METHOD, VS TFIDF/COSSIM, just normalize the values find the sweet spot. regularize cosine sim ksi duol lng difference. 0.1 and 0.3 must make difference. raise to ^-1/2 lng ok na.
 
 """
 Truth.py (Alfafara, Ibalio)
@@ -194,7 +194,7 @@ if __name__ == '__main__':
     TOKEN = "1535217730|c9905d277d1239eebdf7555f5af79cd1"
     a = Path('Japan', 'Tokyo', pathonly=True)
     print(a.nodes)
-    
+
     """
     log("Truth.py started.")
     fa = open('nice.txt','w')
