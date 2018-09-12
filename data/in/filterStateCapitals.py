@@ -53,3 +53,24 @@ Salem	Oregon
 Salt Lake City	Utah
 Cheyenne	Wyoming
 '''
+
+def filterCapitals(region):
+    filteredCapitals = []
+    data = (list(filter(None, region.splitlines())))
+    for item in data:
+        temp = item.split('\t')
+        filteredCapitals.append(temp[0])
+    file = open("t5_x_capital.txt", "a")
+    file.write('\n'.join(filteredCapitals))
+
+def filterStates(region):
+    filteredStates = []
+    data = (list(filter(None, region.splitlines())))
+    for item in data:
+        temp = item.split('\t')
+        filteredStates.append(temp[1])
+    file = open("t5_x_state.txt", "a")
+    file.write('\n'.join(filteredStates))
+
+filterCapitals(west)
+filterStates(west)
