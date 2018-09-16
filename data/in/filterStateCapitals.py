@@ -72,5 +72,8 @@ def filterStates(region):
     file = open("t5_x_state.txt", "a")
     file.write('\n'.join(filteredStates))
 
-filterCapitals(west)
-filterStates(west)
+
+l = (midwest, northeast, south, west)
+for x in l:
+    filterCapitals(x)
+    filterStates(x)

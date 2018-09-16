@@ -7,7 +7,7 @@ ultrametric = []
 metric_tfidf = []
 ultrametric_tfidf = []
 
-with open('data/out/t3_countries.csv', 'r') as csvfile:
+with open('data/out/t5_states.csv', 'r', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile, delimiter=';', quotechar='"')
     colnames = []
     
