@@ -1,0 +1,10 @@
+C:\Users\lrsalfafara\source\repos\Fact Checker\Fact Checker\obj\Debug\Fact Checker.csprojResolveAssemblyReference.cache
+C:\Users\lrsalfafara\source\repos\Fact Checker\Fact Checker\obj\Debug\Fact_Checker.Form1.resources
+C:\Users\lrsalfafara\source\repos\Fact Checker\Fact Checker\obj\Debug\Fact_Checker.Properties.Resources.resources
+C:\Users\lrsalfafara\source\repos\Fact Checker\Fact Checker\obj\Debug\Fact Checker.csproj.GenerateResource.Cache
+C:\Users\lrsalfafara\source\repos\Fact Checker\Fact Checker\obj\Debug\Fact Checker.csproj.CoreCompileInputs.cache
+C:\Users\lrsalfafara\source\repos\Fact Checker\Fact Checker\bin\Debug\Fact Checker.exe.config
+C:\Users\lrsalfafara\source\repos\Fact Checker\Fact Checker\bin\Debug\Fact Checker.exe
+C:\Users\lrsalfafara\source\repos\Fact Checker\Fact Checker\bin\Debug\Fact Checker.pdb
+C:\Users\lrsalfafara\source\repos\Fact Checker\Fact Checker\obj\Debug\Fact Checker.exe
+C:\Users\lrsalfafara\source\repos\Fact Checker\Fact Checker\obj\Debug\Fact Checker.pdb
