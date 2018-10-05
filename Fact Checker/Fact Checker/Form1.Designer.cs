@@ -37,6 +37,7 @@
             this.checkButton = new System.Windows.Forms.Button();
             this.verdictLabel = new System.Windows.Forms.Label();
             this.answerLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // subjectTextBox
@@ -111,7 +112,7 @@
             // 
             this.verdictLabel.AutoSize = true;
             this.verdictLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.verdictLabel.Location = new System.Drawing.Point(264, 59);
+            this.verdictLabel.Location = new System.Drawing.Point(263, 66);
             this.verdictLabel.Name = "verdictLabel";
             this.verdictLabel.Size = new System.Drawing.Size(99, 31);
             this.verdictLabel.TabIndex = 7;
@@ -128,11 +129,22 @@
             this.answerLabel.Text = "Waiting for input...";
             this.answerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(239, 146);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(154, 31);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Truth Value";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(621, 414);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.answerLabel);
             this.Controls.Add(this.verdictLabel);
             this.Controls.Add(this.checkButton);
@@ -161,6 +173,7 @@
         private System.Windows.Forms.Button checkButton;
         private System.Windows.Forms.Label verdictLabel;
         private System.Windows.Forms.Label answerLabel;
+        private System.Windows.Forms.Label label1;
     }
 }
 
