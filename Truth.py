@@ -23,6 +23,9 @@ from nlp import LemTokens, LemNormalize
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
+import pandas as pd
+import numpy as np
+
 
 TOKEN = ""
 dh = DataHandler('wiki.sqlite3')
@@ -243,6 +246,56 @@ def get_utfidf(path_taken):
 
 
 
+# --------------------------------------------------------------------------
+# TRITH VALUE
+# --------------------------------------------------------------------------
+
+"""New Truth Value method"""
+import copy
+import time
+def get_truth_matrices(df):
+    """
+    Returns 3 pandas dataframes:
+        - metric_tfidf
+        - umetric_tfidf
+        - metric_old
+    """
+    metric_tfidf = copy.copy(df)
+    umetric_tfidf = copy.copy(df)
+    metric_old = copy.copy(df)
+    for idx, rowidx in enumerate(df.index):
+        start = time.time()
+        print(f"[{idx+1}/{len(df.index)}] {rowidx}")
+        for key in df.keys():
+            #try:
+            metric_tfidf.loc[rowidx][key] = get_truth_value(metric_tfidf.loc[rowidx][key])
+            umetric_tfidf.loc[rowidx][key] = get_utfidf(umetric_tfidf.loc[rowidx][key])
+            metric_old.loc[rowidx][key] = get_truth_value_old(metric_old.loc[rowidx][key])
+            ##except:
+                #print(f"Value error occured @ {metric_tfidf.loc[rowidx][key]}.")
+                #return (metric_tfidf, umetric_tfidf, metric_old)
+        print(f"Done {time.time()-start} seconds.")
+    return (metric_tfidf.astype('float64'), umetric_tfidf.astype('float64'), metric_old.astype('float64'))
+
+    
+
+def get_mx(df):
+    import pandas as pd
+    y_true = pd.DataFrame().reindex_like(df)
+    for idx, rowidx in enumerate(y_true.index):
+        for idx2, key in enumerate(y_true.keys()):
+            if idx==idx2:
+                y_true.loc[rowidx][key] = int(1)
+            else:
+                y_true.loc[rowidx][key] = int(0)
+                
+    for x in y_true:
+        y_true[x] = y_true[x].astype('bool')
+
+    vfs_y = y_true.values.flatten()
+    vfs_y_score = df.values.flatten()
+    
+    return (vfs_y, vfs_y_score)
 
 
 
