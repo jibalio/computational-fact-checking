@@ -39,16 +39,18 @@ class Page ():
     View source code of WikipediaPage:
     https://github.com/goldsmith/Wikipedia/blob/master/wikipedia/wikipedia.py
     """
-    def __init__(self, title=None, pageid=None, redirect=True, preload=False, original_title='', backlinksonly = False):
+    def __init__(self, title=None, pageid=None, redirect=True, preload=False, original_title='', backlinksonly = False, display=False):
         start_time = time.time()
-        log("Truth.page: Creating page object for {}".format(title))
+        if display:
+            log("Truth.page: Creating page object for {}".format(title))
         # Try to get the data from the database first.
         # If record does not exist, value will be None.
         # If none, then run the WikipediaPage constructor and save the data.
         page_db_rows = dh.get_page(title)
 
         if not page_db_rows:    # if the page does not exist in the database
-            log("Truth.page: No existing data found for {} in the database. Retrieving from API.".format(title))
+            if not display:
+                log("Truth.page: No existing data found for {} in the database. Retrieving from API.".format(title))
             d = page(title=title, pageid=pageid, auto_suggest=True, redirect=True, preload=False)   # load a WikipediaPage object and just assign its attributes to self. (hax)
             self.title = title
             self.pageid = d.pageid
@@ -60,11 +62,13 @@ class Page ():
             self.remember() # save the data to the database
 
         else:   #if the data doesnt EXISTS in the database
-            log("Truth.page: Data for {} found in database. Retrieving from database.".format(title))
+            if display:
+                log("Truth.page: Data for {} found in database. Retrieving from database.".format(title))
             self.title = page_db_rows[0][0]
             if not backlinksonly:   # if user wants all the data then,
                 if not page_db_rows[0][1]:  # if page is present, but content is NULL (e.g. page was previously loaded but backlinksonly=True)
-                    log("Retrieving Content (Page is in DB, but content is not loaded).")
+                    if display:
+                        log("Retrieving Content (Page is in DB, but content is not loaded).")
                     d = page(title=title, pageid=pageid, auto_suggest=True, redirect=True, preload=False)   # load a wikipage object and assign its atrributes to self
                     self.pageid = d.pageid
                     self.pagecontent = d.content
@@ -74,7 +78,8 @@ class Page ():
             else:
                 self.pagecontent = None # if user wants backlinks only then set pagecontent to NULL.
             self.backlinkcount = page_db_rows[0][2] # load backlink count from db
-        log("Truth.page: Successfully created "+repr(self) + ", finished {:.5f}s".format(time.time() - start_time))
+        if display:
+            log("Truth.page: Successfully created "+repr(self) + ", finished {:.5f}s".format(time.time() - start_time))
 
     def api_retrievebacklinkcount(self):
         # API by dispenser
@@ -175,10 +180,16 @@ class Path:
 # TRUTH VALUE METHODS
 #- --------------------------------------------------------
 tfs = {}      
-def get_truth_value(path_taken):
+def get_truth_value(path_taken, display=False):
     #print(path_taken)
     # slice the path
-    path = [Page(d) for d in path_taken.split('>')]
+    s = time.time()
+    
+    if display:
+        log(f"path_taken: '{path_taken}'")
+
+    #comment1 
+    path = [Page(d, display=display) for d in path_taken.split('>')]
     source = path[0] # get the first element of the path
     dest = path[len(path)-1] # get the last element of the path
     #----------------------------------------------------------------------
@@ -197,16 +208,16 @@ def get_truth_value(path_taken):
     truthvalue = 1.00
     for x in path[1:]:
         #print(f"{x.backlinkcount}*{cos_sim}")
-        truthvalue+=math.log(x.backlinkcount*cos_sim)
+        truthvalue+=math.log(x.backlinkcount*(1-cos_sim))
     # ---------------------------------------------------------------------
     truthvalue = 1/truthvalue
     truthvalue*=0.5
     truthvalue+=cos_sim*0.5
     return truthvalue
 
-def get_truth_value_old(path_taken):
+def get_truth_value_old(path_taken, display=False):
     # slice the path
-    path = [Page(d) for d in path_taken.split('>')]
+    path = [Page(d, display=display) for d in path_taken.split('>')]
     source = path[0] # get the first element of the path
     dest = path[len(path)-1] # get the last element of the path
     truthvalue = 1.00
@@ -216,9 +227,9 @@ def get_truth_value_old(path_taken):
     truthvalue = 1/truthvalue
     return truthvalue
     
-def get_utfidf(path_taken):
+def get_utfidf(path_taken, display=False):
     # slice the path
-    path = [Page(d) for d in path_taken.split('>')]
+    path = [Page(d, display = display) for d in path_taken.split('>')]
     source = path[0] # get the first element of the path
     dest = path[len(path)-1] # get the last element of the path
     #----------------------------------------------------------------------
@@ -236,7 +247,7 @@ def get_utfidf(path_taken):
     cos_sim = cos_sim[0][1]
     truthvalue = 1.00
     bl = max([x.backlinkcount for x in path[1:]])
-    truthvalue+=math.log(bl*cos_sim)
+    truthvalue+=math.log(bl*(1-cos_sim))
     # ---------------------------------------------------------------------
     truthvalue = 1/truthvalue
     truthvalue*=0.5
@@ -270,14 +281,14 @@ def get_truth_matrices(df):
             #try:
             metric_tfidf.loc[rowidx][key] = get_truth_value(metric_tfidf.loc[rowidx][key])
             umetric_tfidf.loc[rowidx][key] = get_utfidf(umetric_tfidf.loc[rowidx][key])
-            metric_old.loc[rowidx][key] = get_truth_value_old(metric_old.loc[rowidx][key])
+            metric_old.loc[rowidx][key] = get_truth_value_old(metric_old.loc[rowidx,key])
             ##except:
                 #print(f"Value error occured @ {metric_tfidf.loc[rowidx][key]}.")
                 #return (metric_tfidf, umetric_tfidf, metric_old)
         print(f"Done {time.time()-start} seconds.")
     return (metric_tfidf.astype('float64'), umetric_tfidf.astype('float64'), metric_old.astype('float64'))
 
-    
+
 
 def get_mx(df):
     import pandas as pd

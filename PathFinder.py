@@ -16,11 +16,11 @@ dh = DataHandler("wiki.sqlite3")
 def get_entities(filename):
     return open(filename, 'r', encoding='utf8').read().splitlines()
 
-def retrieve_path(x,y):
+def retrieve_path(x,y, tk=""):
     if is_ideologies:
         x_split = x.split()
         x = " ".join(x_split[:len(x_split)-1])
-    return get_path(x,y, token)
+    return get_path(x,y, tk)
 
 def stringify_path(lst):
     return ">".join(lst)
@@ -86,7 +86,7 @@ if __name__ == '__main__':
             s = time.time()
             if consecutive_error_count<error_threshold: 
                 log("[R:{}/{} C:{}/{}] Getting path {} -> {}".format(idx+1, len(x_entities),idx_y+1,len(y_entities), x, y))
-                path = [x.replace('_',' ') for x in retrieve_path(x.strip(),y.strip())]
+                path = [x.replace('_',' ') for x in retrieve_path(x.strip(),y.strip(), token)]
             if len(path)==0:
                 consecutive_error_count+=1
                 # There was an error. Either page does not exist or token has expired.

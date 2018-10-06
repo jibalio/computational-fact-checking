@@ -66,6 +66,24 @@ class DataHandler:
         c.execute(q, params)
         self.conn.commit()
         c.close()
+
+
+    def get_mid_title(self, mid):
+        c = self.conn.cursor()
+        q = "select title from `Mid` where mid = ?"
+        c.execute(q, [mid])
+        all_rows = c.fetchall()
+        return all_rows[0][0]
+
+    def add_mid(self, mid, title):
+        q = "INSERT INTO `Mid`(`mid`,`title`) VALUES (?,?);"
+        params = [
+            mid, title 
+        ]
+        c = self.conn.cursor()
+        c.execute(q, params)
+        self.conn.commit()
+        c.close()
        
 
         

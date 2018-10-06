@@ -1,0 +1,501 @@
+;subject;predicate;object;score;path
+1;Eric Gans;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05098494130614832
+3;Yolanda King;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.052434379769521415
+6;R. L. Shep;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.03810035304700217
+8;Steven Forness;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07084759382360878
+11;William J. Chiego;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06417040066029353
+17;Doug Henwood;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.043042524315784855
+20;Naomi Schor;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05600418831230231
+21;J. Scott Armstrong;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.04670432326867624
+29;Gordon Edelstein;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07353059838631333
+30;Patricia Wright;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0576230166283558
+31;David Altheide;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07478755211241939
+32;Mary Mazzio;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05224573308418426
+33;Terry Eastwood;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06913483244805807
+34;Jim Gardner (broadcaster);/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06954166202422865
+36;Steven M. Biskupic;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.041724742079125215
+38;Kelvin Thomson;/people/person/education./education/education/degree;Bachelor of Arts;-3.0;0.06733613521876569
+41;Vernon Odom;/people/person/education./education/education/degree;Bachelor of Arts;-1.0;0.06660034150398915
+42;Adalberto Jordan;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05795212443196599
+44;Gregory M. Frazier;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.03151284790430522
+46;Richard Kahn, Baron Kahn;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.03913014251231799
+49;Sharon Presley;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.040651038171023314
+50;Hank Lazer;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07030353805724289
+52;The Edward R. Murrow Forum on Issues in Journalism;/people/person/education./education/education/degree;Bachelor of Arts;-1.0;0.024281111375675943
+56;Larry Speakes;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04735031156785825
+58;Robin Raphel;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0643583857171715
+59;Randall J. LeVeque;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04349345702449977
+61;Isadore Hall, III;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.05970108572933803
+62;Udi Adam;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.038596232790479496
+63;Joseph S. Johnston;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.04678905382177238
+64;Stephen Seche;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04316950488812103
+65;Becky Cain;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.0469699434344656
+69;Ben Brantley;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.041284320469525626
+70;Ron Dellums;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.05141323692401215
+71;Nancy H. Rogers;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.03850413382670635
+72;F. Jay Taylor;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.06024217498131928
+74;Gregory R. Ball;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.03751279889583919
+76;Avi Bell;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.031094198817800664
+78;Bethaida González;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.042952779126362126
+79;Wang Lu Xiang;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06478668096421744
+81;Chevene Bowers King;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.053884566262068466
+84;Tom Carnahan;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.05443736470326131
+85;George Fitzhugh (dean);/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.05149264656389182
+86;Andy Luckey;/people/person/education./education/education/degree;Bachelor of Arts;-3.0;0.05954466884509435
+87;Joe Conason;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04577849054419643
+88;Jonathan Compas;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.055591881551409934
+90;Brett Tolman;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0424315505582458
+94;Roger D. Pierce;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07688962405465126
+95;Gerald Butts;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04289593161272054
+97;David Eisenbach;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04113679691085141
+99;Clifford Winston;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04176323466184223
+101;Melvin Lax;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04783117445134898
+103;John Girgenti;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.045612669455789054
+106;Nicholas S. Zeppos;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0503338971089817
+108;Faisal Shahzad;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05346617600501224
+110;William J. S. Elliott;/people/person/education./education/education/degree;Bachelor of Arts;-3.0;0.057474692180930424
+113;Andrew Solomon;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06348120135080336
+115;Benjamin Hutto;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07538504980171858
+116;Christopher Mellon;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.062257476378951127
+117;Asoka Bandarage;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06618691228184326
+120;Frank Mankiewicz;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05531483261992176
+121;Stephen Ziliak;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05793427568698281
+123;Anthony Grooms;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05451671185044568
+125;Heward Grafftey;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06506550887064003
+126;Gunnar Thorvaldson;/people/person/education./education/education/degree;Bachelor of Arts;-3.0;0.06571705340220603
+128;Pinchas Hacohen Peli;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.040480871601967686
+131;James A. Graham (psychologist);/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06490367469790209
+132;Mizan Rahman;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06759878901884654
+134;Rodger Raderman;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.05187371931586475
+137;Jack O'Connell;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.0363450071847192
+139;Derek Nikitas;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0504117056542689
+140;James W. Wagner;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.056323354189115625
+143;The New York Observer;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.04706872358329737
+147;Robert Appelbaum;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.042043827084424015
+149;Michael J. Hurd;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07497994417728182
+150;David E. Meyer;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.041605952982334084
+153;Nancy Folbre;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04412438973952465
+155;Michael DeSisto;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07309103778200285
+157;Joshua Fry Speed;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.033368529466532335
+158;Nachum Shifren;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0654763427633842
+159;David A. Gross;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05448856151260875
+162;Jack Williamson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05135109081737501
+163;Perry N. Halkitis;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07269505019873132
+165;Edward Mendelson;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.03304353614164098
+166;Peter Tarnoff;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.046799241719903566
+167;Kendrick Moxon;/people/person/education./education/education/degree;Bachelor of Arts;-3.0;0.038538491640727784
+169;Brian R. Gaines;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.05551232256860002
+171;Glenn Leroy Archer, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05763222956471103
+173;Tim Ryan (politician);/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0513017972425973
+175;Stuart Rachels;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.04818867346597259
+176;Lonny R. Suko;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.051127415349634026
+177;Wilfred Cantwell Smith;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0557905536587925
+179;Betty Beaumont;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.09833521953692784
+181;Edward Malloy;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04835471735429258
+182;David J. Schneider;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06822660550770196
+183;John Sall;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06665822422040267
+186;Steven S. Shreve;/people/person/education./education/education/degree;Bachelor of Arts;-3.0;0.06390823423533705
+188;John C. Bear;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.047446298061417584
+191;David Borowich;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05917318769101761
+192;Andrew M. Murstein;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04653757533091088
+195;Henry Thomas Duffy;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.08231843572628214
+199;Anna Abdallah;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0658065498637402
+200;North Amerikkkan Blues;/people/person/education./education/education/degree;Bachelor of Arts;-1.0;0.045237996367763066
+204;Carol Higgins Clark;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.025109667917468846
+207;Lisa Hopkins;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04873045293254821
+208;Wayne Karlin;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06606238683916962
+211;Oliver La Farge;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.0452661186384864
+212;Dan Reiter;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0572558588761852
+213;Paul Axelrod;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.058202343962677025
+215;Richard Pildes;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0506760721001867
+216;Tricia Rose;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.045174623328690974
+217;Mike Montgomery;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.05805399996027956
+218;Theo Alexander;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06274197841914525
+219;Kevin Starr;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06386773956326143
+222;Earl K. Miller;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06606837111847365
+224;Neil M. Cohen;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06800465037982667
+226;L. S. Stavrianos;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.041591761205524325
+230;Kitty Dukakis;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.05910757428429701
+231;William T. Monroe;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04082589991114785
+232;Nigel Spencer;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.05750550811973895
+233;Josef Levi;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.08161217079275185
+236;Michael Mann (director);/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04311392390809047
+241;Joseph J. McMenamin;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05440059438326275
+244;Donald West Harward;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05543838656084951
+245;Carl Zimmer;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.043791200309099235
+246;David G. Coles;/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.0433864104910742
+247;Ruth Landes;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07609429926634649
+248;Dan Gerber;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.05080565318171799
+252;Nia Gill;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04715783286236387
+257;Angela Kang;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05893742843556125
+258;Wilfredo Caraballo;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04271591488530455
+259;L. J. Smith (author);/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.02660625165623392
+261;The Bachelor: London Calling;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.06440362683847332
+262;Jeffrey Blitz;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.08117685244505529
+263;Francis Dominic Murnaghan, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05782445821548046
+264;Mariana Pfaelzer;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04337537923637319
+266;Andrew A. Skolnick;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04531051778246803
+269;Frank James McGarr;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.056265777661069584
+270;Jack Zouhary;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06620491890903367
+272;E. Jennifer Monaghan;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.04431018475061857
+273;Napoleon A. Jones Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05712359475033475
+274;Henry Duckworth;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.09436422492154296
+275;William Kernahan Thomas;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06085450731705725
+276;Anthony Tommasini;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06934892492275725
+277;Alexander Harvey II;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0695925900956697
+278;Bob DuPuy;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06019014731651352
+279;Alfred Adams Wheat;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.044864184047903884
+281;John Embree;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07056675338758807
+282;Richard L. Young;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.058224512642295036
+283;Maurice B. Foley;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0545479138431614
+284;Robert Lowell Miller Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06341135376047055
+285;Stanley Seymour Brotman;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.061102534702253374
+287;Graham Calder Mullen;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06644882217531092
+288;Samuel Grayson Wilson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.061616393612562236
+290;John D. Caputo;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.049896028035211
+291;John Woods (Islam scholar);/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.04713985458076614
+293;John F. Walter;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06261020228130512
+295;Richard A. Schell;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.059219413927800425
+296;Michael Leir;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06126710309134674
+297;Orly Goldwasser;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06497184154184048
+298;Rebecca R. Pallmeyer;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06043948994766352
+300;Hayden White;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05004573620377529
+302;Janice R. Bellace;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.051910864345146086
+303;James Bryan McMillan;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05987343929850453
+305;Christine Melnick;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07259858188429706
+308;Ronald Davies (judge);/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06140287410656285
+309;Jonathan Lash;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06100628827367052
+310;Bryan Zanisnik;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06084390707743755
+311;Byron George Skelton;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.08273959190651313
+312;Herbert Allan Fogel;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06156464411023475
+313;Gil Stein (archaeologist);/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04887816976342006
+314;Andrew Jackson Ritchie;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0875759983544728
+315;Philip Ray Martinez;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05528705731764731
+317;Philip W. Johnston;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06791171833060998
+318;Carl E. McGowan;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06333599067669747
+321;Walter Jay Skinner;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05039265981612395
+322;Ralph E. Tyson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.058696887508164076
+326;Richard Barclay Surrick;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06356088021571828
+327;Robert Hobbs;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.11166833455837252
+329;Harris Hartz;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05348351735504149
+330;Anne Elise Thompson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07428946314863967
+332;David C. Norton;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06966120611806523
+333;James E. Gritzner;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07190698273368462
+335;Burt Hara;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06046871498090281
+336;Claudia Ann Wilken;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06476646205449381
+337;Aaron Lazare;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.059153381518655984
+339;Patricia Jean Ehrhardt Pernick Boyle;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05316965070394127
+342;Edith M. Flanigen;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.043729446141914666
+344;Kate Millett;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07422991087751646
+346;Morris E. Lasker;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.070918431932261
+347;Frank Albert Kaufman;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06303268166707393
+348;William Lloyd Hoyt;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.1094827196219354
+349;Rya Weickert Zobel;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05106861728898462
+354;John Percy Page;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0845098428374335
+355;Harold Duane Vietor;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06241949330099375
+357;Alan David Lourie;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06523275350070219
+358;Serhy Yekelchyk;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0509444421150275
+360;James Randal Hall;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.057421028616201124
+362;John Thomas Marten;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06343318529211042
+367;MaryAnn Mihychuk;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05449023501936792
+368;Harry Lee Hudspeth;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0505668428676282
+369;Edet Belzberg;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.03393918108261264
+371;William M. Nickerson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0743099675631291
+372;James Levin Latchum;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0600525318689723
+373;Randy Crane;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.04114444135789952
+374;Gary Vena;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.10816911610570548
+376;Martin Pearlman;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.030544562097844
+377;Ricardo Hinojosa;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0601189409234176
+378;University of Akron;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.10694775927437053
+379;Colleen McMahon;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06394201251145361
+380;Robert Murray Gibson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04032382157849932
+384;Joseph H. Rodriguez;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.062091358695467336
+385;Maitland McDonagh;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04711946168608428
+387;Herbert Ames;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05614430214301698
+388;Eldon Brooks Mahon;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06006562577890232
+392;Richard Paul Conaboy;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.060847566733493924
+393;George Ojemann;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.059426033425176786
+394;Walter Washington (educator);/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07767164527057048
+395;James Leon Holmes;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07159131039480328
+396;Ernest C. Torres;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05335334576298517
+397;Bruce A. Menge;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06570147909690466
+399;Paul B. Henry;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05762532918114127
+402;Henry Anthony Politz;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06335099694258038
+403;A. Richard Caputo;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05786051322401298
+404;Robert Everett Coyle;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04931905569919137
+407;Barry Ted Moskowitz;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06062192344800198
+409;Frank Gordon Theis;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06054819945466197
+410;Rob Ryan (entrepreneur);/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.051757996228589516
+412;Donald Akenson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07012281417056915
+414;Robert W. Warren;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0628280366576133
+415;John Virgil Singleton, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.061006081535998076
+417;George Weston Anderson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04296431385100728
+418;Robert Z. Aliber;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0979088730572088
+420;Fred DuVal;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04095933356410078
+421;Eldon E. Fallon;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0560965035029469
+422;Robert C. Brack;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06216104154242408
+423;Robin Hugh Farquhar;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.06313062246356131
+424;Theodore McKee;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06096317627935186
+425;Joseph Jewell;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.05776941599465979
+426;George Clifton Edwards, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05616162842676353
+427;Howard David Hermansdorfer;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.061474329697257635
+428;Ron Clark (judge);/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0686979388579295
+429;Lee Parsons Gagliardi;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0657097588060587
+430;Myron L. Gordon;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.08395707676740595
+432;Michael A. Cardozo;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.05350101309098367
+433;Robert Michael Dow Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05519526366522919
+435;Marvin Katz;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06319475988257002
+436;Thomas Middleton Raysor;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06828869518635597
+437;Oliver Gasch;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.05659209834685304
+439;Laurier LaPierre;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06772350091360105
+440;David S. Evans;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.03704766674382405
+442;Caroline Bynum;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.08070855657114875
+443;Lucius C. Clark;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07172644371570247
+444;Tim Stevenson;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.036979750738333005
+445;Ian MacPherson (historian);/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.053471743886402176
+447;Wallace Stegner;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.06563649360970372
+448;Mark Steven Davis;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.056615442001177026
+449;Ortrie D. Smith;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06497519431613327
+450;Murdoch MacKay;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05910893371712679
+451;Dennis Crowley;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06148125552329069
+452;David Dudley Dowd, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05642908121756709
+453;William Odis Bertelsman;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.054087701019696885
+454;Kenneth L. Marcus;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.059075731223177004
+455;Stephen Six;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06124911430606714
+456;Todd Rosenthal;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06060559399751419
+457;Charles Robin Britt;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06409010676777596
+459;Stan Allen;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.040023016999976437
+460;James Joseph Brady;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05889085841483209
+464;Philip S. Gutierrez;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04967120132061921
+467;Barron Patterson McCune;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05887297414475355
+468;Robert E. Kennedy (University president);/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05835600177095586
+469;John Joseph McNaught;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05564702564265207
+470;Tom Stewart Lee;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.058053611116285424
+471;Fred Diamond;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05020246245691565
+472;Robert E. Payne;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07141194802063228
+473;Joseph Peter Stadtmueller;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.060587269119285
+476;Bruce R. McConkie;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0577533295380837
+479;Barry Campbell;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.057161502061368726
+480;Swami Chidananda Saraswati;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.058869974862490126
+482;Alfred M. Wolin;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06226670819420596
+483;Elizabeth Virginia Hallanan;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.043905100081812164
+485;Jimmie V. Reyna;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05585840256035307
+486;Donald Emil Ziegler;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.062158530760535735
+488;Sven Erik Holmes;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04916993208804725
+489;Wendell Alverson Miles;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05618403797038049
+492;Stephen P. Friot;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05549740163113066
+493;William Docker Browning;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.08877325137251957
+494;Steve Paikin;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06216701787371701
+495;William Dawson LeSueur;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04316355693948557
+496;Colin Diver;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.054771708250058976
+498;Mildred Thompson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07377158283269859
+499;Gary Clayton Anderson;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.04887636344527485
+503;David Folsom;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06517891498802042
+504;Hubert Irving Teitelbaum;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05016605649830423
+505;Koç family;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.05145073040938074
+507;Karim Sadjadpour;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04751316181103985
+509;William Lloyd Standish;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0653190184962319
+510;Kęstutis Nakas;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0515589922323542
+512;Charles Allen Moye Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05533231861794548
+514;Barrik Van Winkle;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.049731664968223926
+516;Robert Dixon Herman;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05469037348926137
+517;Paul L. Friedman;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06314752685212466
+518;Robert T. Dawson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06762898816568005
+519;Karen J. Williams;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06233061413050714
+523;Robert Peter Aguilar;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05532529113552126
+525;Joseph James Farnan, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06308789996592817
+526;Thomas A. Scully;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04060720542702504
+527;Robert Dale Morgan;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05937988645378647
+528;James Knoll Gardner;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05510370240195942
+529;Dorothy Canfield Fisher;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.058481147962093825
+531;John O. Colvin;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04390149859642693
+537;Arthur Sweatman;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.062130084595524784
+538;James W. Holzapfel;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.050710224231959415
+539;Debra Bloomfield;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.04586567190588735
+540;Louise Charron;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0856825152914592
+541;James Howard Jarvis II;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06338758623878069
+542;Donald C. Clarke;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04474196713450995
+545;John F. Hall;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0465036667730227
+547;Charles A. Pannell, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04731500941933646
+548;Ralph R. Beistline;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.061680997002268326
+550;Earl Leroy Yeakel III;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.052015366515356834
+553;Wayne R. Andersen;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05785845529702027
+556;Patrick Michael Duffy;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06114610503444452
+558;Harry Lindley Hupp;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04214638548618363
+560;Philip Neville (judge);/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06876876199384206
+562;Julian Abele Cook Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.057407261276358514
+563;John Stigall;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06213071274999889
+564;Lawrence Butler;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04034960204466187
+565;William H. Walls;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06054838044145305
+566;Herman Jacob Weber;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06404366013371776
+567;Alfred Alexander Woodhull;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06269817342208052
+570;Mark N. Wegman;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04047909995235696
+573;James Robert Inch;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.10266288290969172
+574;Roy Laverne Stephenson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05956733167975922
+576;Emmanuel Berchmans Devlin;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.08360709954710001
+577;John D. Mayer;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.041698390015195694
+578;James Hunter III;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07369205076577268
+580;Christopher C. Conner;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.055151237588835236
+581;Frank C. Damrell Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0613617582708293
+583;Richard Allen Epstein;/people/person/education./education/education/degree;Bachelor of Arts;-1.0;0.07445054789203337
+584;James August Comiskey;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07017859587646827
+586;Lewis.Tsurumaki.Lewis (LTL Architects);/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.04793469827419782
+587;John C. Lifland;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06611742476258453
+589;Pierce Lively;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.055960872018190215
+591;Peter Li Preti;/people/person/education./education/education/degree;Bachelor of Arts;-1.0;0.03731429348306516
+592;Alan Fleischmann;/people/person/education./education/education/degree;Bachelor of Arts;-3.0;0.044234352181852406
+593;Marcel Aubut;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06107383862029539
+594;Walter Emanuel Treanor;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.042491808622497636
+597;Michelle Asha Cooper;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.042626015914946615
+598;Walter Scott Smith, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.058954685367169364
+602;John William Miller;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05182121667376904
+604;Henry Rutgers Marshall;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.05234202728727172
+605;Frank Hampton McFadden;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.064454940027215
+606;Robert Hardy Cleland;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06173363203830784
+607;Raul Anthony Ramirez;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05192620915711008
+609;John Spencer Letts;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06571080988628382
+613;Deanell Reece Tacha;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06715681684138103
+616;William Shirley Fulton;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06612176665643914
+617;Richard Cartwright Austin;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.040236154046664266
+619;Kimba Wood;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05448789268702242
+621;William Rosenau;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.04815173418543377
+622;Michael Smith (performance artist);/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.08181159078713297
+623;Paul D. Borman;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05816044455693933
+625;Robert G. Doumar;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.052064049229897394
+627;Peter Stenger Grosscup;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04123080053109526
+630;James Tyrone Giles;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06387040860674098
+631;Magali Cornier Michael;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05635106430410949
+633;Joan Retallack;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05341640791941607
+635;Gordon Jay Quist;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.061286737318869626
+636;Lee Roy West;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05367723241083544
+637;Harold Brent McKnight;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.061809988741002124
+638;Royce H. Savage;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06039287722903396
+639;W. Don Cornwell;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06566382771929401
+642;Jonathan Miller (businessman);/people/person/education./education/education/degree;Bachelor of Arts;-5.0;0.0340604029257022
+643;Robert S. Gawthrop III;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05612027285118077
+646;Jerre Stockton Williams;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0566024891476779
+647;George P. Schiavelli;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04755440596049376
+648;Margaret B. Seymour;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06414023711586953
+654;Roland Fairbairn McWilliams;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07582962022956727
+656;Paul Wonner;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06348293192540155
+657;Gordon Wright (historian);/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0707413662395603
+658;Jean Edward Smith;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.058921044414594025
+659;Terry R. Means;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0733226202805079
+660;Charles Earl Simons, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06105184952094812
+661;Charles B. Kornmann;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07617482651153397
+662;Hari Singh Gour;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.052861015704086835
+663;Eric F. Melgren;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.060373446572833424
+664;Carlos E. Santiago;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.04909624202471097
+669;Alexis Caswell Angell;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.050528816469035176
+670;Don H. Marr;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0948270105871299
+672;Katy Schimert;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.06262043415274078
+677;David L. Heymann;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04958830073927384
+679;Robert J. O'Conor, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05885279463528682
+681;Peter Worthington;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05592289287804962
+682;Joseph Edward Stevens, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05710850146927458
+684;Gerhard Gesell;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.050416358877947376
+685;Solomon Grayzel;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.09653619350635356
+687;William Horsley Orrick, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.060459721122789176
+688;Paul McHale;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04313639394147653
+690;William Alexander Robb Kerr;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.13227316778886974
+691;Stephen M. Reasoner;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06479598816207441
+693;John William Ditter, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.059722329430235414
+694;Frederick J. Kapala;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06011163384390365
+697;Anthony A. Alaimo;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0729738823468313
+698;Albert Mamary;/people/person/education./education/education/degree;Bachelor of Arts;-1.0;0.09253917338381976
+700;Chris Hartcher;/people/person/education./education/education/degree;Bachelor of Arts;-1.0;0.045883194380372486
+701;William Thomas White;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06365465848392951
+702;Robert A. Corrigan;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0464319722860763
+704;Charles Lowder;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05114433671547769
+707;Eugene Allen Wright;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05882986477858011
+711;Lorin Morgan-Richards;/people/person/education./education/education/degree;Bachelor of Arts;-1.0;0.051374086639217005
+712;Don Suggs;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06802052416896068
+713;David Pakman;/people/person/education./education/education/degree;Bachelor of Arts;-1.0;0.048124281857003695
+715;Gary L. Taylor;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.053785854543314776
+718;James R. Leininger;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.03023647098380155
+725;Robert P. Anderson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.057860986741796384
+728;William A. Fletcher;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05498820397022701
+729;Charles E. Stewart, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07144721579936332
+730;Ada Louise Huxtable;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.053330969022021515
+731;Frederick Jacob Reagan Heebe;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.060850741915568565
+732;Floyd Robert Gibson;/people/person/education./education/education/degree;Bachelor of Arts;-1.0;0.054122001312676
+733;Marcel Livaudais, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0655440118218251
+737;Robert Firth;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06152720158638776
+738;Donald Ellsworth Walter;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05584380530677732
+741;William Mather Lewis;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.042030058788474406
+743;Mirko Malez;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.05237237177493989
+746;Willie Louis Sands;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.061247153750909465
+747;Aldon Junior Anderson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05678002623352998
+748;Floyd Skloot;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04145335800683557
+750;Emanuel Mac Troutman;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0602637598016525
+751;Miriam N. Kotzin;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04611218489450242
+753;Gerald Joseph Weber;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05596462695349885
+754;Joel A. Pisano;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06405919024858417
+755;Daniel John Snyder, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.060556954820064235
+756;James William Armstrong;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.049142919527220115
+761;Edgar Gold;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06041817331940558
+762;Bruce MacFarlane;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0413491897019348
+764;Mary Patterson McPherson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.057102451362520075
+765;Roger Gordon Strand;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0673237028538407
+769;Ernest Allen Guinn;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06763438424638858
+770;James L. Graham;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.062059834292757486
+771;Benjamin Hale Settle;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.059382068404932424
+772;Devin Wenig;/people/person/education./education/education/degree;Bachelor of Arts;-1.0;0.05438464010973523
+777;Kevin Mattson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.054864123126559236
+778;Ross Thompson Roberts;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06472120601968374
+779;Brian Caswell;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04888169849354063
+781;David J. McDonald, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.056368155309984326
+783;Smadar Rosensweig;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.049482726321109255
+784;Solomon Oliver Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06549076010309993
+788;Philip P. Simon;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.054718119549591916
+791;Joseph Carmine Zavatt;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.046200227828306066
+794;George Caram Steeh III;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04771074622444424
+796;William Irwin Thompson;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05352265662420973
+800;Paul S. Diamond;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.050860344635043096
+804;Harry Daniel Leinenweber;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06613217307135649
+805;Thomas C. Reeves;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.040332424330427614
+808;Harrison Lee Winter;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.058098972918470874
+810;Yoram Hazony;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.04549846266322818
+811;Matthew Zapruder;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.045383366924063535
+812;A. Andrew Hauk;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05882324943364595
+813;Jean Constance Hamilton;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06206044851849697
+815;C. Fred Bergsten;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05610036393262613
+817;Philip D. Gingerich;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.060836837385045715
+818;W. Allen Pepper Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06417821388903397
+823;Richard Ford;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.06790973378016567
+824;Charles Holland Duell;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05099235039498297
+827;Mary Johnson Lowe;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.07202501144407916
+828;Ron Padgett;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.050239949916229286
+832;Charles Andrew Muecke;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06907528362811285
+833;William H. Pauley III;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.0546023423972326
+835;Shackelford Miller, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.057534509611132836
+837;Herbert Choy;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05446338480902435
+838;Jules Olitski;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.051157396083914126
+840;Sandra Beckwith;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.058155280190836066
+842;Douglas Hodgkin;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04582112309226381
+844;James Lawrence King;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05616806876244698
+845;Amy Kellogg;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.04233175369853751
+848;Charles C. Barham;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.049556205374956815
+849;Ghebre Selassie Mehreteab;/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.03829857394154862
+850;William Perry Copple;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.08223156085453022
+852;David R. Herndon;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06082363115768154
+853;Thomas Roberts McMillen;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05502227060528602
+854;Charles Lynwood Smith, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06438162665473353
+855;John Carbone Porfilio;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05979069613592415
+856;Stanley Cooperman;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04358103775265909
+857;Julia Smith Gibbons;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.054931040160612926
+859;Timothy J. Savage;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06340441077085646
+860;Arthur Tarnow;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06542028882148422
+861;Edmund V. Ludwig;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06222994389992189
+862;Rob Erdle;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06696038907688442
+863;William Royal Furgeson, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05602364840173765
+865;Charles G. Boyd;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04315916971865884
+868;William Overton (judge);/people/person/education./education/education/degree;Bachelor of Arts;3.0;0.07286032795471982
+869;F. A. Little, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.056718794856302025
+870;David Dortch Warriner;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06970304364009003
+871;Charles Edward Wyzanski, Jr.;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.04270412657656504
+874;Mark Starowicz;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.06880644055817657
+875;Xenophon Hicks;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.041061352519983184
+876;Robert William Gettleman;/people/person/education./education/education/degree;Bachelor of Arts;1.0;0.06287308752626032
+879;Cormac J. Carney;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.05935805618068901
+880;David R. Hansen;/people/person/education./education/education/degree;Bachelor of Arts;5.0;0.058566904879303015

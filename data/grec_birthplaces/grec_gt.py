@@ -4,19 +4,15 @@ import json
 import csv
 
 def get_entity(link):
-    a = link.split("/")
+    a = link.split("/") 
     le = a[len(a)-1]
     le = le.replace("_", " ")
     return le
-
-
-cs = open('newyork.csv', 'w', encoding='utf-8', newline="")
+cs = open('london.csv', 'w', encoding='utf-8', newline="")
 csw = csv.writer(cs, delimiter=';',
                             quotechar='"', quoting=csv.QUOTE_MINIMAL)
-
 csw.writerow(["Entity", "Score"])
-
-o = open('newyork.json', 'r', encoding='utf-8')
+o = open('london.json', 'r', encoding='utf-8')
 for x in o.readlines():
     yes = 0
     j = json.loads(x)
@@ -30,11 +26,6 @@ for x in o.readlines():
         else:
             yes-=1
     print(f"{yes}")
-
     csw.writerow([entity.strip(), yes])
-    #row = pd.Series([entity])
-   # break;
-
-
 cs.close()
 

@@ -1,0 +1,712 @@
+;subject;predicate;object;score;path
+0;Keppel Harcourt Barnard;/people/person/place_of_birth;London;5.0;0.11408991785165312
+1;Elizabeth Kay;/people/person/place_of_birth;London;5.0;0.06607195441814603
+2;Alisa Arnah;/people/person/place_of_birth;London;5.0;0.09871399814533864
+3;Robert Jankel;/people/person/place_of_birth;London;5.0;0.0919341814078655
+4;James Redhouse;/people/person/place_of_birth;London;-3.0;0.09454454570269796
+5;Nick Philip;/people/person/place_of_birth;London;5.0;0.10814306475374941
+6;Alice Temple;/people/person/place_of_birth;London;5.0;0.10104121700583289
+7;Peter Milligan;/people/person/place_of_birth;London;5.0;0.09563624511240482
+8;Justin Wintle;/people/person/place_of_birth;London;5.0;0.09429092277781917
+9;Benjamin Brecknell Turner;/people/person/place_of_birth;London;5.0;
+10;Russell Stannard;/people/person/place_of_birth;London;5.0;0.11118681653527929
+11;Edward Romilly;/people/person/place_of_birth;London;5.0;0.11100761891915811
+12;William Keasberry;/people/person/place_of_birth;London;5.0;0.11779131480045203
+13;Daniel Joseph Jaffé;/people/person/place_of_birth;London;5.0;0.10079592001936817
+14;Henry Cecil Leon;/people/person/place_of_birth;London;-5.0;0.0894830722870589
+15;Thomas Playfere;/people/person/place_of_birth;London;5.0;0.1314745403396374
+16;Aamer Haleem;/people/person/place_of_birth;London;5.0;0.11746357050615341
+17;Jean Ure;/people/person/place_of_birth;London;5.0;0.107466776361108
+18;Judy Leden;/people/person/place_of_birth;London;-5.0;0.09367885942880061
+19;Scarlett Strallen;/people/person/place_of_birth;London;5.0;0.09623909815195568
+20;Edward Stone Parker;/people/person/place_of_birth;London;5.0;0.09121976851579325
+21;Brent Rickles;/people/person/place_of_birth;London;5.0;
+22;Adrian Baker;/people/person/place_of_birth;London;5.0;0.06755690515376843
+23;Coral Amiga;/people/person/place_of_birth;London;5.0;
+24;William Vaughan (bishop);/people/person/place_of_birth;London;5.0;0.12444491086545639
+25;Harry Freedman (author);/people/person/place_of_birth;London;5.0;0.07761873215960491
+26;Rusty Egan;/people/person/place_of_birth;London;5.0;0.14158885835916296
+27;Andrew Bell (minister);/people/person/place_of_birth;London;5.0;
+28;Jonathan Wilkins;/people/person/place_of_birth;London;5.0;0.09036597144399668
+29;Charles Frodsham;/people/person/place_of_birth;London;5.0;0.11632761572427683
+30;Frank Pearson;/people/person/place_of_birth;London;-1.0;0.10143460883529848
+31;William Mattieu Williams;/people/person/place_of_birth;London;5.0;0.23511042046164937
+32;Alan Littlejohn;/people/person/place_of_birth;London;5.0;0.11713286197747001
+33;Frank Sayers;/people/person/place_of_birth;London;5.0;0.12169100258206222
+34;Benjamin Pine;/people/person/place_of_birth;London;5.0;0.09171880871411695
+35;John William Mellor;/people/person/place_of_birth;London;5.0;0.12434547308179608
+36;Thomas Wroth (politician, 17th century);/people/person/place_of_birth;London;5.0;0.1224186341739196
+37;Gerard Hemsworth;/people/person/place_of_birth;London;5.0;
+38;Geoffrey Stevens (journalist);/people/person/place_of_birth;London;-1.0;0.09008716752808915
+39;Charles Hastings Doyle;/people/person/place_of_birth;London;5.0;0.12353912061519096
+40;Richard Corbould;/people/person/place_of_birth;London;5.0;0.1851312422013138
+41;Frederic Bayco;/people/person/place_of_birth;London;5.0;0.10492228297654457
+42;David Parry (folk musician);/people/person/place_of_birth;London;5.0;0.09783918857976365
+43;Mark Stone (baritone);/people/person/place_of_birth;London;5.0;0.12390252098149479
+44;James William Wallack;/people/person/place_of_birth;London;5.0;0.11763487700814024
+45;Timothy Foote;/people/person/place_of_birth;London;5.0;0.08520553056582006
+46;Edward Alfred Cowper;/people/person/place_of_birth;London;5.0;0.1597720149435739
+47;Jeremy Holmes;/people/person/place_of_birth;London;5.0;0.11757809492011542
+48;Deepa Kaul;/people/person/place_of_birth;London;5.0;0.09678130073921805
+49;Thomas E. Wilson;/people/person/place_of_birth;London;-5.0;0.09058626634986028
+50;Stephen Griew;/people/person/place_of_birth;London;5.0;0.14508036650559777
+51;Thomas Taylor (neoplatonist);/people/person/place_of_birth;London;5.0;0.0914554704207087
+52;Henry W. Lee;/people/person/place_of_birth;London;5.0;0.090696702037876
+53;Lawrence Walford;/people/person/place_of_birth;London;5.0;0.08691352588508029
+54;E. W. Dickes;/people/person/place_of_birth;London;5.0;0.14459873835071727
+55;Toby Cockerell;/people/person/place_of_birth;London;5.0;0.09414086180771367
+56;Joan Vincent Murray;/people/person/place_of_birth;London;5.0;0.08518679686389596
+57;Neil Zakiewicz;/people/person/place_of_birth;London;5.0;0.14522782938947087
+58;Arthur Wakefield;/people/person/place_of_birth;London;-5.0;0.1097100590226188
+59;Symeon Cosburn;/people/person/place_of_birth;London;5.0;0.09169388398572026
+60;Alain de Cadenet;/people/person/place_of_birth;London;5.0;0.10600357558420079
+61;Richard West (journalist);/people/person/place_of_birth;London;5.0;0.10424687471258631
+62;Desi Williams;/people/person/place_of_birth;London;5.0;0.11701030574414303
+63;Malcolm Cecil;/people/person/place_of_birth;London;5.0;
+64;Harry Calvert;/people/person/place_of_birth;London;-5.0;0.11530430921515039
+65;Charles Ejogo;/people/person/place_of_birth;London;5.0;0.13819531611720745
+66;Thomas Adams (musician);/people/person/place_of_birth;London;5.0;
+67;Alaric Alexander Watts;/people/person/place_of_birth;London;5.0;0.13051466163610387
+68;Victor Henny;/people/person/place_of_birth;London;-3.0;0.14329672388289857
+69;Charles Dixon (ornithologist);/people/person/place_of_birth;London;5.0;0.08568676217724013
+70;Geoffrey Acland;/people/person/place_of_birth;London;-1.0;0.10275086122378695
+71;Tim Benjamin;/people/person/place_of_birth;London;5.0;
+72;Henry Neele;/people/person/place_of_birth;London;5.0;
+73;George FitzGeorge;/people/person/place_of_birth;London;5.0;0.07740558912412401
+74;Thomas Morton Harper;/people/person/place_of_birth;London;5.0;0.17680312565583067
+75;Henry Dawe;/people/person/place_of_birth;London;-5.0;0.12578014503341053
+76;Matthew Price;/people/person/place_of_birth;London;5.0;0.10366920719173885
+77;Laurie Allan;/people/person/place_of_birth;London;5.0;0.0849156167839897
+78;John Edwin (1749–1790);/people/person/place_of_birth;London;5.0;0.13302484178158003
+79;Edmund Hobhouse;/people/person/place_of_birth;London;5.0;0.11355045398071087
+80;Johnny Mowlem;/people/person/place_of_birth;London;5.0;0.09216477694765998
+81;Richard Vale;/people/person/place_of_birth;London;5.0;0.10283019329743094
+82;Reginald Brett, 2nd Viscount Esher;/people/person/place_of_birth;London;5.0;0.12741099563238578
+83;Terry Byrne;/people/person/place_of_birth;London;5.0;0.11608131120813758
+84;Antonia Okonma;/people/person/place_of_birth;London;5.0;0.10770984965512126
+85;Ursula Hoff;/people/person/place_of_birth;London;5.0;0.15930692730830706
+86;Mary Rose Young;/people/person/place_of_birth;London;-5.0;0.09336174613082436
+87;Neville Maxwell;/people/person/place_of_birth;London;5.0;0.11156307506460214
+88;Steven Alexander;/people/person/place_of_birth;London;5.0;0.0792075676767631
+89;Sebastian Dacey;/people/person/place_of_birth;London;5.0;0.10032849559721697
+90;George Stone (bishop);/people/person/place_of_birth;London;5.0;0.1958889530814568
+91;Alison Waters;/people/person/place_of_birth;London;5.0;0.09017579470250231
+92;Robert Bourne (developer);/people/person/place_of_birth;London;5.0;
+93;George Georgiou;/people/person/place_of_birth;London;5.0;0.13700834400533077
+94;Rhett Davies;/people/person/place_of_birth;London;5.0;0.08337350569961549
+95;Zoe McConnell;/people/person/place_of_birth;London;-1.0;
+96;David J. Farrar;/people/person/place_of_birth;London;5.0;
+97;William Main Page;/people/person/place_of_birth;London;5.0;0.10364964425196865
+98;Frank Holl;/people/person/place_of_birth;London;5.0;0.139243555563526
+99;Stan Rosenthal;/people/person/place_of_birth;London;5.0;
+100;Christopher Hobbs;/people/person/place_of_birth;London;-5.0;
+101;John Howard (author);/people/person/place_of_birth;London;5.0;0.07687894754657688
+102;John Duncombe (writer);/people/person/place_of_birth;London;5.0;0.0939711046720312
+103;Keith Wiggins;/people/person/place_of_birth;London;5.0;0.0668318742170277
+104;Algernon Methuen;/people/person/place_of_birth;London;5.0;
+105;Jay Neill (actor);/people/person/place_of_birth;London;5.0;
+106;Michael Swanton;/people/person/place_of_birth;London;5.0;
+107;Peter Dowdeswell;/people/person/place_of_birth;London;5.0;
+108;John David Hennessey;/people/person/place_of_birth;London;5.0;0.09540579920978595
+109;Cliff Jones (musician);/people/person/place_of_birth;London;5.0;0.1323585048890718
+110;Alfred Hackman;/people/person/place_of_birth;London;-5.0;0.11615508164613493
+111;Malcolm Wakeford;/people/person/place_of_birth;London;-5.0;0.09637072857319835
+112;Robin Gillett;/people/person/place_of_birth;London;5.0;0.2188222496341168
+113;David Vaughan (dance archivist);/people/person/place_of_birth;London;5.0;0.11053631888204478
+114;William Henry Anderdon;/people/person/place_of_birth;London;5.0;0.11904072730846477
+115;Harry Zvi Tabor;/people/person/place_of_birth;London;5.0;0.10583437685121057
+116;William Byrne (engraver);/people/person/place_of_birth;London;5.0;0.11050790988752483
+117;Thomas Cole (minister);/people/person/place_of_birth;London;-5.0;0.1833076555257124
+118;Samuel Verblunsky;/people/person/place_of_birth;London;5.0;0.10884469148184384
+119;Janet Coster;/people/person/place_of_birth;London;5.0;0.11550962854559318
+120;Graham Reilly;/people/person/place_of_birth;London;3.0;0.07453809101602929
+121;Thalia Pellegrini;/people/person/place_of_birth;London;5.0;0.10162605209177832
+122;Bertie Felstead;/people/person/place_of_birth;London;5.0;0.13771698936061405
+123;Charles Mayo (Anglo-Saxon scholar);/people/person/place_of_birth;London;5.0;0.1281406957351665
+124;Abraham Aurelius;/people/person/place_of_birth;London;-3.0;0.14989848800625633
+125;Derrick Leon;/people/person/place_of_birth;London;5.0;0.0833628339739547
+126;Nick Grosso;/people/person/place_of_birth;London;5.0;0.1760163053245779
+127;George Russell French;/people/person/place_of_birth;London;5.0;0.13985559955083574
+128;Charles Kennedy Scott;/people/person/place_of_birth;London;-3.0;0.1520313725722687
+129;William Emery;/people/person/place_of_birth;London;5.0;0.14434142155566337
+130;Andrew Waterman;/people/person/place_of_birth;London;5.0;
+131;William Garnett (civil servant);/people/person/place_of_birth;London;5.0;0.12030494658356432
+132;Alice Harrison;/people/person/place_of_birth;London;5.0;0.0985973682933469
+133;Ethel Merston;/people/person/place_of_birth;London;5.0;0.09816424608096175
+134;Wally Stocker;/people/person/place_of_birth;London;5.0;0.0819819145848783
+135;Dmitry Grigorieff;/people/person/place_of_birth;London;5.0;0.11686271300350934
+136;Gilbert John Arrow;/people/person/place_of_birth;London;5.0;
+137;Sampson Low;/people/person/place_of_birth;London;5.0;0.11966043406205368
+138;Peter G. Engelman;/people/person/place_of_birth;London;5.0;0.1015800912932539
+139;Mark Farmer (actor);/people/person/place_of_birth;London;5.0;0.08821869492081227
+140;Joe Daly;/people/person/place_of_birth;London;5.0;0.11022818830821954
+141;Isidor Clinton Rubin;/people/person/place_of_birth;London;-3.0;0.10075056595512799
+142;Thomas Gerald Room;/people/person/place_of_birth;London;-5.0;0.10627589003621382
+143;Mehran Khaghani;/people/person/place_of_birth;London;5.0;
+144;Nigel Preston;/people/person/place_of_birth;London;5.0;0.07599183170647361
+145;Christopher Headington;/people/person/place_of_birth;London;5.0;0.11399496458030352
+146;John Barry (set designer);/people/person/place_of_birth;London;5.0;0.11376555071626313
+147;Olivia Poulet;/people/person/place_of_birth;London;5.0;0.10971011688615251
+148;Robert Briffault;/people/person/place_of_birth;London;1.0;
+149;Michael Jaffé;/people/person/place_of_birth;London;5.0;0.11114543518266029
+150;Stephen Atkinson (metallurgist);/people/person/place_of_birth;London;-5.0;0.11149642504548857
+151;Barbara C. Freeman;/people/person/place_of_birth;London;-5.0;0.0882776350839708
+152;Adrian Bowyer;/people/person/place_of_birth;London;5.0;0.12769298163472478
+153;Robb Gravett;/people/person/place_of_birth;London;5.0;0.0924703406527005
+154;Steve Laine;/people/person/place_of_birth;London;5.0;0.09342694101493251
+155;David Smith (English politician);/people/person/place_of_birth;London;5.0;0.14850512211414743
+156;Gordon Jennings Laing;/people/person/place_of_birth;London;-3.0;0.07894333164111397
+157;Tom Arnold (politician);/people/person/place_of_birth;London;5.0;
+158;Guy de Cointet;/people/person/place_of_birth;Paris;5.0;0.13228325760321824
+159;Nick Pugh;/people/person/place_of_birth;Paris;5.0;0.09676054856787686
+160;Renaud Gagneux;/people/person/place_of_birth;Paris;5.0;
+161;Jean Gallon;/people/person/place_of_birth;Paris;5.0;
+162;Jane Bathori;/people/person/place_of_birth;Paris;5.0;
+163;Marcel Alexandre Bertrand;/people/person/place_of_birth;Paris;5.0;0.11609494895610696
+164;Abel Dimier;/people/person/place_of_birth;Paris;5.0;0.1256976746711737
+165;Bernard Cassen;/people/person/place_of_birth;Paris;5.0;
+166;René Renoult;/people/person/place_of_birth;Paris;5.0;0.13612790033725672
+167;Farid Chopel;/people/person/place_of_birth;Paris;5.0;0.12317163024808359
+168;François Maspero;/people/person/place_of_birth;Paris;5.0;0.13948758404796974
+169;Thibaut de Reimpré;/people/person/place_of_birth;Paris;5.0;0.129923858736322
+170;Charles Collé;/people/person/place_of_birth;Paris;5.0;0.14461876034610283
+171;Bertrand Lamarche;/people/person/place_of_birth;Paris;3.0;0.1989203403417436
+172;Louis Godin;/people/person/place_of_birth;Paris;5.0;0.13739810210869163
+173;Elsa Lunghini;/people/person/place_of_birth;Paris;5.0;0.12062254314054399
+174;Lucien Laurent Bonheur;/people/person/place_of_birth;Paris;5.0;0.14494099471424637
+175;François-Anne David;/people/person/place_of_birth;Paris;5.0;0.11919136389748726
+176;Jean Baptiste Claude Chatelain;/people/person/place_of_birth;Paris;5.0;
+177;Gérard Granel;/people/person/place_of_birth;Paris;5.0;0.1506008794348307
+178;Martin Malvy;/people/person/place_of_birth;Paris;5.0;0.14935585481037514
+179;Claude Piel;/people/person/place_of_birth;Paris;5.0;0.11382570795886465
+180;Georges Henri Roger;/people/person/place_of_birth;Paris;5.0;
+181;Albert Geouffre de Lapradelle;/people/person/place_of_birth;Paris;5.0;0.1226867904649209
+182;Claude Weisz;/people/person/place_of_birth;Paris;5.0;
+183;Dominique Sanson;/people/person/place_of_birth;Paris;5.0;0.07905343619177554
+184;Armand Toussaint;/people/person/place_of_birth;Paris;5.0;0.14279272280429198
+185;Hervé Alphand;/people/person/place_of_birth;Paris;5.0;0.1883672027075792
+186;Pierre Lecomte du Noüy;/people/person/place_of_birth;Paris;5.0;0.1377608964372879
+187;Alexandre Desgoffe;/people/person/place_of_birth;Paris;5.0;
+188;Léonce Alloy;/people/person/place_of_birth;Paris;5.0;0.13857023515220154
+189;Catherine Keller (artist);/people/person/place_of_birth;Paris;5.0;
+190;Patrick Lemarié;/people/person/place_of_birth;Paris;5.0;0.1025122896051627
+191;Émile Lévy;/people/person/place_of_birth;Paris;5.0;0.1302580661149072
+192;Pierre Cartellier;/people/person/place_of_birth;Paris;5.0;0.19554301728705628
+193;Yves Roucaute;/people/person/place_of_birth;Paris;5.0;0.2440884485693211
+194;Marianne Peretti;/people/person/place_of_birth;Paris;5.0;0.1074149680551521
+195;Sébastien Denis;/people/person/place_of_birth;Paris;5.0;0.10791928052856165
+196;Claude Duflos;/people/person/place_of_birth;Paris;5.0;
+197;François Lehideux;/people/person/place_of_birth;Paris;5.0;0.10634141442470608
+198;Ibrahim Diarra;/people/person/place_of_birth;Paris;5.0;0.11284946265840341
+199;Philippe Risoli;/people/person/place_of_birth;Paris;5.0;0.1104257622404623
+200;Ernest Breton;/people/person/place_of_birth;Paris;5.0;0.12869176555587145
+201;Serge Collot;/people/person/place_of_birth;Paris;5.0;0.09114813095661231
+202;Albert Vizentini;/people/person/place_of_birth;Paris;5.0;0.14374282162085805
+203;Hippolyte Cloquet;/people/person/place_of_birth;Paris;-3.0;
+204;Antoine Verglas;/people/person/place_of_birth;Paris;5.0;0.1333440512005868
+205;Cornélie Falcon;/people/person/place_of_birth;Paris;5.0;0.1591493589951302
+206;Hélène Carrère d'Encausse;/people/person/place_of_birth;Paris;5.0;0.11634693649664521
+207;Charles Cotin;/people/person/place_of_birth;Paris;5.0;
+208;Yvette Giraud;/people/person/place_of_birth;Paris;5.0;0.11212444364338031
+209;Nikos Aliagas;/people/person/place_of_birth;Paris;5.0;0.10091024155892377
+210;Marc Sangnier;/people/person/place_of_birth;Paris;5.0;0.13916605449865493
+211;Georges Hugon;/people/person/place_of_birth;Paris;5.0;0.15370691786813004
+212;Ernst Friedrich;/people/person/place_of_birth;Paris;5.0;
+213;Marie Nicolas Sylvestre Guillon;/people/person/place_of_birth;Paris;5.0;0.10114696778703647
+214;Constant Ferdinand Burille;/people/person/place_of_birth;Paris;3.0;0.10348703461224716
+215;Charles Nicholas Aubé;/people/person/place_of_birth;Paris;5.0;
+216;Henri de Contenson;/people/person/place_of_birth;Paris;5.0;0.15670673282692554
+217;Marthe Chenal;/people/person/place_of_birth;Paris;5.0;0.1776383316617816
+218;Jules Louis Lewal;/people/person/place_of_birth;Paris;5.0;0.12856179043154298
+219;Frédéric Durieux;/people/person/place_of_birth;Paris;5.0;
+220;Henri Nussbaumer;/people/person/place_of_birth;Paris;5.0;0.10428057611041759
+221;Robert Lecou;/people/person/place_of_birth;Paris;5.0;0.09408661098358442
+222;Alain Ehrenberg;/people/person/place_of_birth;Paris;5.0;0.15090211555314967
+223;Jean Noël Hallé;/people/person/place_of_birth;Paris;5.0;0.14205216614770616
+224;Léon Gimpel;/people/person/place_of_birth;Paris;5.0;0.13597947262432955
+225;David Bret;/people/person/place_of_birth;Paris;5.0;
+226;Jules de Gaultier;/people/person/place_of_birth;Paris;5.0;0.12862113588248456
+227;Louis Mazetier;/people/person/place_of_birth;Paris;5.0;0.14288110753812372
+228;Nicolas Colibert;/people/person/place_of_birth;Paris;5.0;
+229;Julien Noël Costantin;/people/person/place_of_birth;Paris;-3.0;0.2215739483482076
+230;Jeanne Deroin;/people/person/place_of_birth;Paris;5.0;0.11075010024555704
+231;Theophilus de Garencières;/people/person/place_of_birth;Paris;5.0;0.10292633213486835
+232;François Pourfour du Petit;/people/person/place_of_birth;Paris;-1.0;
+233;René Mayer;/people/person/place_of_birth;Paris;5.0;0.09114989053420036
+234;Françoise Claustre;/people/person/place_of_birth;Paris;5.0;0.15033500795157193
+235;Florent Fidèle Constant Bourgeois;/people/person/place_of_birth;Paris;5.0;0.12447023182326157
+236;Jean Cotelle;/people/person/place_of_birth;Paris;5.0;0.10348402202390221
+237;Adolphe Cohn;/people/person/place_of_birth;Paris;5.0;0.17056106496600995
+238;Jacques d'Agar;/people/person/place_of_birth;Paris;5.0;0.11448295544657457
+239;André Léri;/people/person/place_of_birth;Paris;5.0;0.14340493670252613
+240;Laurent Boyer;/people/person/place_of_birth;Paris;5.0;0.10631690148151729
+241;Gabriel Bertrand;/people/person/place_of_birth;Paris;5.0;0.12598198136428645
+242;Germinal Pierre Dandelin;/people/person/place_of_birth;Paris;-3.0;0.10837367661397027
+243;Henry Lerolle;/people/person/place_of_birth;Paris;5.0;0.1363738303991477
+244;Louis Dorléans;/people/person/place_of_birth;Paris;5.0;0.1476154653555056
+245;Paul Lacroix;/people/person/place_of_birth;Paris;5.0;0.1431733044980664
+246;Yannick Pouliot;/people/person/place_of_birth;Paris;5.0;
+247;Christelle Lefranc;/people/person/place_of_birth;Paris;1.0;0.11659040614799455
+248;Lola Artôt de Padilla;/people/person/place_of_birth;Paris;-5.0;0.12342948978975318
+249;Jacques Autreau;/people/person/place_of_birth;Paris;5.0;0.0961906285909167
+250;Hugues Krafft;/people/person/place_of_birth;Paris;5.0;0.1058158101082154
+251;Dumont de Montigny;/people/person/place_of_birth;Paris;5.0;0.12813037554566137
+252;Pierre Joxe;/people/person/place_of_birth;Paris;5.0;0.12285682792831681
+253;Mathieu Blin;/people/person/place_of_birth;Paris;5.0;
+254;Joseph Naudet;/people/person/place_of_birth;Paris;-3.0;
+255;Noël Gallon;/people/person/place_of_birth;Paris;5.0;
+256;Alfred Darjou;/people/person/place_of_birth;Paris;5.0;0.11782790149008976
+257;Michio Ihara;/people/person/place_of_birth;Paris;5.0;0.12225659048756324
+258;Henri Perreyve;/people/person/place_of_birth;Paris;5.0;0.238139868978893
+259;Leon Athanese Gosselin;/people/person/place_of_birth;Paris;3.0;0.14440812820868199
+260;Eugène Brieux;/people/person/place_of_birth;Paris;5.0;
+261;Jan Bull;/people/person/place_of_birth;Paris;5.0;0.08672537553800107
+262;Morris Bear Squire;/people/person/place_of_birth;Chicago;5.0;0.11540048978205175
+263;Johanna Meier;/people/person/place_of_birth;Chicago;5.0;0.137106253567018
+264;James Adler;/people/person/place_of_birth;Chicago;5.0;0.0704971873488289
+265;Wolfgang Baur;/people/person/place_of_birth;Chicago;5.0;0.08875121763242258
+266;Paul Willis (actor);/people/person/place_of_birth;Chicago;5.0;0.08689639937540339
+267;Al Cotey;/people/person/place_of_birth;Chicago;5.0;0.13583203164556554
+268;Arthur Yoria;/people/person/place_of_birth;Chicago;5.0;0.09473627431604648
+269;Thomas R. Fitzgerald;/people/person/place_of_birth;Chicago;5.0;
+270;Kip King;/people/person/place_of_birth;Chicago;5.0;0.0879142263712129
+271;Wallace Bishop;/people/person/place_of_birth;Chicago;5.0;0.09257485269085375
+272;Raymond Monsour Scurfield;/people/person/place_of_birth;Chicago;5.0;0.1118691554897268
+273;Carl R. Chindblom;/people/person/place_of_birth;Chicago;5.0;0.21020340258770656
+274;Mary Jayne Gold;/people/person/place_of_birth;Chicago;5.0;0.10989303047907457
+275;Axel Leonard Melander;/people/person/place_of_birth;Chicago;5.0;0.1158187960779129
+276;Dino Wells;/people/person/place_of_birth;Chicago;5.0;0.0765116256787956
+277;Joe Zakas;/people/person/place_of_birth;Chicago;5.0;0.11467345036887636
+278;Tim McGill;/people/person/place_of_birth;Chicago;5.0;0.11140018386394847
+279;Ron Westrum;/people/person/place_of_birth;Chicago;5.0;
+280;Raymond R. Schumacher;/people/person/place_of_birth;Chicago;5.0;0.21339167523721517
+281;Jack Petticord;/people/person/place_of_birth;Chicago;5.0;0.09251940702119482
+282;Robert E. Merriam;/people/person/place_of_birth;Chicago;5.0;0.16334749105715246
+283;Phillip Jackson (American politician);/people/person/place_of_birth;Chicago;5.0;0.22754413670050352
+284;David Schrader;/people/person/place_of_birth;Chicago;5.0;0.10149970548463778
+285;Charlene McMann;/people/person/place_of_birth;Chicago;5.0;0.15319796003501052
+286;Brian Bram;/people/person/place_of_birth;Chicago;5.0;0.09253917267508048
+287;No I.D.;/people/person/place_of_birth;Chicago;3.0;0.09580930420815092
+288;Ed Rossbach;/people/person/place_of_birth;Chicago;5.0;0.11361153845073271
+289;Stewart G. Honeck;/people/person/place_of_birth;Chicago;5.0;0.12947169097169514
+290;Rick Holbrook;/people/person/place_of_birth;Chicago;5.0;0.09624205484007764
+291;Frank Kaderabek;/people/person/place_of_birth;Chicago;5.0;0.1037894180715011
+292;Dean Richards (reporter);/people/person/place_of_birth;Chicago;-1.0;0.1530293638259301
+293;Steve Bjorklund;/people/person/place_of_birth;Chicago;5.0;0.17343618374873407
+294;Leslie Allen (racing driver);/people/person/place_of_birth;Chicago;5.0;0.13220367623585028
+295;James Burnham;/people/person/place_of_birth;Chicago;5.0;0.12012362243300582
+296;Ruth Fuller Sasaki;/people/person/place_of_birth;Chicago;5.0;0.09399550239514329
+297;Bernard Brodie (military strategist);/people/person/place_of_birth;Chicago;5.0;0.11261443678814062
+298;William Kraft;/people/person/place_of_birth;Chicago;5.0;
+299;Louis Antonelli;/people/person/place_of_birth;Chicago;5.0;0.1382658814167117
+300;Dennis Rea;/people/person/place_of_birth;Chicago;5.0;0.09643755821024888
+301;Nick Dranias;/people/person/place_of_birth;Chicago;5.0;
+302;Mary Lou Munts;/people/person/place_of_birth;Chicago;5.0;0.12410689683943844
+303;Joel Honig;/people/person/place_of_birth;Chicago;5.0;0.10604335976374266
+304;Daniel M. Hausman;/people/person/place_of_birth;Chicago;5.0;0.10228754001820406
+305;Michael Colgrass;/people/person/place_of_birth;Chicago;5.0;0.11299938124358436
+306;John Mann Goggin;/people/person/place_of_birth;Chicago;5.0;0.09687976579017889
+307;Fenton Johnson (poet);/people/person/place_of_birth;Chicago;5.0;0.13309640698317415
+308;Donald Kalish;/people/person/place_of_birth;Chicago;5.0;0.09398277315834978
+309;Lowrell Simon;/people/person/place_of_birth;Chicago;5.0;0.10416436173492101
+310;Jacques Benedict;/people/person/place_of_birth;Chicago;5.0;0.10062472143886939
+311;Steve Miller (athletics);/people/person/place_of_birth;Chicago;5.0;0.13636914977813244
+312;Bill Barminski;/people/person/place_of_birth;Chicago;5.0;
+313;Vincent A. Mahler;/people/person/place_of_birth;Chicago;3.0;0.13426630503632725
+314;Nathan B. Spingold;/people/person/place_of_birth;Chicago;5.0;
+315;Paul Conway (archivist);/people/person/place_of_birth;Chicago;5.0;0.10084489841650399
+316;William Francis Whitman, Jr.;/people/person/place_of_birth;Chicago;5.0;0.13260753656929009
+317;Wendy White (mezzo-soprano);/people/person/place_of_birth;Chicago;5.0;0.12589294203915047
+318;Byron Morrow;/people/person/place_of_birth;Chicago;5.0;0.09008522998830613
+319;Francis Davis;/people/person/place_of_birth;Philadelphia;5.0;0.1052245596862509
+320;Jim Boyd (actor);/people/person/place_of_birth;Philadelphia;5.0;0.09958328824657159
+321;Spencer Wishart;/people/person/place_of_birth;Philadelphia;5.0;0.10960999709823044
+322;Daniel Spielman;/people/person/place_of_birth;Philadelphia;5.0;0.1204761994142935
+323;Joel Myers;/people/person/place_of_birth;Philadelphia;-5.0;0.10621433435616301
+324;Edwin Milton Abbott;/people/person/place_of_birth;Philadelphia;5.0;0.13159964420418574
+325;Festus Walters;/people/person/place_of_birth;Philadelphia;1.0;0.15864589051536615
+326;Freddy Winnai;/people/person/place_of_birth;Philadelphia;5.0;0.16706347620209847
+327;Harrison Allen;/people/person/place_of_birth;Philadelphia;5.0;0.10905456456280367
+328;Benjamin Franklin Bache (journalist);/people/person/place_of_birth;Philadelphia;-3.0;0.11929903746684177
+329;Johnny Zito;/people/person/place_of_birth;Philadelphia;-3.0;0.10026753321915736
+330;Tom Mattera;/people/person/place_of_birth;Philadelphia;5.0;0.1264404433115539
+331;Jeff Chandler (boxer);/people/person/place_of_birth;Philadelphia;5.0;0.08605551646054839
+332;Dick Stockton;/people/person/place_of_birth;Philadelphia;5.0;0.1055113675629106
+333;Stanley Corrsin;/people/person/place_of_birth;Philadelphia;5.0;0.08230833213498413
+334;James Zug;/people/person/place_of_birth;Philadelphia;5.0;0.11990844782438634
+335;Richie Dent;/people/person/place_of_birth;Philadelphia;5.0;
+336;Andrew Repasky McElhinney;/people/person/place_of_birth;Philadelphia;5.0;0.11325440450791284
+337;Gloria Mann;/people/person/place_of_birth;Philadelphia;5.0;0.10875153163882138
+338;Tony Trov;/people/person/place_of_birth;Philadelphia;-5.0;0.10425993284554425
+339;Sasha Neulinger;/people/person/place_of_birth;Philadelphia;5.0;0.08969166426419262
+340;Bernie Lowe;/people/person/place_of_birth;Philadelphia;5.0;0.11205365483002576
+341;Stanley Sporkin;/people/person/place_of_birth;Philadelphia;5.0;0.13204312291796239
+342;Leon Bass;/people/person/place_of_birth;Philadelphia;5.0;0.14132913860467822
+343;Thomas Pole;/people/person/place_of_birth;Philadelphia;5.0;0.11003709598923525
+344;Barry Lee Myers;/people/person/place_of_birth;Philadelphia;-3.0;0.10953152158213778
+345;Gregory V. Palmer;/people/person/place_of_birth;Philadelphia;5.0;0.10374904573162712
+346;Dave Mazzoni;/people/person/place_of_birth;Philadelphia;5.0;0.12009731919505306
+347;Edwin E. Wagner;/people/person/place_of_birth;Philadelphia;5.0;0.07949748289904406
+348;Frank J. Webb;/people/person/place_of_birth;Philadelphia;5.0;0.15775291544959147
+349;Lawrence Townsend;/people/person/place_of_birth;Philadelphia;5.0;0.12959828104770446
+350;Lou Stein;/people/person/place_of_birth;Philadelphia;5.0;0.08292857811818331
+351;Terry Smith (radio);/people/person/place_of_birth;Philadelphia;-3.0;0.09013078357524447
+352;Graham Salisbury;/people/person/place_of_birth;Philadelphia;5.0;
+353;Henry Taylor (boxer);/people/person/place_of_birth;Philadelphia;5.0;
+354;Thomas Wright Rudderow;/people/person/place_of_birth;Philadelphia;5.0;0.10898995683008664
+355;Susan Denin;/people/person/place_of_birth;Philadelphia;5.0;0.16696283623696215
+356;Seymour S. Kety;/people/person/place_of_birth;Philadelphia;-3.0;
+357;George Brunner (composer);/people/person/place_of_birth;Philadelphia;5.0;0.0934456386746344
+358;Frederick Fraley;/people/person/place_of_birth;Philadelphia;5.0;0.17111041620004566
+359;Paul Pope;/people/person/place_of_birth;Philadelphia;5.0;0.10829616172399853
+360;Spencer Bonfiglio;/people/person/place_of_birth;Philadelphia;5.0;
+361;Stephen William White;/people/person/place_of_birth;Philadelphia;5.0;0.12629837312551828
+362;Eric Ash;/people/person/place_of_birth;Berlin;5.0;0.10441523036640338
+363;Oskar Simon;/people/person/place_of_birth;Berlin;-5.0;0.11805097334106215
+364;Heinz Oestergaard;/people/person/place_of_birth;Berlin;5.0;0.15712644584110705
+365;Joachim Martin Falbe;/people/person/place_of_birth;Berlin;5.0;0.13695315787359008
+366;Walter Ehrlich;/people/person/place_of_birth;Berlin;5.0;0.08606745352439604
+367;Peter Lachmann;/people/person/place_of_birth;Berlin;5.0;0.10084994406155015
+368;Leopold Casper;/people/person/place_of_birth;Berlin;5.0;0.1473643920473773
+369;Avner W. Less;/people/person/place_of_birth;Berlin;5.0;0.12037766190187077
+370;Walther Kruse;/people/person/place_of_birth;Berlin;-5.0;0.1158470020219036
+371;Albert Heinrich Brendel;/people/person/place_of_birth;Berlin;5.0;0.19420317452180302
+372;Robert Welch (Wisconsin politician);/people/person/place_of_birth;Berlin;-3.0;0.09809755086967845
+373;Hans Reiche;/people/person/place_of_birth;Berlin;5.0;
+374;William Charles Brenke;/people/person/place_of_birth;Berlin;5.0;0.09189721148119256
+375;Carl Strehl;/people/person/place_of_birth;Berlin;5.0;0.11665163750587998
+376;Valli Valli;/people/person/place_of_birth;Berlin;5.0;
+377;Daniel French (inventor);/people/person/place_of_birth;Berlin;-5.0;
+378;Shlomo Wolbe;/people/person/place_of_birth;Berlin;5.0;0.0921298159159766
+379;Georges Borchardt;/people/person/place_of_birth;Berlin;5.0;0.10055725200369683
+380;Don Mankiewicz;/people/person/place_of_birth;Berlin;5.0;0.08562418944347884
+381;Eric Goldberg (artist);/people/person/place_of_birth;Berlin;5.0;0.09331600597855727
+382;Wilhelm Sander;/people/person/place_of_birth;Berlin;5.0;0.1326828414850193
+383;Hans P. Kraus;/people/person/place_of_birth;Berlin;-5.0;0.09343401304679755
+384;Guy De Saint Cyr;/people/person/place_of_birth;Berlin;5.0;
+385;Richard Bohn;/people/person/place_of_birth;Berlin;5.0;0.11269881039117058
+386;Edward W. Greenman;/people/person/place_of_birth;Berlin;-3.0;0.11344453472608956
+387;Georg Ruge;/people/person/place_of_birth;Berlin;-3.0;0.09977055433405836
+388;Erich Franz Eugen Bracht;/people/person/place_of_birth;Berlin;-1.0;0.12215669031243104
+389;Erich Werdermann;/people/person/place_of_birth;Berlin;5.0;0.14867788736256388
+390;Thomas Sasse;/people/person/place_of_birth;Berlin;-3.0;
+391;Samuel von Schmettau;/people/person/place_of_birth;Berlin;5.0;
+392;Elfie Wörner;/people/person/place_of_birth;Berlin;5.0;0.1227971789407526
+393;Ernst Mehlich;/people/person/place_of_birth;Berlin;5.0;0.13007030250603424
+394;Johann Christoph Friedrich Klug;/people/person/place_of_birth;Berlin;5.0;0.19095874311187458
+395;Max Lehmann;/people/person/place_of_birth;Berlin;5.0;0.11392236463272222
+396;Monika Meyer (footballer);/people/person/place_of_birth;Berlin;5.0;
+397;Jan Paweł Nowacki;/people/person/place_of_birth;Berlin;5.0;0.12623532989559574
+398;Moritz Litten;/people/person/place_of_birth;Berlin;-5.0;0.11043955254651716
+399;Carl Anton Ewald;/people/person/place_of_birth;Berlin;-3.0;0.16787124131398745
+400;Franz Ludwig Catel;/people/person/place_of_birth;Berlin;5.0;0.12644834880935382
+401;Karl Friedrich von Klöden;/people/person/place_of_birth;Berlin;5.0;0.17249107985307494
+402;Julius Zupitza;/people/person/place_of_birth;Berlin;-3.0;0.14051320261680914
+403;Käte Stresemann;/people/person/place_of_birth;Berlin;3.0;0.1508515166518899
+404;Meike Evers;/people/person/place_of_birth;Berlin;5.0;
+405;J. J. Stevenson;/people/person/place_of_birth;Glasgow;5.0;0.16920739177938604
+406;Thomas Barclay (missionary);/people/person/place_of_birth;Glasgow;5.0;0.15479472336408062
+407;Thomas Atkinson (poet);/people/person/place_of_birth;Glasgow;-3.0;
+408;Kris Kane;/people/person/place_of_birth;Glasgow;5.0;0.1265208657668595
+409;Robert McCrindle;/people/person/place_of_birth;Glasgow;5.0;0.15520357799147513
+410;Julia Goss;/people/person/place_of_birth;Glasgow;-3.0;0.10077014715109425
+411;Hugh Fraser, 1st Baron Fraser of Allander;/people/person/place_of_birth;Glasgow;5.0;0.1425599501929425
+412;Alan Thomson (musician);/people/person/place_of_birth;Glasgow;5.0;0.08564896056876084
+413;William Atherton (lawyer);/people/person/place_of_birth;Glasgow;5.0;0.11978231321876055
+414;Mary Ann Kennedy (Scottish singer);/people/person/place_of_birth;Glasgow;5.0;0.12782462786521162
+415;Albert McElroy;/people/person/place_of_birth;Glasgow;5.0;0.12288422672926747
+416;Mary Macmaster;/people/person/place_of_birth;Glasgow;5.0;0.1018042275923326
+417;Thomas Haughey;/people/person/place_of_birth;Glasgow;5.0;0.24445576817289316
+418;James A. MacAlister;/people/person/place_of_birth;Glasgow;5.0;0.09989251923054088
+419;Lynn Faulds Wood;/people/person/place_of_birth;Glasgow;5.0;0.09370186442162431
+420;Denis McQuade;/people/person/place_of_birth;Glasgow;5.0;0.10620199120714524
+421;Kenny Brannigan;/people/person/place_of_birth;Glasgow;5.0;0.10049460082532306
+422;Douglas Simpson;/people/person/place_of_birth;Glasgow;5.0;0.1097518814904091
+423;Ian Steel;/people/person/place_of_birth;Glasgow;5.0;0.15156202551072384
+424;John Stewart Kennedy;/people/person/place_of_birth;Glasgow;-5.0;0.14395979565961312
+425;William Carstares;/people/person/place_of_birth;Glasgow;-5.0;0.144912658073347
+426;Henry Boyd;/people/person/place_of_birth;Glasgow;-5.0;
+427;David Marshall Mason;/people/person/place_of_birth;Glasgow;-5.0;0.14194964930446663
+428;Adam McLean;/people/person/place_of_birth;Glasgow;5.0;0.12743558340831476
+429;Thomas Gardiner (publisher);/people/person/place_of_birth;Glasgow;-5.0;0.11078602483811112
+430;George Henry Walton;/people/person/place_of_birth;Glasgow;5.0;0.17630090158446188
+431;Vishal Marwaha;/people/person/place_of_birth;Glasgow;5.0;0.14354472050407058
+432;Fergus Morton, Baron Morton of Henryton;/people/person/place_of_birth;Glasgow;5.0;0.1096888683771296
+433;Jamielee McPherson;/people/person/place_of_birth;Glasgow;5.0;
+434;John Stephen;/people/person/place_of_birth;Glasgow;5.0;0.13087925806357442
+435;Pat Gerber;/people/person/place_of_birth;Glasgow;5.0;0.1401069469981588
+436;James Nisbet;/people/person/place_of_birth;Glasgow;-5.0;0.14028934224888576
+437;James Kinlay;/people/person/place_of_birth;Glasgow;5.0;0.12597272021845404
+438;Jimmy Cooper (musician);/people/person/place_of_birth;Glasgow;-5.0;
+439;Randolph Colville;/people/person/place_of_birth;Glasgow;5.0;0.09657793290379307
+440;Walter Douglas;/people/person/place_of_birth;Glasgow;5.0;0.14322533530295592
+441;Ken Ritchie;/people/person/place_of_birth;Glasgow;5.0;0.08314062716197096
+442;Jonathan Shearer;/people/person/place_of_birth;Glasgow;5.0;0.10988207206564263
+443;John Baird (Wolverhampton MP);/people/person/place_of_birth;Glasgow;5.0;0.13551341417153065
+444;John Junor;/people/person/place_of_birth;Glasgow;5.0;0.10129694860049082
+445;Louisa Stevenson;/people/person/place_of_birth;Glasgow;5.0;0.13553859235209775
+446;John Fisher (opera director);/people/person/place_of_birth;Glasgow;5.0;0.12476734960665259
+447;Christopher Whyte;/people/person/place_of_birth;Glasgow;5.0;0.13409825172302486
+448;Henry Saxe;/people/person/place_of_birth;Montreal;5.0;0.1583490640168776
+449;Christopher Benfield Carter;/people/person/place_of_birth;Montreal;5.0;0.24659642337365692
+450;Kris Lefcoe;/people/person/place_of_birth;Montreal;5.0;0.12491907571824487
+451;William Reed (musician);/people/person/place_of_birth;Montreal;5.0;
+452;Gerry Markman;/people/person/place_of_birth;Montreal;5.0;0.09369450448395106
+453;François Desjardins;/people/person/place_of_birth;Montreal;5.0;0.1331049346831445
+454;Marcel Faribault;/people/person/place_of_birth;Montreal;5.0;0.16658228203942893
+455;Antoine Ouilmette;/people/person/place_of_birth;Montreal;-5.0;0.1175228847515038
+456;Gilles Latulippe;/people/person/place_of_birth;Montreal;5.0;0.1840601489833998
+457;John McKay (pianist);/people/person/place_of_birth;Montreal;5.0;0.1185064462051933
+458;Donald Steven;/people/person/place_of_birth;Montreal;5.0;0.11246729170302303
+459;Léo Lévesque;/people/person/place_of_birth;Montreal;5.0;0.10095645439945543
+460;Alain Boire;/people/person/place_of_birth;Montreal;5.0;0.12474025724776308
+461;Lionel Tiger;/people/person/place_of_birth;Montreal;5.0;0.09320649063356994
+462;Merlin Bronques;/people/person/place_of_birth;Montreal;-3.0;0.11028368848765571
+463;Bill Downe;/people/person/place_of_birth;Montreal;5.0;0.15846043717522781
+464;Sébastien Leblanc;/people/person/place_of_birth;Montreal;5.0;0.09305831902299598
+465;Albert Chamberland;/people/person/place_of_birth;Montreal;5.0;0.18078422346615766
+466;Jean Désy;/people/person/place_of_birth;Montreal;5.0;0.1632616190514649
+467;Ira Vail;/people/person/place_of_birth;Montreal;3.0;0.11585517935784587
+468;Rodolphe Monty;/people/person/place_of_birth;Montreal;5.0;0.16111838931808464
+469;Wayne Eagling;/people/person/place_of_birth;Montreal;5.0;0.10735827304305265
+470;Romain Pelletier;/people/person/place_of_birth;Montreal;5.0;
+471;Howard Grant (boxer);/people/person/place_of_birth;Montreal;-3.0;0.11680709747035566
+472;Théophile Bruguier;/people/person/place_of_birth;Montreal;-5.0;0.12890900924729762
+473;John Mahaffy (ice hockey);/people/person/place_of_birth;Montreal;5.0;0.14637193558669803
+474;Yolande Thibeault;/people/person/place_of_birth;Montreal;5.0;0.14775950581181974
+475;Norman Spector;/people/person/place_of_birth;Montreal;5.0;0.13477705228869705
+476;René Gagnier;/people/person/place_of_birth;Montreal;5.0;
+477;Thomas Morland;/people/person/place_of_birth;Montreal;5.0;0.14136492546525423
+478;Emmanuel Aquin;/people/person/place_of_birth;Montreal;5.0;0.10165152076252872
+479;Gérald Gagnier;/people/person/place_of_birth;Montreal;3.0;0.11002955930687952
+480;Pierre Alexandre Tremblay;/people/person/place_of_birth;Montreal;5.0;
+481;Pierre de Savoye;/people/person/place_of_birth;Montreal;5.0;0.13450257322290476
+482;David Atkinson (baritone);/people/person/place_of_birth;Montreal;5.0;0.11905293850910553
+483;Lynne Kositsky;/people/person/place_of_birth;Montreal;5.0;0.10523875406964428
+484;Gordon Stevenson;/people/person/place_of_birth;Dublin;-1.0;0.1008650317671868
+485;Thomas Southerne;/people/person/place_of_birth;Dublin;-5.0;0.10324710274084802
+486;Seamus Martin;/people/person/place_of_birth;Dublin;5.0;0.17630251280815193
+487;Nathaniel Buchanan;/people/person/place_of_birth;Dublin;-5.0;0.08797115882180959
+488;Vivion de Valera;/people/person/place_of_birth;Dublin;5.0;0.14234012275017482
+489;Jim Grace (Irish footballer);/people/person/place_of_birth;Dublin;5.0;
+490;Fiachna Ó Braonáin;/people/person/place_of_birth;Dublin;5.0;0.09742146099789553
+491;Henry Ussher;/people/person/place_of_birth;Dublin;5.0;0.17892057895519975
+492;Jason Colwell;/people/person/place_of_birth;Dublin;5.0;0.1293226921515942
+493;Derek Murray (soccer);/people/person/place_of_birth;Dublin;5.0;
+494;Stephen Gough (footballer);/people/person/place_of_birth;Dublin;5.0;0.10149246307733809
+495;John Allen (Irish nationalist);/people/person/place_of_birth;Dublin;-3.0;0.1448321470668697
+496;Ed Pimm;/people/person/place_of_birth;Dublin;-5.0;0.0833208396484475
+497;Lee King;/people/person/place_of_birth;Dublin;5.0;
+498;Richard Collins, Baron Collins;/people/person/place_of_birth;Dublin;5.0;0.12058810132842612
+499;Dave Connell;/people/person/place_of_birth;Dublin;5.0;0.11746528428529573
+500;Alan Aboud;/people/person/place_of_birth;Dublin;5.0;0.09462444198851261
+501;Heartsill Ragon;/people/person/place_of_birth;Dublin;-5.0;0.10241990710162556
+502;Graham Doyle;/people/person/place_of_birth;Dublin;5.0;0.14554417070675746
+503;Martin Duffy (footballer);/people/person/place_of_birth;Dublin;5.0;
+504;Brian O'Riordan;/people/person/place_of_birth;Dublin;5.0;0.18251583677109423
+505;Terry Eviston;/people/person/place_of_birth;Dublin;5.0;0.13904597089093368
+506;Walley Chamberlain Oulton;/people/person/place_of_birth;Dublin;5.0;0.09393220519255091
+507;Shay Gibbons;/people/person/place_of_birth;Dublin;5.0;0.1643923975201476
+508;William Sadler (painter);/people/person/place_of_birth;Dublin;-5.0;0.14187834123890025
+509;Catherine Wellesley, Duchess of Wellington;/people/person/place_of_birth;Dublin;5.0;0.11336172520973656
+510;John O'Conor;/people/person/place_of_birth;Dublin;5.0;0.17587303306828558
+511;Marcus Tuite;/people/person/place_of_birth;Dublin;3.0;
+512;Gladys Henson;/people/person/place_of_birth;Dublin;5.0;0.10124161406126193
+513;Leslie Paul;/people/person/place_of_birth;Dublin;5.0;0.10787722198134415
+514;John Savage (Fenian);/people/person/place_of_birth;Dublin;5.0;0.1486779267637865
+515;Henry Bernard Carpenter;/people/person/place_of_birth;Dublin;3.0;0.0876036169693139
+516;John Sheridan Hogan;/people/person/place_of_birth;Dublin;-5.0;0.11868906820228163
+517;Paddy Crowley;/people/person/place_of_birth;Dublin;5.0;
+518;Jimmy Gregg;/people/person/place_of_birth;Dublin;5.0;0.09473167882519726
+519;John Henry (spy);/people/person/place_of_birth;Dublin;3.0;0.11451863888807556
+520;Alfred Downward;/people/person/place_of_birth;Melbourne;5.0;0.12473647076957148
+521;Michael Birt;/people/person/place_of_birth;Melbourne;5.0;
+522;Shane Price;/people/person/place_of_birth;Melbourne;5.0;0.10709968363005681
+523;Victoria LePage;/people/person/place_of_birth;Melbourne;5.0;
+524;Jennifer Holliday (softball);/people/person/place_of_birth;Melbourne;5.0;0.10777418738715516
+525;Mary Cecil Allen;/people/person/place_of_birth;Melbourne;5.0;0.1889127561289792
+526;Roy Dalgarno;/people/person/place_of_birth;Melbourne;5.0;0.12218005492423828
+527;Maggie Fitzgibbon;/people/person/place_of_birth;Melbourne;5.0;0.12828886721720945
+528;Robert Moss;/people/person/place_of_birth;Melbourne;5.0;0.11088984458437823
+529;George Johnston (general);/people/person/place_of_birth;Melbourne;5.0;
+530;Winifred Lewellin James;/people/person/place_of_birth;Melbourne;-3.0;0.13867580195136978
+531;Adam Bright;/people/person/place_of_birth;Melbourne;5.0;0.14013445578703632
+532;Daniel Sproule;/people/person/place_of_birth;Melbourne;5.0;0.07605203690657007
+533;Nicholas Colla;/people/person/place_of_birth;Melbourne;5.0;0.1192269292100845
+534;Carey Beebe;/people/person/place_of_birth;Melbourne;5.0;
+535;Amber Parkinson;/people/person/place_of_birth;Melbourne;5.0;0.08132050269303084
+536;Simon Gerada;/people/person/place_of_birth;Melbourne;5.0;0.11617260140877811
+537;Brett Hayman;/people/person/place_of_birth;Melbourne;5.0;
+538;Rodney Cocks;/people/person/place_of_birth;Melbourne;5.0;
+539;Michael Guider;/people/person/place_of_birth;Melbourne;5.0;0.11553920470673607
+540;David Sander;/people/person/place_of_birth;Melbourne;5.0;
+541;Herbert Postle;/people/person/place_of_birth;Melbourne;5.0;0.17070085212717728
+542;Luke Youlden;/people/person/place_of_birth;Melbourne;5.0;0.08029834364818242
+543;Rodney de Gruchy;/people/person/place_of_birth;Melbourne;5.0;0.13598348624508722
+544;Kate Richardson (athlete);/people/person/place_of_birth;Melbourne;5.0;0.11161881469819118
+545;Jennifer Huppert;/people/person/place_of_birth;Melbourne;3.0;0.12830379860485436
+546;Nicole Richardson;/people/person/place_of_birth;Melbourne;5.0;0.12317565221212509
+547;Justine Smethurst;/people/person/place_of_birth;Melbourne;5.0;0.12891519635477017
+548;Martin Brown (artist);/people/person/place_of_birth;Melbourne;5.0;
+549;Joanne Fox;/people/person/place_of_birth;Melbourne;5.0;0.12416500285003668
+550;Ashley Gilbertson;/people/person/place_of_birth;Melbourne;5.0;0.1400535815064208
+551;Diana Trask;/people/person/place_of_birth;Melbourne;5.0;0.11496076389612653
+552;Matthew Kent;/people/person/place_of_birth;Melbourne;5.0;
+553;William Dexter;/people/person/place_of_birth;Melbourne;-3.0;0.11474827550375154
+554;Harry James Angus;/people/person/place_of_birth;Melbourne;5.0;0.1410425951517403
+555;Jane Tanner;/people/person/place_of_birth;Melbourne;5.0;0.06035192501644523
+556;Gordon Edward Corbould;/people/person/place_of_birth;Toronto;5.0;0.13083828725537033
+557;Alastair Sweeny;/people/person/place_of_birth;Toronto;5.0;0.13924382288343254
+558;John William Thomson;/people/person/place_of_birth;Toronto;5.0;0.09167327151932167
+559;Linda MacLennan;/people/person/place_of_birth;Toronto;5.0;0.0865833903342459
+560;David Bourque;/people/person/place_of_birth;Toronto;-3.0;0.14432052517014765
+561;Catherine Winder;/people/person/place_of_birth;Toronto;-5.0;0.09024471342493097
+562;George Snell (bishop);/people/person/place_of_birth;Toronto;5.0;0.1981925343955198
+563;Erna Paris;/people/person/place_of_birth;Toronto;5.0;0.16348009248145728
+564;Ellie Tesher;/people/person/place_of_birth;Toronto;5.0;0.15597346977678733
+565;Steven Hayward (Canadian writer);/people/person/place_of_birth;Toronto;5.0;0.11869141615985701
+566;Lorne Resnick;/people/person/place_of_birth;Toronto;5.0;
+567;David Empringham;/people/person/place_of_birth;Toronto;5.0;0.09508213034609352
+568;Lorne Rubenstein;/people/person/place_of_birth;Toronto;5.0;
+569;Ronnie Le Drew;/people/person/place_of_birth;Toronto;5.0;0.08991189753402609
+570;Lorraine Leckie;/people/person/place_of_birth;Toronto;-5.0;0.10602321013969049
+571;Albert Pratz;/people/person/place_of_birth;Toronto;5.0;
+572;Harry Chadwick;/people/person/place_of_birth;Toronto;5.0;0.09302571357724332
+573;Jack Blum;/people/person/place_of_birth;Toronto;5.0;0.12756375092308173
+574;Graph Nobel;/people/person/place_of_birth;Toronto;5.0;0.10260347290608804
+575;William Leeming Harrison;/people/person/place_of_birth;Toronto;-3.0;0.09809826981950825
+576;John Smith (poet);/people/person/place_of_birth;Toronto;5.0;
+577;John Cole (politician);/people/person/place_of_birth;Toronto;5.0;0.12182626838697824
+578;Austin Lloyd Fleming;/people/person/place_of_birth;Toronto;5.0;0.11461933382061504
+579;John Josiah Robinette;/people/person/place_of_birth;Toronto;5.0;0.1625370940609031
+580;Biff Mitchell;/people/person/place_of_birth;Toronto;5.0;0.10042101958923791
+581;Bartle Brennen Bull;/people/person/place_of_birth;Toronto;5.0;0.09539450160720953
+582;Kim Ondaatje;/people/person/place_of_birth;Toronto;5.0;0.1699065833385522
+583;Murray McEachern;/people/person/place_of_birth;Toronto;5.0;0.08823660223145237
+584;Kenneth William Junor;/people/person/place_of_birth;Toronto;5.0;0.12108658838351623
+585;David Hackl;/people/person/place_of_birth;Toronto;5.0;0.08327798064871829
+586;Arthur N. Martin;/people/person/place_of_birth;Toronto;5.0;0.18562220470636917
+587;John Dodington;/people/person/place_of_birth;Toronto;5.0;
+588;Frank E. Holmes;/people/person/place_of_birth;Toronto;-3.0;0.09891739019841825
+589;Alan Welsh;/people/person/place_of_birth;Edinburgh;5.0;0.08545534406479266
+590;James Balfour (philosopher);/people/person/place_of_birth;Edinburgh;-5.0;0.18411779476465256
+591;John Thomas Rochead;/people/person/place_of_birth;Edinburgh;5.0;0.1693563036298795
+592;James Hogg (publisher);/people/person/place_of_birth;Edinburgh;-5.0;0.12640620442607708
+593;Thomas Tod Stoddart;/people/person/place_of_birth;Edinburgh;5.0;0.12931608688087148
+594;Gillian Cooke;/people/person/place_of_birth;Edinburgh;3.0;0.1289695674841201
+595;John Donaldson (painter);/people/person/place_of_birth;Edinburgh;5.0;0.10268035451686659
+596;George Hurst;/people/person/place_of_birth;Edinburgh;5.0;
+597;William Skirving;/people/person/place_of_birth;Edinburgh;-5.0;0.15638129773952575
+598;Julian Paynter;/people/person/place_of_birth;Edinburgh;5.0;0.09202445761919589
+599;John Cobbett;/people/person/place_of_birth;Edinburgh;5.0;0.09410622705113039
+600;George Mudie (Owenite);/people/person/place_of_birth;Edinburgh;5.0;0.1262697900615209
+601;Sir Andrew Agnew, 8th Baronet;/people/person/place_of_birth;Edinburgh;5.0;0.08937957269644697
+602;Roger Sinclair Aytoun;/people/person/place_of_birth;Edinburgh;5.0;0.12036844754294246
+603;Scott Cleverdon;/people/person/place_of_birth;Edinburgh;5.0;0.0792928640616935
+604;Robert Hamilton Paterson;/people/person/place_of_birth;Edinburgh;5.0;0.133967860098076
+605;George Henderson (architect);/people/person/place_of_birth;Edinburgh;5.0;
+606;Walter Elliot (Scottish naturalist);/people/person/place_of_birth;Edinburgh;5.0;0.11749341371301728
+607;John Cameron (Reformed Presbyterian);/people/person/place_of_birth;Edinburgh;-5.0;0.11707102640750755
+608;James O. Clephane;/people/person/place_of_birth;Edinburgh;-3.0;0.12162836189103797
+609;Joseph Hislop;/people/person/place_of_birth;Edinburgh;5.0;
+610;Alexander Smith (chemist);/people/person/place_of_birth;Edinburgh;5.0;
+611;Mike Peden;/people/person/place_of_birth;Edinburgh;5.0;0.1084968055347246
+612;Mary MacLeod Banks;/people/person/place_of_birth;Edinburgh;5.0;0.10512471927560615
+613;Allan Stewart (artist);/people/person/place_of_birth;Edinburgh;5.0;0.14470859690226953
+614;Henry John Cody;/people/person/place_of_birth;Edinburgh;-3.0;0.09228850570677721
+615;Marcus Dods (musician);/people/person/place_of_birth;Edinburgh;5.0;
+616;Georgina Kennard;/people/person/place_of_birth;Edinburgh;5.0;0.1027469806626356
+617;William Walker (engraver born 1791);/people/person/place_of_birth;Edinburgh;-5.0;0.11286615657272914
+618;Patrick Edward Dove;/people/person/place_of_birth;Edinburgh;-5.0;0.13741261452143722
+619;Gary Callander;/people/person/place_of_birth;Edinburgh;5.0;
+620;Carl Herman Kraeling;/people/person/place_of_birth;Brooklyn;5.0;0.1357431329759291
+621;Rebecca Pronsky;/people/person/place_of_birth;Brooklyn;5.0;0.15662417445583882
+622;Borah Bergman;/people/person/place_of_birth;Brooklyn;5.0;0.10590032094964469
+623;Raymond Ericson;/people/person/place_of_birth;Brooklyn;5.0;0.15998783065321265
+624;Seth Lipsky;/people/person/place_of_birth;Brooklyn;5.0;0.15232966979121418
+625;Richard Cullen (attorney);/people/person/place_of_birth;Brooklyn;5.0;0.11861056995640655
+626;Al Harewood;/people/person/place_of_birth;Brooklyn;5.0;
+627;Jeffrey H. Cohen;/people/person/place_of_birth;Brooklyn;5.0;0.114217225718709
+628;Sy Landy;/people/person/place_of_birth;Brooklyn;5.0;0.13067397407044992
+629;Peter C. Schultz;/people/person/place_of_birth;Brooklyn;5.0;
+630;Albert Warren Ferris;/people/person/place_of_birth;Brooklyn;5.0;0.2574587200135075
+631;Matthew T. Abruzzo;/people/person/place_of_birth;Brooklyn;5.0;0.18028451207651652
+632;Lucille Wallenrod;/people/person/place_of_birth;Brooklyn;5.0;0.14940640057725438
+633;Leonard D. Wexler;/people/person/place_of_birth;Brooklyn;5.0;0.19466499306845716
+634;Franco Gentilesca;/people/person/place_of_birth;Brooklyn;5.0;
+635;Joe Torres (journalist);/people/person/place_of_birth;Brooklyn;5.0;0.11828710185297446
+636;Bob Alberti;/people/person/place_of_birth;Brooklyn;5.0;0.17674299699395468
+637;Joe Ascione;/people/person/place_of_birth;Brooklyn;5.0;0.1302332511795054
+638;Stanley Newman;/people/person/place_of_birth;Brooklyn;-1.0;0.12253499024118865
+639;Stacy Barthe;/people/person/place_of_birth;Brooklyn;5.0;0.1058667749867899
+640;Roger Q. Williams;/people/person/place_of_birth;Brooklyn;5.0;0.13146354636806634
+641;John Esposito (pianist);/people/person/place_of_birth;Brooklyn;5.0;0.10925934648973806
+642;Leo C. Zeferetti;/people/person/place_of_birth;Brooklyn;5.0;0.2344974625320442
+643;Robert Stanley Breed;/people/person/place_of_birth;Brooklyn;-3.0;0.15301017751369755
+644;Claire Burch;/people/person/place_of_birth;Brooklyn;5.0;0.14119660289769453
+645;Ralph Schoenman;/people/person/place_of_birth;Brooklyn;5.0;0.11160427196201993
+646;Irving Fiske;/people/person/place_of_birth;Brooklyn;5.0;0.14642942277227272
+647;Bill Kaiserman;/people/person/place_of_birth;Brooklyn;5.0;0.12106541741231612
+648;Thomas Elliot Bowman III;/people/person/place_of_birth;Brooklyn;5.0;0.12322530850953435
+649;George E. Waldo;/people/person/place_of_birth;Brooklyn;5.0;0.249027779563923
+650;Edward Raymond Neaher;/people/person/place_of_birth;Brooklyn;5.0;0.2096172775984489
+651;Adolf Jellinek;/people/person/place_of_birth;Budapest;-1.0;0.11682480620800091
+652;Ferenc A. Váli;/people/person/place_of_birth;Budapest;5.0;0.16646456730883913
+653;Peter Hargitai;/people/person/place_of_birth;Budapest;5.0;0.12119271439467005
+654;Imre Zachár;/people/person/place_of_birth;Budapest;5.0;0.12859024147874065
+655;Béla Glattfelder;/people/person/place_of_birth;Budapest;5.0;0.12767420857064476
+656;Berthold Weisz;/people/person/place_of_birth;Budapest;5.0;0.2122436200605548
+657;Zoltan Kósz;/people/person/place_of_birth;Budapest;5.0;0.11029291647701316
+658;Ferenc Sipos;/people/person/place_of_birth;Budapest;5.0;0.11519550448257859
+659;Mihály Kovács;/people/person/place_of_birth;Budapest;5.0;0.1386674065634566
+660;László Z. Bitó;/people/person/place_of_birth;Budapest;5.0;0.12083061284008084
+661;Árpád Soós;/people/person/place_of_birth;Budapest;5.0;0.08435922764239373
+662;Zoltán Benkő;/people/person/place_of_birth;Budapest;5.0;0.10319995070808509
+663;Adrienn Bende;/people/person/place_of_birth;Budapest;5.0;0.10338386664010724
+664;Katalin Karády;/people/person/place_of_birth;Budapest;5.0;0.13275059071903356
+665;Péter Lendvay;/people/person/place_of_birth;Budapest;5.0;0.14655344276389093
+666;Andrea Mátay;/people/person/place_of_birth;Budapest;5.0;0.15167325336583543
+667;Zsolt Hamar;/people/person/place_of_birth;Budapest;5.0;0.11161016600753713
+668;Zoltán Szilády;/people/person/place_of_birth;Budapest;5.0;0.09760522935122556
+669;György Bródy;/people/person/place_of_birth;Budapest;5.0;0.12085573679246724
+670;Charles Weissmann;/people/person/place_of_birth;Budapest;5.0;0.07376725316353223
+671;Ákos Császár;/people/person/place_of_birth;Budapest;5.0;0.1446031984404537
+672;Dávid Kovács;/people/person/place_of_birth;Budapest;5.0;0.1259602120332183
+673;Ferenc Mérei;/people/person/place_of_birth;Budapest;5.0;0.17829911044748978
+674;Ilus Vay;/people/person/place_of_birth;Budapest;5.0;0.0943128390852952
+675;Endre Csillag;/people/person/place_of_birth;Budapest;5.0;0.09474133676572535
+676;Csaba Őry;/people/person/place_of_birth;Budapest;5.0;0.11258067663872623
+677;Elemér Terták;/people/person/place_of_birth;Budapest;5.0;0.13785801853515464
+678;Károly Varga;/people/person/place_of_birth;Budapest;5.0;
+679;Samuel Löw Brill;/people/person/place_of_birth;Budapest;5.0;0.1703250246514489
+680;Bódog Török;/people/person/place_of_birth;Budapest;5.0;0.1508537922200558
+681;George Clifford Sziklai;/people/person/place_of_birth;Budapest;5.0;0.11907700444520194
+682;Elizabeth McClintock;/people/person/place_of_birth;Los Angeles;5.0;0.13960688518060044
+683;Danny LaPorte;/people/person/place_of_birth;Los Angeles;5.0;0.08935825192174676
+684;Michael D. Rich;/people/person/place_of_birth;Los Angeles;-5.0;0.13472485240586252
+685;Carl W. Ernst;/people/person/place_of_birth;Los Angeles;5.0;0.11040054893489654
+686;Roy Seawright;/people/person/place_of_birth;Los Angeles;5.0;0.10124714675720799
+687;Chloe Franks;/people/person/place_of_birth;Los Angeles;5.0;0.06448860145953392
+688;Elisa Kleven;/people/person/place_of_birth;Los Angeles;-5.0;0.0832849609421096
+689;Russ Titelman;/people/person/place_of_birth;Los Angeles;5.0;0.08979964488086162
+690;Phil Pardee;/people/person/place_of_birth;Los Angeles;5.0;0.16632263519057386
+691;Teron Beal;/people/person/place_of_birth;Los Angeles;1.0;0.06947710558757314
+692;Anne Triola;/people/person/place_of_birth;Los Angeles;5.0;0.10462203504250904
+693;Yehuda Hyman;/people/person/place_of_birth;Los Angeles;5.0;0.109825265490712
+694;Max D. Adams;/people/person/place_of_birth;Los Angeles;5.0;0.05653906649105902
+695;2009–2011 detention of American hikers by Iran;/people/person/place_of_birth;Los Angeles;-3.0;0.09474114110429863
+696;Albert Braun;/people/person/place_of_birth;Los Angeles;-5.0;
+697;Harold Meyerson;/people/person/place_of_birth;Los Angeles;5.0;0.19980464110740037
+698;Bill Campbell (California politician);/people/person/place_of_birth;Los Angeles;5.0;0.09110832648754283
+699;Eric Bailey (basketball);/people/person/place_of_birth;Los Angeles;5.0;0.10390585098640928
+700;Michael Edelstein;/people/person/place_of_birth;Los Angeles;5.0;0.06842716615041497
+701;Kevin Kennedy (baseball);/people/person/place_of_birth;Los Angeles;5.0;0.10737615503909598
+702;Mentor Huebner;/people/person/place_of_birth;Los Angeles;5.0;0.10738220566308218
+703;Robert Bradshaw (figure skater);/people/person/place_of_birth;Los Angeles;5.0;0.08592610865495375
+704;Norman L. Eisen;/people/person/place_of_birth;Los Angeles;5.0;0.10143844470485974
+705;Jolene Brand;/people/person/place_of_birth;Los Angeles;5.0;0.10501991016524005
+706;Jesse Leon McCann;/people/person/place_of_birth;Los Angeles;5.0;
+707;David Hammerstein Mintz;/people/person/place_of_birth;Los Angeles;5.0;0.1262016799103049
+708;Andy Park (musician);/people/person/place_of_birth;Los Angeles;5.0;0.1080704566611115
+709;Jimmy Greenspoon;/people/person/place_of_birth;Los Angeles;5.0;0.11761384444569042
+710;Jack Aranson;/people/person/place_of_birth;Los Angeles;5.0;0.10350152593256845

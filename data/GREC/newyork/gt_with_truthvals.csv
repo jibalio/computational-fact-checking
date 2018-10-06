@@ -1,0 +1,134 @@
+sep=;
+;subject;predicate;object;score;path
+0;Morris S. Miller;/people/person/place_of_birth;New York City;5;0.1931458262675972
+1;Max Ferguson (painter);/people/person/place_of_birth;New York City;5;0.295168358652401
+2;John J. Dunnigan;/people/person/place_of_birth;New York City;5;0.1849892216386872
+3;Frederick Juengling;/people/person/place_of_birth;New York City;5;0.18209441605919124
+4;Reuel Denney;/people/person/place_of_birth;New York City;5;0.11461507445371423
+5;Thomas R. Ball;/people/person/place_of_birth;New York City;5;0.18327321912661
+6;Vivian Liska;/people/person/place_of_birth;New York City;5;0.06040670296263975
+7;Eric Truvillion;/people/person/place_of_birth;New York City;5;0.067104911909797
+8;Derek Milman;/people/person/place_of_birth;New York City;5;0.16392267173057926
+9;Mitchel B. Wallerstein;/people/person/place_of_birth;New York City;5;0.13306239521855895
+10;Silas Seandel;/people/person/place_of_birth;New York City;5;0.10278261408333572
+11;James A. Hamilton;/people/person/place_of_birth;New York City;5;0.12044471817701875
+12;James H. Torrens;/people/person/place_of_birth;New York City;5;0.14874228289704394
+13;Gene Calderazzo;/people/person/place_of_birth;New York City;3;0.12100629864773008
+14;Randy Klein;/people/person/place_of_birth;New York City;5;0.1096738862190277
+15;Lawrence Francis Kramer;/people/person/place_of_birth;New York City;-1;0.07268176307361231
+16;Robert Joseph Ward;/people/person/place_of_birth;New York City;3;0.26567289325439697
+17;Anna Alice Chapin;/people/person/place_of_birth;New York City;5;0.13867817365212706
+18;Otto Maass;/people/person/place_of_birth;New York City;5;0.1084775503232577
+19;John Punnett Peters;/people/person/place_of_birth;New York City;5;0.16201754618947006
+20;Anne Walker;/people/person/place_of_birth;New York City;5;0.12359538163493886
+21;David E. Mark;/people/person/place_of_birth;New York City;5;0.19312684151094367
+22;Marc Myers;/people/person/place_of_birth;New York City;5;0.1323529591324419
+23;Norwood Bowne;/people/person/place_of_birth;New York City;5;0.2679720804940345
+24;Samuel Colgate;/people/person/place_of_birth;New York City;5;0.1251665337492931
+25;Edward McGlynn;/people/person/place_of_birth;New York City;5;0.1530393575790499
+26;Herman Trunk;/people/person/place_of_birth;New York City;5;0.12093332551667316
+27;Steve Powers;/people/person/place_of_birth;New York City;5;0.19607713292913406
+28;Morgan Dix;/people/person/place_of_birth;New York City;5;0.18363490983500536
+29;Irwin Steingut;/people/person/place_of_birth;New York City;5;0.13792526687378406
+30;Melvyn Goldstein;/people/person/place_of_birth;New York City;-1;0.04913196802289898
+31;Sergio Cresto;/people/person/place_of_birth;New York City;1;0.05308421680516659
+32;David Walsh (writer);/people/person/place_of_birth;New York City;5;0.049290629303161616
+33;Paul A. Schneider;/people/person/place_of_birth;New York City;-1;0.057625201879828926
+34;Lawrence Lessing;/people/person/place_of_birth;New York City;-5;0.06637645955091351
+35;Charles McCabe;/people/person/place_of_birth;New York City;1;0.061782073667595826
+36;Judy Craig;/people/person/place_of_birth;New York City;1;0.050252941694058466
+37;Jay Irving;/people/person/place_of_birth;New York City;3;0.10887815616172088
+38;Leona Rostenberg;/people/person/place_of_birth;New York City;5;0.08058135696458814
+39;Kate Warne;/people/person/place_of_birth;New York City;1;0.07689863766074109
+40;Mike DiMeo;/people/person/place_of_birth;New York City;5;0.1262633632057434
+41;Tommy Mandel;/people/person/place_of_birth;New York City;5;0.028406112386712756
+42;Herman Rietzel;/people/person/place_of_birth;New York City;5;0.1557845447878755
+43;James Maurice;/people/person/place_of_birth;New York City;5;0.19080999938512072
+44;Samuel Isham;/people/person/place_of_birth;New York City;1;0.14779423473457004
+45;Richard Bernas;/people/person/place_of_birth;New York City;5;0.11364755219860752
+46;Josh Neufeld;/people/person/place_of_birth;New York City;5;0.13525941718692908
+47;Hannah Kahn;/people/person/place_of_birth;New York City;5;0.06795054488840695
+48;Sarah Platt Doremus;/people/person/place_of_birth;New York City;5;0.18765520194616772
+49;Robert Hoe III;/people/person/place_of_birth;New York City;5;0.18531324488485185
+50;Joe L. Brown;/people/person/place_of_birth;New York City;-3;0.07902981835209275
+51;Maarten van den Bergh;/people/person/place_of_birth;New York City;5;0.059493825481950674
+52;Barbara Probst Solomon;/people/person/place_of_birth;New York City;3;0.15533155468169446
+53;Ben Yagoda;/people/person/place_of_birth;New York City;5;0.155573139851807
+54;David H. Frisch;/people/person/place_of_birth;New York City;5;0.07888724261689474
+55;Robert Hessen;/people/person/place_of_birth;New York City;5;0.1166651053516502
+56;Charles Bazerman;/people/person/place_of_birth;New York City;-1;0.07580645892914481
+57;Harry Borden;/people/person/place_of_birth;New York City;-1;0.05919671141585614
+58;Greg Rand;/people/person/place_of_birth;New York City;5;0.09095392750309517
+59;William Schaus;/people/person/place_of_birth;New York City;5;0.14926966331414115
+60;Frederick S. Armitage;/people/person/place_of_birth;New York City;1;0.10028576845759556
+61;Ely Jacques Kahn, Jr.;/people/person/place_of_birth;New York City;5;0.18988881523316145
+62;John Sterling Rockefeller;/people/person/place_of_birth;New York City;5;0.09259677866423192
+63;Melissa Murphy;/people/person/place_of_birth;New York City;-5;0.09078624969141902
+64;Caroline Beaumont Zachry;/people/person/place_of_birth;New York City;5;0.12693799566764624
+65;Gerrit Henry;/people/person/place_of_birth;New York City;5;0.20336745737032488
+66;Ray Gilhooley;/people/person/place_of_birth;New York City;5;0.25559299475115954
+67;Edward Auer;/people/person/place_of_birth;New York City;5;0.08897436706215542
+68;Jimmy Douglass;/people/person/place_of_birth;New York City;-5;0.08999391450447404
+69;Tito Puente, Jr.;/people/person/place_of_birth;New York City;5;0.08326961020767502
+70;Countee Cullen;/people/person/place_of_birth;New York City;-1;0.12979768847781192
+71;Carmine Nigro;/people/person/place_of_birth;New York City;5;0.05927404598574601
+72;Jenny Burton;/people/person/place_of_birth;New York City;1;0.07346323565639433
+73;Adele Morales;/people/person/place_of_birth;New York City;5;0.1510674442671484
+74;Matthew J. Merritt;/people/person/place_of_birth;New York City;5;0.2575293752996407
+75;Victor Hammer (businessman);/people/person/place_of_birth;New York City;5;0.17608270698937062
+76;Jerome Levine;/people/person/place_of_birth;New York City;5;0.08264715273247089
+77;Joe Connelly (producer);/people/person/place_of_birth;New York City;5;0.12426969263357635
+78;David Goodman Croly;/people/person/place_of_birth;New York City;1;0.16592703513323676
+79;James G. Evans;/people/person/place_of_birth;New York City;5;0.13468164896064594
+80;David Buskin;/people/person/place_of_birth;New York City;5;0.08055093340832924
+81;James McBratney;/people/person/place_of_birth;New York City;5;0.08084778744119955
+82;Loyd A. Jones;/people/person/place_of_birth;New York City;-5;0.05830015354866429
+83;Arthur R.G. Solmssen;/people/person/place_of_birth;New York City;1;0.0902938110853464
+84;George Washington Vanderbilt III;/people/person/place_of_birth;New York City;5;0.07212669592116919
+85;Harry Mathews;/people/person/place_of_birth;New York City;5;0.09734840719865742
+86;Joe Sobel;/people/person/place_of_birth;New York City;-5;0.12574045025070182
+87;John Clarkson Jay;/people/person/place_of_birth;New York City;5;0.17208205030745402
+88;Edwin Grasse;/people/person/place_of_birth;New York City;5;0.14286268298329444
+89;Paul Carter Harrison;/people/person/place_of_birth;New York City;5;0.1282976587855821
+90;George Waggner;/people/person/place_of_birth;New York City;5;0.0591285771822154
+91;Stephen Blauner;/people/person/place_of_birth;New York City;1;0.1008366352123577
+92;Stewart L. Woodford;/people/person/place_of_birth;New York City;5;0.21568396739539286
+93;Edward Weinfeld;/people/person/place_of_birth;New York City;5;0.16345015119334422
+94;Zack O'Malley Greenburg;/people/person/place_of_birth;New York City;5;0.10831747479093587
+95;William Starr Miller II;/people/person/place_of_birth;New York City;5;0.17316655938704426
+96;Frank Hotaling;/people/person/place_of_birth;New York City;5;0.09223814732391032
+97;Andrew Hussey Allen;/people/person/place_of_birth;New York City;5;0.13337464394572576
+98;Stanley Cooperman;/people/person/place_of_birth;New York City;5;0.15184981679194914
+99;Allan G. Brodie;/people/person/place_of_birth;New York City;5;0.06576227609945869
+100;Jock Gaynor;/people/person/place_of_birth;New York City;-5;0.06413800852842456
+101;Amanda Green;/people/person/place_of_birth;New York City;5;0.22041104944094808
+102;David Eisenbud;/people/person/place_of_birth;New York City;1;0.09799710642835463
+103;Edwin Lester;/people/person/place_of_birth;New York City;5;0.1191024214409861
+104;Ranee Lee;/people/person/place_of_birth;New York City;5;0.07282096193890109
+105;Betty Warren;/people/person/place_of_birth;New York City;-1;0.03675792038873218
+106;John Henry Haaren;/people/person/place_of_birth;New York City;5;0.13823727355132748
+107;Tanya Vidal;/people/person/place_of_birth;New York City;1;0.08401402884579875
+108;Abe Goldstein;/people/person/place_of_birth;New York City;5;0.12851967743748538
+109;Florence Nightingale Levy;/people/person/place_of_birth;New York City;5;0.1828035954377145
+110;John Clinton Gray;/people/person/place_of_birth;New York City;5;0.21256095313646084
+111;Bayard Clarke;/people/person/place_of_birth;New York City;5;0.18594249157138806
+112;Sondra Lipton;/people/person/place_of_birth;New York City;-1;0.18453125182513047
+113;Steve Kaplan;/people/person/place_of_birth;New York City;1;0.10119138973098613
+114;Edmund Milton Holland;/people/person/place_of_birth;New York City;5;0.1288013271790167
+115;Charles Henry Webb;/people/person/place_of_birth;New York City;1;0.09514067073576042
+116;Sara Berman (philanthropist);/people/person/place_of_birth;New York City;5;0.13009952615024414
+117;Sidney Jonas Budnick;/people/person/place_of_birth;New York City;5;0.10599500892252332
+118;Thomas F. Burchill;/people/person/place_of_birth;New York City;3;0.2786709956940935
+119;Harold Jacoby;/people/person/place_of_birth;New York City;5;0.09260835712800668
+120;Frederic Taber Cooper;/people/person/place_of_birth;New York City;5;0.21624485240874047
+121;Daniel Pagano;/people/person/place_of_birth;New York City;1;0.12998349458576675
+122;James Sibley Watson;/people/person/place_of_birth;New York City;-1;0.06478158399203326
+123;Jacob Mishler;/people/person/place_of_birth;New York City;5;0.14471670321996105
+124;Eric Chester;/people/person/place_of_birth;New York City;5;0.1061551436516151
+125;Anahid Ajemian;/people/person/place_of_birth;New York City;1;0.10745126904904538
+126;Mike Siegel;/people/person/place_of_birth;New York City;-5;0.06694697903584608
+127;Joan Mahoney;/people/person/place_of_birth;New York City;5;0.11551888687980852
+128;John Boylan (record producer);/people/person/place_of_birth;New York City;5;0.07988298356549642
+129;Lee Delano;/people/person/place_of_birth;New York City;3;0.07929576792724582
+130;Gregory McMahon;/people/person/place_of_birth;New York City;5;0.15680916763248254
+131;Sylvia Pressler;/people/person/place_of_birth;New York City;5;0.15173935372215774

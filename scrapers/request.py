@@ -14,6 +14,13 @@ def get_response(url):
     return float(text)
 
 
+def get_htmlresponse(url):
+    with urllib.request.urlopen(url) as html:
+        encoding = html.headers['content-type'].split('charset=')[-1]
+        text = str(html.read(), encoding)
+    return text
+
+
 def get_path(a,b, token):
     url = r"http://degreesofwikipedia.com/?a1={}&linktype=1&a2={}&skips={}&allowsideboxes=1&submit="+token+r"&currentlang=en"
     regex = r".+ was not a valid article|(?<==>\s).+"
@@ -21,5 +28,6 @@ def get_path(a,b, token):
         encoding = html.headers['content-type'].split('charset=')[-1]
         text = str(html.read(), encoding)
         return re.findall(regex, text) 
+
 
 
