@@ -6,7 +6,8 @@ samples/
 .vscode/
 
 
-
+drafts/
+figures/
 
 
 
@@ -15,6 +16,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*.png
+*.pdf
+*.json
 *.sqlite3
 
 # C extensions
