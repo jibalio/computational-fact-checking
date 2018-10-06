@@ -1,0 +1,69 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Background of the Study}{1}
+\contentsline {section}{\numberline {1.2}Problem Statement}{1}
+\contentsline {section}{\numberline {1.3}Objectives}{2}
+\contentsline {section}{\numberline {1.4}Significance of the Study}{2}
+\contentsline {section}{\numberline {1.5}Scope and Limitations}{2}
+\contentsline {chapter}{\numberline {2}Review of Related Literature}{4}
+\contentsline {section}{\numberline {2.1}The Spread of Misinformation}{4}
+\contentsline {section}{\numberline {2.2}Fact Checking}{4}
+\contentsline {section}{\numberline {2.3}Natural Language Processing}{5}
+\contentsline {subsection}{\numberline {2.3.1}Information Extraction}{5}
+\contentsline {subsection}{\numberline {2.3.2}Relationship Extraction}{5}
+\contentsline {subsection}{\numberline {2.3.3}Named-entity Recognition}{5}
+\contentsline {subsection}{\numberline {2.3.4}Subject-object-predcate Triple}{5}
+\contentsline {subsection}{\numberline {2.3.5}Stemming and Lemmatization}{6}
+\contentsline {subsubsection}{Lemmatization}{6}
+\contentsline {subsubsection}{Stemming}{6}
+\contentsline {subsection}{\numberline {2.3.6}Cosine Similarity}{6}
+\contentsline {subsection}{\numberline {2.3.7}NLP Tools}{7}
+\contentsline {subsubsection}{Natural Language Toolkit}{7}
+\contentsline {subsubsection}{SpaCy}{7}
+\contentsline {section}{\numberline {2.4}Knowledge Base}{7}
+\contentsline {section}{\numberline {2.5}Knowledge Graph}{7}
+\contentsline {subsection}{\numberline {2.5.1}Semantic Proximity from Transitive Closures}{8}
+\contentsline {subsubsection}{Metric Closure}{8}
+\contentsline {subsubsection}{Ultrametric closure}{9}
+\contentsline {subsection}{\numberline {2.5.2}Distortion of Metric vs. Ultrametric Closure}{10}
+\contentsline {subsection}{\numberline {2.5.3}Generality of a Knowledge Graph Entity}{10}
+\contentsline {section}{\numberline {2.6}Graph Data Structure}{10}
+\contentsline {subsection}{\numberline {2.6.1}Adjacency List}{10}
+\contentsline {subsection}{\numberline {2.6.2}Adjacency Matrix}{11}
+\contentsline {subsection}{\numberline {2.6.3}Graph Searching Algorithms}{12}
+\contentsline {subsubsection}{Breadth-first Search}{12}
+\contentsline {subsubsection}{Depth-first Search}{12}
+\contentsline {subsection}{\numberline {2.6.4}Shortest Path Algorithms}{12}
+\contentsline {subsubsection}{Dijkstra's Algorithm}{13}
+\contentsline {subsubsection}{Bellman-Ford Algorithm}{13}
+\contentsline {subsubsection}{Floyd-Warshall Algorithm}{13}
+\contentsline {subsection}{\numberline {2.6.5}Minimum Spanning Tree}{14}
+\contentsline {section}{\numberline {2.7}Datasets}{15}
+\contentsline {subsection}{\numberline {2.7.1}The DBpedia Project}{15}
+\contentsline {subsection}{\numberline {2.7.2}RDF}{15}
+\contentsline {subsection}{\numberline {2.7.3}Google Relation Extraction Corpus}{15}
+\contentsline {section}{\numberline {2.8}Term Frequency - Inverse Document Frequency}{16}
+\contentsline {section}{\numberline {2.9}k-Nearest Neighbors Algorithm}{16}
+\contentsline {section}{\numberline {2.10}Support Vector Machines}{16}
+\contentsline {section}{\numberline {2.11}Theoretical Framework}{16}
+\contentsline {subsection}{\numberline {2.11.1}Ideologial Classification of the US Congress}{17}
+\contentsline {subsection}{\numberline {2.11.2}Simple Factual Statements}{17}
+\contentsline {subsection}{\numberline {2.11.3}Independent Corpus of Statements}{17}
+\contentsline {chapter}{\numberline {3}Research Design and Methodology}{19}
+\contentsline {section}{\numberline {3.1}Methodology}{21}
+\contentsline {subsubsection}{Ideological Classification Task}{21}
+\contentsline {subsubsection}{Validation on Simple Factual Data}{23}
+\contentsline {subsubsection}{Validation on Annotated Data}{23}
+\contentsline {subsubsection}{Integrate into fact-check tool}{24}
+\contentsline {chapter}{\numberline {4}Results and Discussions}{25}
+\contentsline {section}{\numberline {4.1}Ideological classification task}{25}
+\contentsline {subsubsection}{Data Gathering and Preprocessing}{25}
+\contentsline {subsubsection}{Path Matrix Calculation}{25}
+\contentsline {subsubsection}{Page Data Querying and Caching}{25}
+\contentsline {subsubsection}{Truth Value Matrix Calculation}{25}
+\contentsline {subsubsection}{Classification}{26}
+\contentsline {subsubsection}{Validation on Factual Statements}{30}
+\contentsline {subsubsection}{Validation of Annotated Data}{34}
+\contentsline {chapter}{\numberline {5}Conclusions and Recommendations}{38}
+\contentsline {subsection}{\numberline {5.0.1}Conclusions}{38}
+\contentsline {subsection}{\numberline {5.0.2}Recommendations}{39}
+\contentsline {chapter}{Bibliography}{40}

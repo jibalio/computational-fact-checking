@@ -1,0 +1,13 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Classification report for $ F_{mtc} $}}{27}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Classification report for $ F_{utc} $}}{28}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Classification report for $ F_{m} $}}{29}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Comparison of average precision, recall, and F1-score}}{30}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Comparison of average precision, recall, and F1-score}}{33}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Comparison between human fact checkers and the comp. fact checking method across different topics}}{35}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Correlation analysis for the "place-of-birth" topic}}{35}
+\contentsline {table}{\numberline {4.8}{\ignorespaces Correlation analysis for the "education-degree" topic}}{35}
+\addvspace {10\p@ }

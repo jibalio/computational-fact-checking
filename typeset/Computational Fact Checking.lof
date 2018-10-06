@@ -1,0 +1,25 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The shortest path returned by the metric closure function for the statement \IeC {\textquotedblleft }Barack Obama is a Muslim.\IeC {\textquotedblright } The path traverses high-degree nodes representing more generic entities, such as Canada, and is assigned a low semantic proximity score. }}{9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A visual representation of an adjacency list (right) for the graph (left).}}{11}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces . A visual representation of an adjacency matrix (right) for the graph (left).}}{11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces A planar graph and its minimum spanning tree. Each edge is labelled according to its weight, and its length is proportional to its weight.}}{14}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Theoretical Framework}}{18}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Conceptual Framework}}{20}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Confusion matrix of the classification for $ F_{mtc} $}}{27}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Receiver operating characteristic (ROC) curve for $ F_{mtc} $}}{27}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Confusion matrix of the classification for $ F_{utc} $}}{28}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Receiver operating characteristic (ROC) curve for $ F_{utc} $}}{28}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Confusion matrix of the classification for $ F_{m} $}}{29}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Receiver operating characteristic (ROC) curve for $ F_{m} $}}{29}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Confusion matrix of the statement "$ p_{i} $ was married to $ s_{j} $"}}{31}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Confusion matrix of the statement "$ c_{i} $ is the capital of country $ r_{j} $"}}{31}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Confusion matrix of the statement "director $ d_{i} $ directed movie $ m_{j} $"}}{32}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Confusion matrix of the statement "$ c_{i} $ is the capital of US state $ r_{j} $"}}{32}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces "place-of-birth" aggregated scores plotted against the computational scores}}{36}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces "place-of-birth" aggregated scores plotted against the computational scores}}{36}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces ROC Curve, or the probability that $ P (\tau (e) > \tau (e \prime )) $, of the "place-of-birth" dataset}}{37}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces ROC Curve, or the probability that $ P (\tau (e) > \tau (e \prime )) $, of the "education-degree" dataset}}{37}
+\addvspace {10\p@ }
