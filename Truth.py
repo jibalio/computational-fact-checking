@@ -189,7 +189,7 @@ def get_truth_value(path_taken, display=False):
         log(f"path_taken: '{path_taken}'")
 
     #comment1 
-    path = [Page(d, display=display) for d in path_taken.split('>')]
+    path = [Page(d[0].upper()+d[1:], display=display) for d in path_taken.split('>')]
     source = path[0] # get the first element of the path
     dest = path[len(path)-1] # get the last element of the path
     #----------------------------------------------------------------------
