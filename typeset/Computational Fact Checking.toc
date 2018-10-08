@@ -59,11 +59,18 @@
 \contentsline {subsubsection}{Data Gathering and Preprocessing}{25}
 \contentsline {subsubsection}{Path Matrix Calculation}{25}
 \contentsline {subsubsection}{Page Data Querying and Caching}{25}
-\contentsline {subsubsection}{Truth Value Matrix Calculation}{25}
+\contentsline {subsubsection}{Truth Value Matrix Calculation}{26}
 \contentsline {subsubsection}{Classification}{26}
 \contentsline {subsubsection}{Validation on Factual Statements}{30}
 \contentsline {subsubsection}{Validation of Annotated Data}{34}
 \contentsline {chapter}{\numberline {5}Conclusions and Recommendations}{38}
 \contentsline {subsection}{\numberline {5.0.1}Conclusions}{38}
 \contentsline {subsection}{\numberline {5.0.2}Recommendations}{39}
-\contentsline {chapter}{Bibliography}{40}
+\contentsline {chapter}{Appendices}{40}
+\contentsline {section}{\numberline {.1}Ideological Classification Task}{41}
+\contentsline {section}{\numberline {.2}Validation on Annotated Data}{43}
+\contentsline {subsubsection}{US President - Spouses}{43}
+\contentsline {subsection}{\numberline {.2.1}Country - Capitals}{44}
+\contentsline {subsection}{\numberline {.2.2}Movie - Directors}{45}
+\contentsline {subsection}{\numberline {.2.3}US State - Capitals}{46}
+\contentsline {chapter}{Bibliography}{47}

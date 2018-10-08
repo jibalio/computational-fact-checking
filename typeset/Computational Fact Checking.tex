@@ -9,6 +9,7 @@
 \usepackage{enumitem}
 \usepackage{float}
 \usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage[toc,page]{appendix}
 
 \parindent=0in
 \newtimeformat{monthyear}{\THEMONTH \THEYEAR}
@@ -33,7 +34,7 @@
 
 \frontmatter
 \chapter*{Abstract}
-We are living in the information age. The advent of personal computers and smartphones have created a society based on knowledge, and it has made accessing information easier today more than ever. However, technology can also be a means of spreading misinformation. Thus, there is a need to fact check statements we read and publish online. This paper intends to tackle the fact checking problem using knowledge graphs, using data gathered from Wikipedia. The study was divided into three phases. The first phase was an ideological classification task, where three different transitive closure algorithms were tested to see how accurately they could determine how semantically similar two topics are. Metric transitive closure with TF-IDF + Cosine Similarity was found to be the most accurate of the three algorithms tested, and was used for the succeeding phases. The second phase involved fact checking factual statements. The last phase of the study compared the computational fact checking method to human fact checkers. Rank order correlation coefficients showed that there is a correlation between judgments of human fact checkers and of the computational fact checking method, making the method feasible for a fact checking tool.\\
+We are living in the information age. The advent of personal computers and smartphones have created a society based on knowledge, and it has made accessing information easier today more than ever. However, technology can also be a means of spreading misinformation. Thus, there is a need to fact check statements we read and publish online. This paper intends to tackle the fact checking problem using knowledge graphs, using data gathered from Wikipedia. The study was divided into three phases. The first phase was an ideological classification task, where three different transitive closure algorithms were tested to see how accurately they could determine how semantically similar two topics are. Metric transitive closure with TF-IDF + Cosine Similarity was found to be the most accurate of the three algorithms tested, and was used for the succeeding phases. The second phase involved fact checking factual statements. The last phase of the study compared the computational fact checking method to human fact checkers. Rank order correlation coefficients showed that there is a correlation between judgments of human fact checkers and the computational fact checking method, making the method feasible for a fact-checking tool.\\
 
 General Terms: fact checking, knowledge graph\\
 Additional Key Words and Phrases: graph, facts, transitive closure, semantic proximity
@@ -63,7 +64,7 @@ Additional Key Words and Phrases: graph, facts, transitive closure, semantic pro
 	
 		
 	\section{Objectives}
-		The general objective of the study is to evaluate the accuracy and speed of different combinations of computational fact checking methods, and to build a fact-check tool. The study aims to combine the use of directed graphs and negative weights, coupled with existing fact checking methods, and compare its accuracy to human fact checkers. The specific objectives of the study are as follows:
+		The general objective of the study is to evaluate the accuracy and speed of different combinations of computational fact checking methods and to build a fact-checking tool. The study aims to combine the use of directed graphs and negative weights, coupled with existing fact checking methods, and compare its accuracy to human fact checkers. The specific objectives of the study are as follows:
 		\begin{enumerate}
 		    \item Compare the accuracy of using metric and ultra-metric closure for path evaluation.
 		    \item Evaluate the accuracy of the knowledge graph using cosine similarity and TF-IDF.
@@ -72,24 +73,24 @@ Additional Key Words and Phrases: graph, facts, transitive closure, semantic pro
 		\end{enumerate}
 
 	\section{Significance of the Study}
-		Helping both unknowing and educated people protect themselves against the dangers of misinformation is crucial, because as human beings living in the information age, information is a part of daily life. Information we read and hear have a huge influence on how we think and make decisions \cite{DelVicario_2016}.\\[8pt]
+		 Helping both unknowing and educated people protect themselves against the dangers of misinformation is crucial because as human beings living in the information age, information is a part of daily life. Information we read and hear has a massive influence on how we think and make decisions \cite{DelVicario_2016}.\\[8pt]
 		
 		Students browse the internet every day, and most students in this age are generally not very keen at evaluating the news and other information they see online \cite{mcgrew2017challenge}. Now more than ever, students need help from professionals to make sure that the information that they read are authentic and factual. Providing a tool to fact check sources online can be the first step to helping students.\\
 	
 		Writers and researchers can also benefit from this study. They need to make sure that they are not contributing to the problem of misinformation or deception. Providing a tool for writers and researchers can help them verify the credibility and facticity of their work.
 		
-		A lot of research has already been done on traditional fact checking, but currently, researches that tackle computational fact checking using knowledge graphs can be counted. Hence, this study can be the one of the first steps in increasing awareness and improving research on this subject.\\
+		A lot of research has already been done on traditional fact-checking, but currently, the computational fact checking scene is not yet well-established. Hence, this study can be one of the first steps in increasing awareness and improving research on this subject.\\
 	
 	\section{Scope and Limitations}
 		The study will cover fact-checking in the English language only. To ensure the integrity and fairness of facts we will gather, we will only be collecting data from factual sources such as encyclopedia entries, and not from potentially biased and partial sources such as news articles.\\
 		
 		Due to the large amount of data this study will need, this study will use data from Wikipedia, queried through their open-source Wikipedia API.\\
 		
-		This study will only be able to cover facts related to real world entities (i.e. people, places, names, events, etc.), and will not be able to cover facts concerning dates or any kind of measurement, since measurements cannot appear as the subjects in a subject-predicate-object triple, and consequently, cannot be vertices in a knowledge graph.\\
+		This study will only be able to cover facts related to real world entities (e.g. people, places, names, events, etc.), and will not be able to cover facts concerning dates or any kind of measurement, since measurements cannot appear as the subjects in a subject-predicate-object triple, and consequently, cannot be vertices in a knowledge graph.\\
 
 \chapter{Review of Related Literature}
 	\section{The Spread of Misinformation}
-	The availability of user-provided content in online mass media facilitates the aggregation of people around common interests, worldviews, and narratives. However, the internet permits for the fast dissemination of rumors and misleading news that often provoke naïve social responses \cite{DelVicario_2016}. There is worldwide concern over misinformation in the internet and the possibility that it can influence political, economic, and social well-being.\\[8pt]
+	The availability of user-provided content in online mass media facilitates the aggregation of people around common interests, worldviews, and narratives. However, the internet permits for the fast dissemination of rumors and misleading news that often provoke naïve social responses \cite{DelVicario_2016}. There is worldwide concern over misinformation on the internet and the possibility that it can influence political, economic, and social well-being.\\[8pt]
 	
 	To understand how false information spreads, Vosoughi et al. used a data set of rumor cascades on Twitter from 2006 to 2017. At least 126,000 rumors were spread by approximately 3 million people. False news reached more people than the truth; the top 1\% of false news cascades diffused to between 1000 and 100,000 people, whereas the truth rarely diffused to more than 1000 people. This is attributed to the degree of novelty and the emotional reactions of the recipients of false news. Contrary to belief, bots accelerate the spread of true and false news at the same rate. This implies that false news spreads more than the truth because humans, not bots, are more likely to spread it [2].
 	
@@ -97,7 +98,7 @@ Additional Key Words and Phrases: graph, facts, transitive closure, semantic pro
 	
 	Fact checking is the act of determining the correctness and accuracy of factual assertations in non-fictional text. This may be done before (ante hoc) or after (post hoc) the text has been published. Ante hoc fact-checking (fact checking before dissemination) aims to remove errors and allow text to proceed to dissemination (or to rejection if it fails confirmations or other criteria). Post hoc fact-checking is most often followed by a written report of inaccuracies, sometimes with a visual metric from the checking organization \cite{fellmeth_horwitz_2009}. The task of fact-checking includes any analysis that challenges a competing account \cite{graves_2016}.\\[8pt]
 	
-	Studies in post hoc fact checking showed that such efforts often result in changes in the behavior of both the speaker (making them more careful in their pronouncements) and of the listener or reader (making them more discerning with regard to the factual accuracy of content) \cite{amazeen_2015}.
+	Studies in post hoc fact checking showed that such efforts often result in changes in the behavior of both the speaker (making them more careful in their pronouncements) and of the listener or reader (making them more discerning about the factual accuracy of content) \cite{amazeen_2015}.
 	
 	\section{Natural Language Processing}
 	
@@ -112,11 +113,11 @@ Additional Key Words and Phrases: graph, facts, transitive closure, semantic pro
 	One of the subtasks of information extraction is relationship extraction. A relation is a semantic connection between (at least) two entities \cite{orr_2013}. Relationship extraction deals with the detection and classification of semantic relationships between entities, with the directionality of the relationship considered \cite {chagoyen2006discovering}. The goal of relation extraction is to learn relations from unstructured natural language text \cite{orr_2013}.
 	
 	\subsection{Named-entity Recognition}
-	Named-entity recognition (NER) is a subtask of NLP which deals with classifying words or phrases in text into categories (e.g. person, name of organization, place, etc.) \cite {nadeau2007survey}. NER systems that use linguistic grammar-based techniques as well as statistical models such as machine learning have been created. Manually-created grammar-based systems typically obtain better precision, but at the cost of lower recall and months of work by experienced computational linguists \cite {kapetanios2013natural}. Statistical NER systems typically require a large amount of manually annotated training data \cite {lin2009phrase}.
+	    Named-entity recognition (NER) is a subtask of NLP which deals with classifying words or phrases in a text into categories (e.g., people, names of organization, places, etc.) \cite {nadeau2007survey}. NER systems that use linguistic grammar-based techniques, as well as statistical models such as machine learning, have been created. Manually-created grammar-based systems typically obtain better precision, but at the cost of lower recall and months of work by experienced computational linguists \cite {kapetanios2013natural}. Statistical NER systems typically require a large amount of manually annotated training data \cite {lin2009phrase}.
 	
 	\subsection{Subject-object-predcate Triple}
-	Extracted facts using information extraction from text often take in the form of a subject-predicate-object triple (e.g. “Socrates,” “is a,” “person”), which are central in the building of knowledge graphs. Most fact extraction approaches gather fact candidates though logical rules, but face trade-offs between scalability and precision. Scalable fact extraction approaches are susceptible to noisy patterns which degrades precision, while approaches that use deep logical reasoning cannot cope with large-scale data \cite{nakashole2012automatic}.
-	
+		Extracted facts using information extraction from text often take in the form of a subject-predicate-object triple (e.g., “Socrates,” “is a,” “person”), which are central in the building of knowledge graphs. Most fact extraction approaches gather fact candidates though logical rules, but face trade-offs between scalability and precision. Scalable fact extraction approaches are susceptible to noisy patterns which degrade precision, while approaches that use deep logical reasoning cannot cope with large-scale data \cite{nakashole2012automatic}.
+		
 	\subsection{Stemming and Lemmatization}
 	
 		\subsubsection{Lemmatization}
@@ -131,37 +132,38 @@ Additional Key Words and Phrases: graph, facts, transitive closure, semantic pro
 		It is usually sufficient that related words can be traced back to the same stem, regardless of the stem in itself is valid. In other words, this means that the stem does not need to be identical to the morphological base form of the word \cite{lovins1968development}.
 	
 	\subsection{Cosine Similarity}
-	Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them. This technique does not offer judgements for magnitude but orientation.  The cosine similarity is mainly used in positive space, where the outcome is neatly bounded in [0, 1]. Cosine Similarity was taken from the term "Direction Cosine". This concept is analogous to the cosine, which is unity (maximum value) when the segments subtend a zero angle and zero (uncorrelated) when the segments are perpendicular \cite{singhal2001modern}.\\
-	
-	High-dimensional positive spaces usually see the most uses for cosine similarity. The technique gives a useful measure of how similar two documents are likely to be regarding their subject matter \cite{singhal2001modern}.\\
-	
-	In the context of natural language processing, a document can be transformed into a matrix of TF-IDF features and then compared to another document, obtaining its cosine similarity \cite{huang}.
+		Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them. This technique does not offer judgments for magnitude but orientation.  The cosine similarity is mainly used in positive space, where the outcome is neatly bounded in [0, 1]. Cosine Similarity was taken from the term "Direction Cosine." This concept is analogous to the cosine, which is unity (maximum value) when the segments subtend a zero angle and zero (uncorrelated) when the segments are perpendicular \cite{singhal2001modern}.\\
+		
+		High-dimensional positive spaces usually see the most uses for cosine similarity. The technique gives a useful measure of how similar two documents are likely to be regarding their subject matter \cite{singhal2001modern}.\\
+		
+		In the context of natural language processing, a document can be transformed into a matrix of TF-IDF features and then compared to another document, obtaining its cosine similarity \cite{huang}.
 	
 	\subsection{NLP Tools}
 	
 		\subsubsection{Natural Language Toolkit}
-		The Natural Language Toolkit (NLTK) is an open-source suite of libraries for symbolic and statistical natural language processing in the English language, written in the Python programming language. It is intended to support research and teaching in natural language processing and includes various demonstrations and corpora [8]. NLTK processes raw strings and returns strings, thus it is a string processing library \cite {aho_lam_sethi_ullman_2006}.
+			The Natural Language Toolkit (NLTK) is an open-source suite of libraries for symbolic and statistical natural language processing in the English language, written in the Python programming language. It is intended to support research and teaching in natural language processing and includes various demonstrations and corpora [8]. NLTK processes raw strings and returns strings. Thus it is a string processing library \cite {aho_lam_sethi_ullman_2006}.
 		
 		\subsubsection{SpaCy}
-		SpaCy is another open-source library for natural language processing, also written in the Python programming language. Unlike NLTK, which is used primarily for education and research purposes, SpaCy provides libraries for production usage. Also, unlike NLTK, SpaCy processes the input strings as objects, and performs NLP tasks in an object-oriented approach \cite {aho_lam_sethi_ullman_2006}.
+			SpaCy is another open-source library for natural language processing, also written in the Python programming language. Unlike NLTK, which is used primarily for education and research purposes, SpaCy provides libraries for production usage. Also, unlike NLTK, SpaCy processes the input strings as objects, and performs NLP tasks in an object-oriented approach \cite {aho_lam_sethi_ullman_2006}.
 	
 	
 	
 	\section{Knowledge Base}
 	Knowledge bases are stores of information which may be structured or unstructured. A knowledge base typically consists of facts and an inference engine, which reasons out those facts to deduce new facts or highlight inconsistencies \cite {scholl_2016}.\\
 	
-	Knowledge base construction (KBC) is the process of populating a knowledge base with facts (or assertions) extracted from text. Rule-based approaches to knowledge base construction rely on the observation that there are often a small number of rules that can achieve both high precision and high recall. For example, to identify mentions of people, the knowledge base performs string matching between the text and variations of a dictionary of person names (e.g., abbreviations and first / last name ordering). Because these dictionaries of variation types cover most variations, the knowledge base is able to achieve both high recall and high precision in knowledge base construction. \cite{hayes1983building},\cite{arasu2003extracting},\cite{mooney1999relational}.\\
+	Knowledge base construction (KBC) is the process of populating a knowledge base with facts (or assertions) extracted from text. Rule-based approaches to knowledge base construction rely on the observation that there are often a small number of rules that can achieve both high precision and high recall. For example, to identify mentions of people, the knowledge base performs string matching between the text and variations of a dictionary of person names (e.g., abbreviations and first/last name ordering). Because these dictionaries of variation types cover most variations, the knowledge base can achieve both high recall and high precision in knowledge base construction. \cite{hayes1983building},\cite{arasu2003extracting},\cite{mooney1999relational}.\\
+	
 	Statistical Machine Learning Approaches target KBC tasks that cannot be covered by a small set of deterministic rules. To address this issue, classical statistical approaches employ machine learning models such as logistic regression \cite {michelakis_krishnamurthy_haas_vaithyanathan_2009}, \cite{lafferty2001conditional} to learn model parameters from training examples, e.g., annotations of sentences that describe entity relationship.\\
 	
 	
 	\section{Knowledge Graph}
 	
-	Facts extracted using various extraction techniques can take in the form of subject-predicate-object triples. One form of a knowledge base that makes use of interconnected subject-predicate-object triples are knowledge graphs. The graph’s nodes denote entities (i.e. the subject or objects of facts), and the graph’s edges denote predicates (which links the subject and the object together) \cite{sutton2004collective}.\\
+	Facts extracted using various extraction techniques can take in the form of subject-predicate-object triples. One form of a knowledge base that makes use of interconnected subject-predicate-object triples are knowledge graphs. The graph’s nodes denote entities (i.e., the subject or objects of facts), and the graph’s edges denote predicates (which links the subject and the object together) \cite{sutton2004collective}.\\
 	
-	An example of a knowledge graph in real world applications is the Google Knowledge Graph. The Google search engine uses a knowledge graph to provide information to search queries, powered by Freebase \cite{goog_kg}, an online collection of structured data harvested from many sources, including individual, user-submitted wiki contributions \cite{freebase}.
+	 An example of a knowledge graph in real-world applications is the Google Knowledge Graph. The Google search engine uses a knowledge graph to provide information to search queries, powered by Freebase \cite{goog_kg}, an online collection of structured data harvested from many sources, including individual, user-submitted wiki contributions \cite{freebase}.
 	
 	\subsection{Semantic Proximity from Transitive Closures}
-	It is possible to derive semantic proximity using transitive closures in complex networks such as knowledge graphs. The concept of transitive closure is important because it allows us to identify not only transitive cliques in a network, but also indirectly related items \cite{SIMAS2015}.\\
+	 It is possible to derive semantic proximity using transitive closures in complex networks such as knowledge graphs. The concept of transitive closure is important because it allows us to identify not only transitive cliques in a network but also indirectly related items \cite{SIMAS2015}.\\
 	
 	Transitive closure of a knowledge graph is an isomorphism between the graph and the proximity of nodes. These isomorphisms show how alternative distance/transitive closures impose distortions of the original network. It allows the computation of indirect associations in complex networks \cite{SIMAS2015}.
 	
@@ -183,16 +185,16 @@ Additional Key Words and Phrases: graph, facts, transitive closure, semantic pro
 	\subsubsection{Ultrametric closure}
 	Aside from the metric transitive closure, alternative definitions of $\tau(e)$ can be used. One alternative definition uses a different optimization principle, widest bottleneck, also known as the ultrametric closure \cite{gruber1993translation}, which maps paths to the function:
 	$$
-	W(P_{s,o}) = W(v_{1}\ldots v_{n}) =\begin{cases}1 & n=2\\{[1+max^1_2 \{log k(v_{i})\}]} & n>2\end{cases} 
+	W(P_{s,o}) = W(v_{1}\ldots v_{n}) =\begin{cases}1 & n=2\\{[1+max^1_2 \{log k(v_{i})\}]^{-1}} & n>2\end{cases} 
 	$$[H]
 	
-	In the ultrametric closure, instead of path length being computed by summing the edges in a path (as in the metric closure), path length is measured by the “weakest edge” in the path: the largest distance edge weight or the smallest proximity edge-weight \cite{SIMAS2015}.
+	 In the ultrametric closure, instead of path length being computed by summing the edges in a path (as in the metric closure), the path length is measured by the “weakest edge” in the path: the largest distance edge weight or the smallest proximity edge-weight \cite{SIMAS2015}.
 	
-	The ultrametric closure of a graph leads to a heavier distortion of the original network, than  what  we  get from  the metric closure of the same graph. This method also leads the nodes of the graph to be closer in proximity. \cite{SIMAS2015}. 
+	The ultrametric closure of a graph leads to a heavier distortion of the original network than what we get from the metric closure of the same graph. This method also leads the nodes of the graph to be closer in proximity. \cite{SIMAS2015}. 
 	
 	\subsection{Distortion of Metric vs. Ultrametric Closure}
 	
-	In the case of the metric closure, because the distance weight of every edge in a path is summed,  there  is  a  built-in  penalty  for  the  number  of  indirect  edges  in  the  path. This would lead to the metric transitive closure results in significantly fewer edges being altered in the original network; only those indirect paths comprised of a few edges, with every distance edge-weight relatively small, may
+	In the case of the metric closure, because the distance weight of every edge in a path is summed, there is a built-in penalty for the number of indirect edges in the path. This would lead to the metric transitive closure results in significantly fewer edges being altered in the original network; only those indirect paths comprised of a few edges, with every distance edge-weight relatively small, may
 	provide a shorter indirect connection than the original direct connection. The metric closure imposes a weaker distortion of the original graph \cite{SIMAS2015}.
 	
 	\subsection{Generality of a Knowledge Graph Entity}
@@ -342,7 +344,7 @@ Additional Key Words and Phrases: graph, facts, transitive closure, semantic pro
 	\subsection{Independent Corpus of Statements}
 	The second ground truth dataset was based on Google Relation Extraction Corpus (GREC), which contains subject-predicate-object triples, with judgments given by five human annotators. For simplicity, the study focused on two types of statements, about education degrees, and institutional affiliations. 
 	
-	For each statment in the GREC, their respective ratings were mapped into an ordinal scale between +5 (all raters replied 'No') and +5 (all raters replied 'Yes') and compare them to the truth values computed by the computational fact checker. Similar to the previous task, statements already present in the knowledge graph were removed before computing the truth values.
+	For each statement in the GREC, their respective ratings were mapped into an ordinal scale between +5 (all raters replied 'No') and +5 (all raters replied 'Yes') and compare them to the truth values computed by the computational fact checker. Similar to the previous task, statements already present in the knowledge graph were removed before computing the truth values.
 	
 	\begin{figure}
 	    \centering
@@ -407,33 +409,33 @@ The study will have three phases. The phases will be as follows:
 
 \subsubsection{Ideological Classification Task} 
 
-In this phase, the accuracy of three different semantic proximity algorithms were tested, specifically, metric closure with TF-IDF and cosine similarity, ultrametric closure with TF-IDF and cosine similarity, and metric closure using a node's degree as generality (as suggested by the theoretical framework). Considering the statement "Politician $ X $ endorses ideology $ Y $, a feature matrices of truth values was computed by evaluating the truth value of every $ X $ mapped to every $ Y $. The matrices were classified using a linear support vector classifier, and the output was evaluated using 10-fold cross validation.\\
+In this phase, the accuracy of three different algorithms were tested, specifically, metric closure with TF-IDF and cosine similarity, ultrametric closure with TF-IDF and cosine similarity, and metric closure using a node's degree as generality. Considering the statement "Politician $ X $ endorses ideology $ Y $, feature matrices of truth values were computed by evaluating the truth value of every politician $ X $ mapped to every ideology $ Y $. This was done for each algorithm, obtaining 3 different feature matrices. The rows in the three different matrices were classified using a linear support vector classifier, and the output was evaluated using 10-fold cross-validation.\\
 
 \textit{Data gathering and preprocessing}\\
 
-A list of members of the 112th United States congress and ideologies was obtained from the supporting text by \cite{ciampaglia2015computational}. Since the knowledge graph utilizes data from Wikipedia, the list needed additional cleaning and preprocessing to ensure that each entity maps to its respective Wikipedia article and would not return a DisambiguationError when querying the Wikipedia API. This was done by escaping special characters and verifying that the page titles are actual pages, and not redirects.\\
+A list of members of the 112th United States Congress and ideologies was obtained from the supporting text by \cite{ciampaglia2015computational}. Since the knowledge graph utilizes data from Wikipedia, the list needed additional cleaning and preprocessing to ensure that each entity maps to its respective Wikipedia article and would not return a DisambiguationError when querying the Wikipedia API. This was done by escaping special characters and verifying that the page titles are actual pages, and not redirects.\\
 
 \textit{Path matrix calculation}\\
 
-Paths from $X$ to $Y$ were then obtained by analyzing the links of the initial node ($X$), and using a breadth-first technique to locate the end node ($Y$). This creates an $N \times M$ matrix of paths, where $N$ is the number of politician, and $M$ is the number of ideologies.\\
+Paths from $X$ to $Y$ were calculated by a path-finding program (DegreesOfWikipedia) installed in the proponent's machine. The program analyzed the links of the initial node ($X$) and used a breadth-first technique to locate the end node ($Y$). This creates an $N \times M$ matrix of paths, where $N$ is the number of politicians, and $M$ is the number of ideologies.\\
 
-To prevent making the task trivially easy for the computational fact checking method, the path taken needs to pass at least more than 1 node (no direct edges), as it is a necessary procedure for link prediction algorithms \cite{liben-nowell_kleinberg_2007}.\\
+To prevent making the task trivially easy for the computational fact checking method, the path taken needs to pass at least more than one node (no direct edges), as it is a necessary procedure for link prediction algorithms \cite{liben-nowell_kleinberg_2007}.\\
 
 \textit{Page data querying and caching}\\
 
-For each entity that was traversed by the path-finding process, the text data of the article and number of backlinks (in-degrees) was obtained through querying the Wikipedia API. Once a page was queried, its data was cached in a local SQLite database for quick access when computing the truth values.\\
+For each entity that was traversed by the path-finding process, the text data of the article and number of backlinks (generality) was obtained through querying the Wikipedia API. Once a page was queried, its data was cached in a local SQLite database for quick access when computing the truth values.\\
 
 \textit{Truth value matrix calculation}\\
 
-The truth values of the statement “$X$ endorses ideology $Y$” were then calculated, using the three different algorithms for semantic proximity mentioned above, and a $N \times M$ feature matrix of truth values was obtained.\\
+The truth values of the statement “$X$ endorses ideology $Y$” were then calculated, using the three different algorithms for semantic proximity mentioned above, and three $N \times M$ feature matrices of truth values were obtained for each algorithm.\\
 
-To do this, the cached article text of the pages and the backlinks in the path were queried from the database and were processed. The article text of $ X $ and $ Y $ weere lemmatized to conflate similar words, and was converted into a matrix of token counts. The matrix was then transformed into a matrix of TF-IDF features, using sklearn.TfidfTransformer. The TF-IDF matrix was then used to obtain the cosine similarity of articles in the path, the important weighing factor in the new algorithm.\\
+To do this, the cached article text of the pages and the backlinks in the path were queried from the database and were processed. The article text of $ X $ and $ Y $ were lemmatized to conflate similar words, and was converted into a matrix of token counts, using WordNet and NLTK. The matrix was then transformed into a matrix of TF-IDF features, using Scikit-learn's sklearn.TfidfTransformer. The TF-IDF matrix was then used to obtain the cosine similarity of articles in the path, the important weighing factor in the first two algorithms.\\
 
-Each path in the path matrix was then evaluated. Each path was transformed into a truth value by using metric closure using degrees as generality, metric closure with TF-IDF and cosine similarity, and ultrametric closure with cosine similarity.\\
+After all the necessary variables were computed, each path in the path matrix was finally evaluated. Each path was transformed into a truth value by using metric closure using degrees as generality, metric closure with TF-IDF and cosine similarity, and ultrametric closure with cosine similarity.\\
 
 \textit{Classification}\\
 
-A linear support vector classifier was used to classify the US politicians into their respective parties, with the truth values mapped to ideologies as features. To assess the classification accuracy, the F-score and the area under the receiver operating characteristic curve (ROC) was obtained, using 10-fold cross validation.
+A linear support vector classifier was used to classify the US politicians into their respective parties, with the truth values mapped to ideologies as features. To assess the classification accuracy, the metrics F-score and the area under the receiver operating characteristic curve (ROC) were obtained for each of the three algorithms, validated using 10-fold cross-validation.
 
 \subsubsection{Validation on Simple Factual Data}
 %Start here
@@ -443,20 +445,21 @@ For each subject and object entity gathered, the same data cleaning and preproce
 
 An $ N \times M $ matrix of truth values was then obtained by mapping each combination of subject and object entities to a truth value using the method that showed the better results in the previous phase.\\
 
-The F1 score was computed to show how accurately the fact checker classified the statements into true or false. The area under the receiver operating characteristic curve (ROC) was also calculated, to show that $ \tau (e) > \tau (e \prime)$, where $ e $ and $ e \prime $ is a true and false statement, respectively, and $ \tau $ is the truth value calculation method. This step is crucial because it will show whether true statements will lead to higher truth values than false statements. Since the area under the ROC curve is equal to this probability \cite{Fawcett2006}, it shows how accurately the computational fact checking method discriminates between true and false statements .
+The F1 score was computed to show how accurately the fact checker classified the statements into true or false. The area under the receiver operating characteristic curve (ROC) was also calculated, to show that $ \tau (e) > \tau (e \prime)$, where $ e $ and $ e \prime $ is a true and false statement, respectively, and $ \tau $ is the truth value calculation method. This metric is crucial because it will show whether true statements will lead to higher truth values than false statements. Since the area under the ROC curve is equal to this probability \cite{Fawcett2006}, it shows how accurately the computational fact checking method discriminates between true and false statements .
 
 
 \subsubsection{Validation on Annotated Data}
 
-In this phase, the values computed by the computational fact checking method was compared to human fact checkers. The dataset used was the place of birth data set from the Google Relation Extraction Corpus. Each statement in the GREC contains a subject, predicate, and an object, as well as ratings by five human fact checkers (either a 'yes' or a 'no').\\
+In this phase, the computational fact checking method was compared to human fact checkers. This was done by evaluating statements that have annotations from fact checkers. The dataset used was the "place-of-birth" and "education-degree" data sets from the Google Relation Extraction Corpus (GREC). Each statement in the GREC contains a subject, predicate, and an object, as well as ratings by five human fact checkers (either a 'yes' or a 'no'). To simplify the problem, only statements with the 'Bachelor of Arts' object was used.\\
 
-Each line in the GREC is a statement with all its details, serialized in the JSON format. Each line was parsed, and the subject and object was extracted. \\
+
 
 \textit{Data cleaning and Freebase querying}\\
+Each line in the GREC is a statement with all its details, serialized in the JSON format. Each line was parsed, and the subject and object were extracted. \\
 
-Each object entity is a Freebase ID, an identifier for a page in the Freebase database, with format: "/m/0" followed by 2 to 7 characters. The Wikipedia article of each of these object Freebase IDs were obtained by querying the Wikidata API. The Freebase ID to Wikipedia Article mapping was cached in the database for quick retrieval.\\
+Each object in the GREC dataset is a Freebase ID, an identifier for a page in the Freebase database (a knowledge base by Google), with the format: "/m/0" followed by 2 to 7 characters. The Wikipedia article of each of these Freebase IDs were obtained by querying the Wikidata API. The Freebase ID to Wikipedia Article ID translation result was cached in the database for quick retrieval.\\
 
-Other details in the GREC were discarded, retaining only the subject, predicate, object (which was already converted from their Freebase IDs to their Wikipedia links), and the annotations from five human raters.\\
+Other details in the GREC were discarded, retaining only the subject, object, and the annotations from five human raters.\\
 
 \textit{Truth value calculation}\\
 
@@ -466,8 +469,7 @@ Each statement in the cleaned dataset was then evaluated using the method most a
 After the truth values have been computed, the correlation between the scores computed by the computational fact checker and human raters were evaluated by computing rank order correlation coefficients, specifically Spearman's and Kendall's rank order correlation coefficients.
 
 \subsubsection{Integrate into fact-check tool}
-The most efficient combination of methods was then selected to be integrated into a fact checking tool. The fact checking tool shall be used to fact check statements, given the subject, predicate, and the object.
-
+The most efficient combination of methods was then selected to be integrated into a fact-checking tool. The fact-checking tool shall be used to fact-check statements, given the subject, predicate, and the object.	
 
 \chapter{Results and Discussions}
 
@@ -475,25 +477,24 @@ The most efficient combination of methods was then selected to be integrated int
 
 \subsubsection{Data Gathering and Preprocessing}
 
-The list of $ N $ politicians and $ M $ ideologies were taken from the supporting text by \cite{ciampaglia2015computational}. Since the process would have a complexity of $ O(N \times M) $, only a subset of ideologies were tested, using the ideologies with the highest generality. 
+The list of $ N $ politicians and $ M $ ideologies were taken from the supporting text by \cite{ciampaglia2015computational}. Since the process would have a complexity of $ O(N \times M) $, only a subset of ideologies was tested, using the ideologies with the highest generality. 
 
 \subsubsection{Path Matrix Calculation}
-Each politician $ X $ was paired with an ideology $ Y $, and a matrix was formed by getting the path that was traversed from the subject to the object using a breadth-first search. The search algorithm was done by analyzing all the links within the subject article and queuing them to be traversed by the path finding algorithm. Direct connections between $ X $ and $ Y $ were ignored, as it is a necessary procedure for link prediction algorithms  \cite{liben-nowell_kleinberg_2007}, and would automatically lead to a high truth value. 
+Each politician $ X $ was paired with an ideology $ Y $, and a matrix was formed by getting the path that was traversed from the subject to the object using a breadth-first search. The search algorithm was done by analyzing all the links within the subject article and queuing them to be traversed by the path finding algorithm. Direct connections between $ X $ and $ Y $ were ignored, as it is a necessary procedure for link prediction algorithms  \cite{liben-nowell_kleinberg_2007}, and would automatically lead to a high truth value.\\ 
 
-After the lists of $ X $ and $ Y $ were processed by the path finding script, a matrix of paths was obtained, which each path corresponding to a single statement. Each path is composed of a list of valid Wikipedia article titles traversed through the path, and is delimited by the character '>'.
+After the lists of $ X $ and $ Y $ were processed by the path finding program, a 275 $\times$ 20 matrix was obtained, which each path corresponding to a single statement. Each path is composed of a list of valid Wikipedia article titles traversed through the path, and is delimited by the character '$>$' (e.g. Jo Bonner $>$ Republican Party (United States) $>$ Conservatism).
 
 \subsubsection{Page Data Querying and Caching}
-For each column in each row in the path matrix, each entity in the path was processed and its article text and its number of Wikipedia backlinks were queried from Wikipedia, using the Wikipedia API. The queried data was then saved into an SQLite database for quick retrieval, without having to query the API or requiring the internet to access the data.
+For each path gathered, each entity in the path was processed and its article text and its number of Wikipedia backlinks were queried from Wikipedia, using the Wikipedia API. The queried data was then saved into an SQLite database for quick retrieval, without having to query the API or requiring the internet to access the data again on future data accesses.
 
 \subsubsection{Truth Value Matrix Calculation}
-The statement "politician $ X $ endorses ideology $ Y $ was then considered, and its truth value was computed for every combination of $ X $ and $ Y $ in the cleaned data set. 
 
-The text of each page traversed in the single path was lemmatized to conflate similar words, and was converted into a matrix of TF-IDF features, and transformed into a matrix of TF-IDF features. The cosine similarity between the subject and the object was computed using the matrix of TF-IDF features.
+The text of each page traversed in a single path was lemmatized to conflate similar words, using WordNet and NLTK and was converted into a matrix of TF-IDF features, and transformed into a matrix of TF-IDF features. The cosine similarity between the subject and the object was computed using the matrix of TF-IDF features.\\
 
-Each path was then evaluated and their truth values were computed, using the three different algorithms, specifically: metric closure with TF-IDF, ultrametric closure using TF-IDF, and metric closure using degrees as generality, yielding three matrices: $ F_{mtc} $, $ F_{utc} $, and $ F_{m} $. 
+Each path was then evaluated and their truth values were computed, using the three different algorithms, specifically: metric closure with TF-IDF, ultrametric closure using TF-IDF, and metric closure using degrees as generality, yielding three matrices: $ F_{mtc} $, $ F_{utc} $, and $ F_{m} $. A total of 5500 statements were tested, using the three different algorithms, giving a total of 16,500 truth values.\\ 
 
 \subsubsection{Classification}
-A linear support vector classifier was used to classify the US politicians in the matrices $ F_{mtc} $, $ F_{utc} $, and $ F_{m} $ to their respective parties.
+A linear support vector classifier was used to classify the US politicians in the matrices $ F_{mtc} $, $ F_{utc} $, and $ F_{m} $ to their respective parties.\\
 
 The classification accuracy, precision, recall, and the area under the receiver operating characteristic curve (ROC) was computed, using 10-fold cross validation. The mean classification accuracy was 0.72 for $ F_{mtc} $, 0.57 for $ F_{utc} $, and 0.61 for $ F_{m} $. Below are classification metrics and graphs for each of the feature matrices:
 \newpage
@@ -645,26 +646,28 @@ Surprisingly, using the ultrametric closure had a small increase in accuracy ove
 
 \subsubsection{Validation on Factual Statements}
 
-After the selection of the fact checking method in the first phase, the method was tested by evaluating statements in three subject areas: entertainment, history, and geography. Combinations of each subject $ X $ and object $ Y $ in each of the subject areas considered, and their truth values were computed, obtaining a matrix of truth scores. A confusion matrix was plotted to visualize the scores given to each statement, with the rows representing subjects, and columns representing objects. Statements coinciding with the diagonal are true statements, while off-diagonal statements represent false statements.
+After the selection of the fact checking method in the first phase, the method was tested by evaluating statements in three subject areas: entertainment, history, and geography. Combinations of each subject $ X $ and object $ Y $ in each of the subject areas considered, and their truth values were computed, obtaining a matrix of truth scores. A confusion matrix was plotted to visualize the scores given to each statement, with the rows representing subjects, and columns representing objects. Statements coinciding with the diagonal are true statements, while off-diagonal statements represent false statements.\\
+
+289 combinations of subjects and objects were tested in the first topic, 900 statements for the second, 841 for the third, and 784 for the fourth, with a total of 2814 statements tested.
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=4in]{2_confmx_presidents.pdf}\\
-		\caption{Confusion matrix of the statement "$ p_{i} $ was married to $ s_{j} $"}
+		\caption{Confusion matrix of the statement "$ p_{i} $ was married to $ s_{j} $ (289 Statements)"}
 	\end{center}
 \end{figure}
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=4in]{2_confmx_countries.pdf}\\
-		\caption{Confusion matrix of the statement "$ c_{i} $ is the capital of country $ r_{j} $"}
+		\caption{Confusion matrix of the statement "$ c_{i} $ is the capital of country $ r_{j} $ (900 statements)"}
 	\end{center}
 \end{figure}
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=4in]{2_confmx_movies.pdf}\\
-		\caption{Confusion matrix of the statement "director $ d_{i} $ directed movie $ m_{j} $"}
+		\caption{Confusion matrix of the statement "director $ d_{i} $ directed movie $ m_{j}$ (841 statements)"}
 		\label{2_confmx_movies}
 	\end{center}
 \end{figure}
@@ -672,7 +675,7 @@ After the selection of the fact checking method in the first phase, the method w
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=4in]{2_confmx_states.pdf}\\
-		\caption{Confusion matrix of the statement "$ c_{i} $ is the capital of US state $ r_{j} $"}
+		\caption{Confusion matrix of the statement "$ c_{i} $ is the capital of US state $ r_{j} $" (784 statements)}
 	\end{center}
 \end{figure}
 
@@ -697,16 +700,16 @@ The F1 score was computed to show how accurately the fact checker classified the
 	\label{table_phase2}
 \end{table}
 
-The F1 scores show that the computational fact checking method had high accuracy in evaluating statements, with the exception of the 3rd topic, movie directors and the movies they directed, where the truth computation had a lot of false positives (see figure \ref{2_confmx_movies}). This could be due to the text of the articles involved in the paths. Upon inspection of the article texts, there were a lot of overlaps in the vocabulary of the different articles (even in a false statement). One hypothesis is that: since the cosine similarity measure takes into account mainly the TF-IDF matrices of two or more articles (which in turn depend on the vocabulary of the texts), it could be that the use of cosine similarity would suffer when verifying in areas with subjects and objects that are very closely related to each other.
+The F1 scores show that the computational fact checking method had high accuracy in evaluating statements, with the exception of the 3rd topic, movie directors and the movies they directed, where the truth computation had relatively high truth values for false statements (see figure \ref{2_confmx_movies}). This could be due to the text of the articles involved in the paths. Upon inspection of the article texts, there were a lot of overlaps in the vocabulary of the different articles (even in a false statement). One hypothesis is that: since the cosine similarity measure takes into account mainly the TF-IDF matrices of two or more articles (which in turn depend on the vocabulary of the texts), it could be that the use of cosine similarity would suffer when verifying in areas with subjects and objects that are very closely related to each other.\\
 
 However, the high probability that $ P (\tau (e) > \tau (e \prime)) $ shows that the computational fact checking method was able to discriminate between false and true statements with high accuracy.
 \newpage
 \subsubsection{Validation of Annotated Data}
 In this phase, the correlation between ratings given by human fact checkers and the computational fact method was obtained by calculating rank order correlation coefficients, specifically Spearman's and Kendall's correlation coefficients.\\
 
-The ground truth for this phase of the study was taken from Google's Relation Extraction Corpus, specifically the "place-of-birth" and the "education-degree" dataset. Each statement in the GREC has corresponding ratings by five human raters. After the human ratings were aggregated (given a score of +5 if all raters said 'yes', and -5 if all raters said 'no'), the truth values of the GREC statements were calculated.\\
+The ground truth for this phase of the study was taken from Google's Relation Extraction Corpus. Two topics were tested, using specifically the "place-of-birth" (N=500) and the "education-degree" (N=500) dataset. Each statement in the GREC has corresponding ratings by five human raters. The five human raters' scores were aggregated (given a score of +5 if all raters said 'yes', and -5 if all raters said 'no').\\
 
-Using statements from the two datasets, the truth value statements "$X$ was born in $Y$" and "$X$ took a bachelor of arts degree ($Y$)" for every extracted statement. After the truth values were calculated, the Spearman's and Kendall's correlation coefficient was computed, in relation to the aggregated human fact checker scores. \\
+ Using statements from the two datasets, the truth value of the statements "$X$ was born in $Y$" and "$X$ took a bachelor of arts degree ($Y$)" was calculated for every extracted statement, using metric closure with TF-IDF + Cosine Similarity. After the truth values were calculated, the Spearman's and Kendall's correlation coefficient was computed, in relation to the aggregated human fact checker scores. \\
 
 Tables \ref{table_phase3_pob}, \ref{table_phase3_topic1}, and \ref{table_phase3_topic2} (found on the next pages), show that there is a correlation between the scores from human fact checkers (from the GREC dataset), and the computational fact checking method scores (using metric closure with TF-IDF + Cosine Similarity), as suggested by Spearman's and Kendall's rank order correlation coefficients shown in Table \ref{table_phase3_pob}. Moreover, the low p-values reject the null hypothesis that the correlation coefficients are zero. \\
 
@@ -792,31 +795,375 @@ Figures \ref{pob_roc} and \ref{pob_roc2} below show that the fact checker had hi
 \chapter{Conclusions and Recommendations}
 
 \subsection{Conclusions}
-This study was able to demonstrate the use of knowledge graphs and the cosine similarity measure for fact checking. \\
+This study was able to demonstrate the use of knowledge graphs and the cosine similarity measure for fact-checking. \\
 
-In the first phase of the study, the use of metric closure in calculating truth values, weighed down with cosine similarity, was found out to be the more accurate algorithm over the three algorithms tested. It was able to classify the list of politicians into either Republican or Democrat accurately (having an area under the ROC curve of 0.72), and performed better than using ultrametric closure with TF-IDF and metric closure using only the generality of nodes (AUROC of 0.64 and 0.63, respectively).\\
+In the first phase of the study, the use of metric closure in calculating truth values, weighed down with cosine similarity, was found out to be the more accurate algorithm over the three algorithms tested. It was able to classify the list of politicians into either Republican or Democrat accurately (having an area under the ROC curve of 0.72), and performed better than using ultrametric closure with TF-IDF + Cosine Similarity, and metric closure using only the generality of nodes (AUROC of 0.64 and 0.63, respectively).\\
 
-The ultrametric closure, when used to obtain a truth value, is less accurate than its counterpart, metric closure. The latter imposes "built-in" penalties to the path, since it sums all the the distance weight in of every edge \cite{simas2015distance} (in the context of this study, the generality of the nodes are summed up, and weighed down using cosine similarity). This leads to more accurate results when determining how semantically related two entities are.\\
+The ultrametric closure was less accurate than its counterpart, metric closure. An educated guess would be that ultrametric closure is inherently inaccurate for fact-checking, since ultrametric closure would lead to a large distortion of the graph and discards other nodes in a path, except for the weakest link \cite{simas2015distance}. Metric closure, unlike its counterpart, imposes "built-in" penalties to the path, since it sums all the the distance weight in of every edge \cite{simas2015distance} (in the context of this study, the generality of the nodes are summed up, and weighed down using cosine similarity). This leads to more accurate results when determining how semantically related two entities are.\\
 
 % PHASE 2 problems.
 % - Good because it gives higher support for true statements.
 % But the problem is, on some topics, it gives some false positives, because refer to my notes.
 In the second phase of the study, the metric closure with TF-IDF + cosine similarity was used on factual data, on four topics. The probability that true statements have higher truth values than false statements were generally high on all four topics, and thus the fact checking method was able to discriminate between false and true statements accurately.\\
 
-In the third phase, the fact checking of human fact checkers was compared to the computational fact checking method. To do this, Google's Relation Extraction Corpus was used. The scores given by human fact checkers were aggregated and then compared to the score given by the computational fact checking method. Rank order correlation coefficients were computed, specifically Spearman's $ \rho $ and Kendall's $ \tau $. Based on the results, there is a positive correlation between human fact checkers and the computational fact checking method. Additionally, the low p-values suggest that the correlation is statistically significant, rejecting the null hypothesis.\\
+In the third phase, the fact checking of human fact checkers was compared to the computational fact checking method. This was done by using Google's Relation Extraction Corpus as the basis for human fact checkers. The scores given by human fact checkers were aggregated and then compared to the score given by the computational fact checking method. Rank order correlation coefficients were computed, specifically Spearman's $ \rho $ and Kendall's $ \tau $. Based on the results, there is a positive correlation between human fact checkers and the computational fact checking method. Additionally, the low p-values suggest that the correlation is statistically significant, rejecting the null hypothesis.\\
 
-The results of this research is that the use of the metric closure in knowledge graphs, weighed down with cosine similarity, can increase the accuracy of fact checking, specifically using the metric closure and cosine similarity. The results show that is a drawback when using cosine similarity: different statements having similar article text can lead to false positives, depending on how frequent each word in the vocabulary appears in all of the subjects and objects. This means that the use of cosine similarity suffers when testing different subjects and objects that are closely related. However, the probability that a true statement has a higher truth value than false ones is still very high (see Table \ref{table_phase2}), thus making it feasible for computational fact checking, if modified in the future to overcome these drawbacks.
+The results of this research is that the use of the metric closure in knowledge graphs, weighed down with cosine similarity, can increase the accuracy of fact checking. Although the results show that is a drawback when using cosine similarity: different statements having similar article text can lead to false positives, depending on how frequent each word in the vocabulary appears in all of the subjects and objects. However, the probability that a true statement has a higher truth value than false ones is still very high (see Table \ref{table_phase2}), thus making it feasible for computational fact checking, if modified in the future to overcome these drawbacks.
 
 
 \subsection{Recommendations}
 
-Despite the accuracy of fact checking found in the results of this study, there is still room for improvement on this field. The proponents would recommend the following:
+Despite the accuracy of fact checking found in the results of this study, there is still room for improvement in this field. The proponents would recommend the following:
 
 \begin{enumerate}
 	\item The proponents had utilized information from Wikipedia and Wikidata, but only extracted the article text and the generality (backlinks). There are plenty of meta-properties in Wikipedia/Wikidata that can be utilized to make the fact checking more specific and accurate.
 	\item There is also room for improvement in the similarity measure: either an improved cosine similarity or another similarity measure that is more sensitive to the context of the statement being fact-checked.
 	\item The computational fact checking method relies purely on the semantic similarity of the subject and the object, and discards the predicate, thus removing a significant extent of context and information. Future work can improve this study by putting more emphasis on the predicate part of a statement.
 \end{enumerate}
+
+
+
+
+
+
+
+\begin{appendices}
+	\section{Ideological Classification Task}
+	The following politicians were used for the ideological classification task:\\
+\begin{table}[H]
+	\tiny
+	\begin{tabular}{|p{2in}|p{0.5in}||p{2in}|p{0.5in}|}
+		
+		\hline
+		Politician & Party & Politician & Party\\ \hline
+		Jo Bonner & Republican & Martha Roby & Republican\\ \hline
+		Mike Rogers & Republican & Robert Aderholt & Republican\\ \hline
+		Mo Brooks & Republican & Spencer Bachus & Republican\\ \hline
+		Terri Sewell & Democrat & Paul Gosar & Republican\\ \hline
+		Trent Franks & Republican & Ben Quayle & Republican\\ \hline
+		Ed Pastor & Democrat & David Schweikert & Republican\\ \hline
+		Jeff Flake & Republican & Raúl Grijalva & Democrat\\ \hline
+		Gabrielle Giffords & Democrat & Ron Barber & Democrat\\ \hline
+		Timothy Griffin & Republican & Steve Womack & Republican\\ \hline
+		Mike Ross & Democrat & Wally Herger & Republican\\ \hline
+		Dan Lungren & Republican & Tom McClintock & Republican\\ \hline
+		Doris Matsui & Democrat & Lynn Woolsey & Democrat\\ \hline
+		George Miller & Democrat & Nancy Pelosi & Democrat\\ \hline
+		Barbara Lee & Democrat & John Garamendi & Democrat\\ \hline
+		Jerry McNerney & Democrat & Jackie Speier & Democrat\\ \hline
+		Pete Stark & Democrat & Anna Eshoo & Democrat\\ \hline
+		Mike Honda & Democrat & Zoe Lofgren & Democrat\\ \hline
+		Sam Farr & Democrat & Dennis Cardoza & Democrat\\ \hline
+		Jeff Denham & Republican & Jim Costa & Democrat\\ \hline
+		Devin Nunes & Republican & Lois Capps & Democrat\\ \hline
+		Elton Gallegly & Republican & Howard McKeon & Republican\\ \hline
+		David Dreier & Republican & Brad Sherman & Democrat\\ \hline
+		Howard Berman & Democrat & Adam Schiff & Democrat\\ \hline
+		Henry Waxman & Democrat & Xavier Becerra & Democrat\\ \hline
+		Judy Chu & Democrat & Karen Bass & Democrat\\ \hline
+		Lucille Roybal-Allard & Democrat & Maxine Waters & Democrat\\ \hline
+		Jane Harman & Democrat & Janice Hahn & Democrat\\ \hline
+		Laura Richardson & Democrat & Grace Napolitano & Democrat\\ \hline
+		Linda Sanchez & Democrat & Ed Royce & Republican\\ \hline
+		Jerry Lewis & Republican & Gary Miller & Republican\\ \hline
+		Joe Baca & Democrat & Ken Calvert & Republican\\ \hline
+		Mary Bono Mack & Republican & Dana Rohrabacher & Republican\\ \hline
+		Loretta Sanchez & Democrat & Darrell Issa & Republican\\ \hline
+		Brian Bilbray & Republican & Bob Filner & Democrat\\ \hline
+		Duncan D. Hunter & Republican & Susan Davis & Democrat\\ \hline
+		Diana DeGette & Democrat & Jared Polis & Democrat\\ \hline
+		Scott Tipton & Republican & Cory Gardner & Republican\\ \hline
+		Doug Lamborn & Republican & Mike Coffman & Republican\\ \hline
+		Ed Perlmutter & Democrat & John Larson & Democrat\\ \hline
+		Rosa DeLauro & Democrat & Jim Himes & Democrat\\ \hline
+		Chris Murphy & Democrat & Corrine Brown & Democrat\\ \hline
+		Ander Crenshaw & Republican & Rich Nugent & Republican\\ \hline
+		Cliff Stearns & Republican & John Mica & Republican\\ \hline
+		Daniel Webster & Republican & Gus Bilirakis & Republican\\ \hline
+		Bill Young & Republican & Kathy Castor & Democrat\\ \hline
+		Dennis Ross & Republican & Vern Buchanan & Republican\\ \hline
+		Connie Mack & Republican & Bill Posey & Republican\\ \hline
+		Frederica Wilson & Democrat & Ileana Ros-Lehtinen & Republican\\ \hline
+		Ted Deutch & Democrat & Debbie Wasserman Schultz & Democrat\\ \hline
+		Allen West (politician) & Republican & Alcee Hastings & Democrat\\ \hline
+		Sandy Adams & Republican & David Rivera & Republican\\ \hline
+		Jack Kingston & Republican & Sanford Bishop & Democrat\\ \hline
+		Lynn Westmoreland & Republican & Hank Johnson & Democrat\\ \hline
+		Rob Woodall & Republican & Austin Scott (politician) & Republican\\ \hline
+		Tom Graves & Republican & Paul Broun & Republican\\ \hline
+		Phil Gingrey & Republican & John Barrow (U.S. politician) & Democrat\\ \hline
+		David Scott & Democrat & Mazie Hirono & Democrat\\ \hline
+		Mike Simpson & Republican & Bobby Rush & Democrat\\ \hline
+		Jesse Jackson Jr. & Democrat & Dan Lipinski & Democrat\\ \hline
+		Luis Gutierrez & Democrat & Michael Quigley & Democrat\\ \hline
+		Peter Roskam & Republican & Jan Schakowsky & Democrat\\ \hline
+		Bob Dold & Republican & Adam Kinzinger & Republican\\ \hline
+		Jerry Costello & Democrat & Judy Biggert & Republican\\ \hline
+		Randy Hultgren & Republican & Don Manzullo & Republican\\ \hline
+		Bobby Schilling & Republican & Aaron Schock & Republican\\ \hline
+		John Shimkus & Republican & Pete Visclosky & Democrat\\ \hline
+		Joe Donnelly & Democrat & Marlin Stutzman & Republican\\ \hline
+		Todd Rokita & Republican & Dan Burton & Republican\\ \hline
+		Mike Pence & Republican & Larry Bucshon & Republican\\ \hline
+		Todd Young & Republican & Bruce Braley & Democrat\\ \hline
+
+
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+	\tiny
+	\begin{tabular}{|p{2in}|p{0.5in}||p{2in}|p{0.5in}|}
+		\hline
+		Politician & Party & Politician & Party\\ \hline
+		David Loebsack & Democrat & Leonard Boswell & Democrat\\ \hline
+		Steve King & Republican & Tim Huelskamp & Republican\\ \hline
+		Lynn Jenkins & Republican & Kevin Yoder & Republican\\ \hline
+		Mike Pompeo & Republican & Ed Whitfield & Republican\\ \hline
+		Brett Guthrie & Republican & John Yarmuth & Democrat\\ \hline
+		Geoff Davis & Republican & Hal Rogers & Republican\\ \hline
+		Ben Chandler & Democrat & Steve Scalise & Republican\\ \hline
+		Cedric Richmond & Democrat & Jeff Landry & Republican\\ \hline
+		John Fleming (American politician) & Republican & Rodney Alexander & Republican\\ \hline
+		Bill Cassidy & Republican & Charles Boustany & Republican\\ \hline
+		Chellie Pingree & Democrat & Mike Michaud & Democrat\\ \hline
+		Andy Harris (politician) & Republican & Dutch Ruppersberger & Democrat\\ \hline
+		John Sarbanes & Democrat & Donna Edwards & Democrat\\ \hline
+		Steny Hoyer & Democrat & Roscoe Bartlett & Republican\\ \hline
+		Elijah Cummings & Democrat & Chris Van Hollen & Democrat\\ \hline
+		John Olver & Democrat & Barney Frank & Democrat\\ \hline
+		Niki Tsongas & Democrat & John F. Tierney & Democrat\\ \hline
+		Ed Markey & Democrat & Mike Capuano & Democrat\\ \hline
+		William R. Keating & Democrat & Dan Benishek & Republican\\ \hline
+		Bill Huizenga & Republican & Jeff Sessions & Republican\\ \hline
+		Richard Shelby & Republican & Mark Begich & Democrat\\ \hline
+		Lisa Murkowski & Republican & Jon Kyl & Republican\\ \hline
+		John McCain & Republican & Mark Pryor & Democrat\\ \hline
+		John Boozman & Republican & Dianne Feinstein & Democrat\\ \hline
+		Barbara Boxer & Democrat & Mark Udall & Democrat\\ \hline
+		Michael Bennet & Democrat & Richard Blumenthal & Democrat\\ \hline
+		Tom Carper & Democrat & Chris Coons & Democrat\\ \hline
+		Bill Nelson (politician) & Democrat & Marco Rubio & Republican\\ \hline
+		Saxby Chambliss & Republican & Johnny Isakson & Republican\\ \hline
+		Daniel Akaka & Democrat & Daniel Inouye & Democrat\\ \hline
+		Brian Schatz & Democrat & Jim Risch & Republican\\ \hline
+		Mike Crapo & Republican & Dick Durbin & Democrat\\ \hline
+		Mark Kirk & Republican & Richard Lugar & Republican\\ \hline
+		Dan Coats & Republican & Tom Harkin & Democrat\\ \hline
+		Chuck Grassley & Republican & Rand Paul & Republican\\ \hline
+		Mitch McConnell & Republican & Mary Landrieu & Democrat\\ \hline
+		David Vitter & Republican & Olympia Snowe & Republican\\ \hline
+		Susan Collins & Republican & Ben Cardin & Democrat\\ \hline
+		Barbara Mikulski & Democrat & Scott Brown (politician) & Republican\\ \hline
+		John Kerry & Democrat & Debbie Stabenow & Democrat\\ \hline
+		Carl Levin & Democrat & Amy Klobuchar & Democrat\\ \hline
+		Al Franken & Democrat & Roger Wicker & Republican\\ \hline
+		Thad Cochran & Republican & Claire McCaskill & Democrat\\ \hline
+		Roy Blunt & Republican & Jon Tester & Democrat\\ \hline
+		Max Baucus & Democrat & Ben Nelson & Democrat\\ \hline
+		Mike Johanns & Republican & John Ensign & Republican\\ \hline
+		Dean Heller & Republican & Harry Reid & Democrat\\ \hline
+		Jeanne Shaheen & Democrat & Kelly Ayotte & Republican\\ \hline
+		Bob Menendez & Democrat & Frank Lautenberg & Democrat\\ \hline
+		Jeff Bingaman & Democrat & Tom Udall & Democrat\\ \hline
+		Kirsten Gillibrand & Democrat & Charles Schumer & Democrat\\ \hline
+		Kay Hagan & Democrat & Richard Burr & Republican\\ \hline
+		Kent Conrad & Democrat & John Hoeven & Republican\\ \hline
+		Sherrod Brown & Democrat & Rob Portman & Republican\\ \hline
+		Jim Inhofe & Republican & Tom Coburn & Republican\\ \hline
+		Jeff Merkley & Democrat & Ron Wyden & Democrat\\ \hline
+		Pat Toomey & Republican & Sheldon Whitehouse & Democrat\\ \hline
+		Jack Reed (Rhode Island politician) & Democrat & Lindsey Graham & Republican\\ \hline
+		Jim DeMint & Republican & Tim Scott & Republican\\ \hline
+		John Thune & Republican & Bob Corker & Republican\\ \hline
+		Lamar Alexander & Republican & Kay Bailey Hutchison & Republican\\ \hline
+		John Cornyn & Republican & Orrin Hatch & Republican\\ \hline
+		Mike Lee (U.S. politician) & Republican & Patrick Leahy & Democrat\\ \hline
+		Jim Webb & Democrat & Mark Warner & Democrat\\ \hline
+		Maria Cantwell & Democrat & Patty Murray & Democrat\\ \hline
+		Joe Manchin & Democrat & Jay Rockefeller & Democrat\\ \hline
+		Herb Kohl & Democrat & John Barrasso & Republican\\ \hline
+	\end{tabular}
+\end{table}
+
+The list of ideologies used in the first phase:\\
+Anarchism; Antisemitism; Capitalism; Christianity; Communism; Conservatism; Democracy; Fascism; Feminism; Islamophobia; Left-wing politics; Liberalism; Marxism; Nationalism; Neo-Nazism; Protestantism; Right-wing politics; Secularism; Socialism; White supremacy
+
+\newpage
+\section{Validation on Annotated Data}
+Data gathered for the second phase:
+\subsubsection{US President - Spouses}
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|p{2in}|p{2in}|} \hline 
+			US President & Spouse \\ \hline 
+			Woodrow Wilson & Edith Wilson \\ \hline 
+			Warren G. Harding & Florence Harding \\ \hline 
+			Calvin Coolidge & Grace Coolidge \\ \hline 
+			Herbert Hoover & Lou Henry Hoover \\ \hline 
+			Franklin D. Roosevelt & Eleanor Roosevelt \\ \hline 
+			Harry S. Truman & Bess Truman \\ \hline 
+			Dwight D. Eisenhower & Mamie Eisenhower \\ \hline 
+			John F. Kennedy & Jacqueline Kennedy Onassis \\ \hline 
+			Lyndon B. Johnson & Lady Bird Johnson \\ \hline 
+			Richard Nixon & Pat Nixon \\ \hline 
+			Gerald Ford & Betty Ford \\ \hline 
+			Jimmy Carter & Rosalynn Carter \\ \hline 
+			Ronald Reagan & Nancy Reagan \\ \hline 
+			George H. W. Bush & Barbara Bush \\ \hline 
+			Bill Clinton & Hillary Clinton \\ \hline 
+			George W. Bush & Laura Bush \\ \hline 
+			Barack Obama & Michelle Obama \\ \hline 
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\subsection{Country - Capitals}
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|p{3in}|p{3in}|} \hline 
+			Country & Capital \\ \hline 
+			Eritrea & Asmara \\ \hline 
+			Ghana & Accra \\ \hline 
+			Malaysia & Kuala Lumpur \\ \hline 
+			Mozambique & Maputo \\ \hline 
+			Sudan & Khartoum \\ \hline 
+			Zimbabwe & Harare \\ \hline 
+			Philippines & Manila \\ \hline 
+			Saudi Arabia & Riyadh \\ \hline 
+			Uzbekistan & Tashkent \\ \hline 
+			Vietnam & Hanoi \\ \hline 
+			Croatia & Zagreb \\ \hline 
+			Italy & Rome \\ \hline 
+			Romania & Bucharest \\ \hline 
+			Spain & Madrid \\ \hline 
+			Switzerland & Bern \\ \hline 
+			Canada & Ottawa \\ \hline 
+			Haiti & Port-au-Prince \\ \hline 
+			Kingdom of the Netherlands & Amsterdam \\ \hline 
+			Saint Vincent and the Grenadines & Kingstown \\ \hline 
+			United States & Washington D.C. \\ \hline 
+			Australia & Canberra \\ \hline 
+			Kiribati & South Tarawa \\ \hline 
+			New Zealand & Wellington \\ \hline 
+			Solomon Islands & Honiara \\ \hline 
+			Vanuatu & Port Vila \\ \hline 
+			Bolivia & Sucre \\ \hline 
+			Ecuador & Quito \\ \hline 
+			Guyana & Georgetown Guyana \\ \hline 
+			Suriname & Paramaribo \\ \hline 
+			Venezuela & Caracas \\ \hline 
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\subsection{Movie - Directors}
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|p{3in}|p{3in}|} \hline 
+			Director & Movie \\ \hline 
+			Kramer vs Kramer & Robert Benton \\ \hline 
+			Ordinary People & Robert Redford \\ \hline 
+			Reds (film) & Warren Beatty \\ \hline 
+			Gandhi (film) & Richard Attenborough \\ \hline 
+			Terms of Endearment & James L. Brooks \\ \hline 
+			Amadeus (film) & Milo\v{s} Forman \\ \hline 
+			Out of Africa (film) & Sydney Pollack \\ \hline 
+			Platoon (film) & Oliver Stone \\ \hline 
+			The Last Emperor & Bernardo Bertolucci \\ \hline 
+			Rain Man & Barry Levinson \\ \hline 
+			Dances with Wolves & Kevin Costner \\ \hline 
+			The Silence of the Lambs (film) & Jonathan Demme \\ \hline 
+			Unforgiven & Clint Eastwood \\ \hline 
+			Forrest Gump & Robert Zemeckis \\ \hline 
+			Braveheart & Mel Gibson \\ \hline 
+			The English Patient (film) & Anthony Minghella \\ \hline 
+			Titanic (1997 film) & James Cameron \\ \hline 
+			Saving Private Ryan & Steven Spielberg \\ \hline 
+			American Beauty (1999 film) & Sam Mendes \\ \hline 
+			Traffic (2000 film) & Steven Soderbergh \\ \hline 
+			A Beautiful Mind (film) & Ron Howard \\ \hline 
+			The Pianist (2002 film) & Roman Polanski \\ \hline 
+			Brokeback Mountain & Ang Lee \\ \hline 
+			The Departed & Martin Scorsese \\ \hline 
+			No Country for Old Men (film) & Joel and Ethan Coen \\ \hline 
+			Slumdog Millionaire & Danny Boyle \\ \hline 
+			The Hurt Locker & Kathryn Bigelow \\ \hline 
+			The Artist (film) & Michel Hazanavicius \\ \hline 
+			Gravity (2013 film) & Alfonso Cuar\'{o}n \\ \hline 
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\subsection{US State - Capitals}
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|p{3in}|p{3in}|} \hline 
+			State & Capital \\ \hline 
+			Illinois & Springfield, Illinois \\ \hline 
+			Indiana & Indianapolis \\ \hline 
+			Iowa & Des Moines, Iowa \\ \hline 
+			Kansas & Topeka, Kansas \\ \hline 
+			Michigan & Lansing, Michigan \\ \hline 
+			Minnesota & Saint Paul, Minnesota \\ \hline 
+			Missouri & Jefferson City, Missouri \\ \hline 
+			Pennsylvania & Harrisburg, Pennsylvania \\ \hline 
+			Rhode Island & Providence, Rhode Island \\ \hline 
+			Vermont & Montpelier, Vermont \\ \hline 
+			Alabama & Montgomery, Alabama \\ \hline 
+			Arkansas & Little Rock, Arkansas \\ \hline 
+			Delaware & Dover, Delaware \\ \hline 
+			Florida & Tallahassee, Florida \\ \hline 
+			Louisiana & Baton Rouge, Louisiana \\ \hline 
+			Maryland & Annapolis, Maryland \\ \hline 
+			Mississippi & Jackson, Mississippi \\ \hline 
+			North Carolina & Raleigh, North Carolina \\ \hline 
+			Oklahoma & Oklahoma City \\ \hline 
+			Tennessee & Nashville, Tennessee \\ \hline 
+			Texas & Austin, Texas \\ \hline 
+			Arizona & Phoenix, Arizona \\ \hline 
+			California & Sacramento, California \\ \hline 
+			Nevada & Carson City, Nevada \\ \hline 
+			New Mexico & Santa Fe, New Mexico \\ \hline 
+			Oregon & Salem, Oregon \\ \hline 
+			Utah & Salt Lake City, Utah \\ \hline 
+			Wyoming & Cheyenne, Wyoming \\ \hline 
+		\end{tabular}
+	\end{center}
+\end{table}
+
+
+\end{appendices}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

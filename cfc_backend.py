@@ -26,7 +26,7 @@ args = vars(parser.parse_args())
 """
 
     
-token = "1538819710|6b98b825c7ad10b0deca81a7ae709d82"
+token = "1538985499|00d724bfd2726fd20bd241b1dc8ab49f"
 
 
 def cfc_get_truth_value(x, y, token):

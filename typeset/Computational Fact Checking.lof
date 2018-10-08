@@ -14,10 +14,10 @@
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Receiver operating characteristic (ROC) curve for $ F_{utc} $}}{28}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Confusion matrix of the classification for $ F_{m} $}}{29}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Receiver operating characteristic (ROC) curve for $ F_{m} $}}{29}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Confusion matrix of the statement "$ p_{i} $ was married to $ s_{j} $"}}{31}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Confusion matrix of the statement "$ c_{i} $ is the capital of country $ r_{j} $"}}{31}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Confusion matrix of the statement "director $ d_{i} $ directed movie $ m_{j} $"}}{32}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Confusion matrix of the statement "$ c_{i} $ is the capital of US state $ r_{j} $"}}{32}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Confusion matrix of the statement "$ p_{i} $ was married to $ s_{j} $ (289 Statements)"}}{31}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Confusion matrix of the statement "$ c_{i} $ is the capital of country $ r_{j} $ (900 statements)"}}{31}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Confusion matrix of the statement "director $ d_{i} $ directed movie $ m_{j}$ (841 statements)"}}{32}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Confusion matrix of the statement "$ c_{i} $ is the capital of US state $ r_{j} $" (784 statements)}}{32}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces "place-of-birth" aggregated scores plotted against the computational scores}}{36}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces "place-of-birth" aggregated scores plotted against the computational scores}}{36}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces ROC Curve, or the probability that $ P (\tau (e) > \tau (e \prime )) $, of the "place-of-birth" dataset}}{37}
