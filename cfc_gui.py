@@ -10,6 +10,8 @@ s_color = "#95d5ed"
 clr_correct = "#b7f287"
 clr_false = "#efa162"
 counter = 0 
+
+
 def counter_label(label):
   counter = 0
   def count():

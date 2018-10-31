@@ -25,8 +25,9 @@ parser.add_argument('obj', help="Object")
 args = vars(parser.parse_args())
 """
 
+#1539052726|00d724bfd2726fd20bd241b1dc8ab49f
     
-token = "1538985499|00d724bfd2726fd20bd241b1dc8ab49f"
+token = "1539072664|1cb61f76cefb672382503def95d2773d"
 
 
 def cfc_get_truth_value(x, y, token):
